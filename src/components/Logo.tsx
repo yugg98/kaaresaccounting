@@ -20,7 +20,7 @@ export function Logo(props:any) {
     <div className="flex justify-center items-center">
       {/* <Image alt="logo" src={logo}  className="w-14"/> */}
       {!props.text ?
-      <p className="text">Finofly</p>
+      <p className="text">Kaares Accounting</p>
       :null}
     </div>
   )
