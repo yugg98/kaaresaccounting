@@ -1,14 +1,14 @@
-'use client'
+"use client";
 
-import Link from 'next/link'
-import { Popover } from '@headlessui/react'
-import { AnimatePresence, motion } from 'framer-motion'
-import { Button } from '../components/Button'
-import { Container } from '../components/Container'
-import { Logo } from '../components/Logo'
-import NavLinks  from '../components/NavLinks'
+import Link from "next/link";
+import { Popover } from "@headlessui/react";
+import { AnimatePresence, motion } from "framer-motion";
+import { Container } from "../components/Container";
+import { Logo } from "../components/Logo";
+import NavLinks from "../components/NavLinks";
+import { Button } from "@nextui-org/button";
 
-function MenuIcon(props:any) {
+function MenuIcon(props: any) {
   return (
     <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
       <path
@@ -18,10 +18,10 @@ function MenuIcon(props:any) {
         strokeLinejoin="round"
       />
     </svg>
-  )
+  );
 }
 
-function ChevronUpIcon(props:any) {
+function ChevronUpIcon(props: any) {
   return (
     <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
       <path
@@ -31,10 +31,10 @@ function ChevronUpIcon(props:any) {
         strokeLinejoin="round"
       />
     </svg>
-  )
+  );
 }
 
-function MobileNavLink({ children, ...props }:any) {
+function MobileNavLink({ children, ...props }: any) {
   return (
     <Popover.Button
       as={Link}
@@ -43,12 +43,12 @@ function MobileNavLink({ children, ...props }:any) {
     >
       {children}
     </Popover.Button>
-  )
+  );
 }
 
 export function Header() {
   return (
-    <header className='border'>
+    <header className="border">
       <nav>
         <Container className="relative z-50 flex justify-between py-6 border-x">
           <div className="relative z-10 flex items-center gap-16">
@@ -61,7 +61,7 @@ export function Header() {
           </div>
           <div className="flex items-center gap-6">
             <Popover className="lg:hidden">
-              {({ open }:any) => (
+              {({ open }: any) => (
                 <>
                   <Popover.Button
                     className="relative z-10 -m-2 inline-flex items-center rounded-lg stroke-gray-900 p-2 hover:bg-gray-200/50 hover:stroke-gray-600 active:stroke-gray-900 [&:not(:focus-visible)]:focus:outline-none"
@@ -96,24 +96,27 @@ export function Header() {
                             y: -32,
                             transition: { duration: 0.2 },
                           }}
-                          className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
+                          className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-gray-50 px-6 pb-6 pt-20 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
                             <MobileNavLink href="#features">
-                              Features
+                            Indian Services
                             </MobileNavLink>
                             <MobileNavLink href="#reviews">
-                              Reviews
+                            Global Services
                             </MobileNavLink>
                             <MobileNavLink href="#pricing">
-                              Pricing
+                            Industries
                             </MobileNavLink>
-                            <MobileNavLink href="#faqs">FAQs</MobileNavLink>
-                            <MobileNavLink href="/blogs">Blogs</MobileNavLink>
+                            <MobileNavLink href="#faqs">About us</MobileNavLink>
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
-                            
-                            {/* <Button href="#">View App</Button> */}
+                            <Button
+                              href="#"
+                              className="rounded-full bg-black text-white hover:bg-gray-800  lg:hidden block"
+                            >
+                              Contact us
+                            </Button>
                           </div>
                         </Popover.Panel>
                       </>
@@ -122,14 +125,16 @@ export function Header() {
                 </>
               )}
             </Popover>
-{/*            
-            <Button href="#" className="hidden lg:block">
-             View App
-            </Button> */}
-          </div>
 
+            <Button
+              href="#"
+              className="rounded-full bg-black text-white hover:bg-gray-800 hidden lg:block"
+            >
+              Contact us
+            </Button>
+          </div>
         </Container>
       </nav>
     </header>
-  )
+  );
 }

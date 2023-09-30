@@ -16,7 +16,6 @@ export default function Home() {
     <Industries/>
     <Whyus/>
     <FounderNote/>
-    <Footer/>
    </div>
   )
 }
