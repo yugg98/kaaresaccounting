@@ -8,7 +8,7 @@ const Hero = () => {
       <Container className="border-x">
         <div className="grid md:grid-cols-2">
           <div className="flex flex-col justify-center items-center my-12 mx-4">
-            <p className="md:text-6xl text-4xl">
+            <p className="md:text-6xl text-4xl font-dmserif">
               Accountancy & Taxation, Auditing & Advisory.
             </p>
             <p className="text-lg mt-6">

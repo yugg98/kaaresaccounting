@@ -2,11 +2,20 @@
 import { Header } from "@/components/Header";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import {NextUIProvider} from "@nextui-org/react";
 import Footer from "@/components/Footer";
+import localFont from 'next/font/local'
 
-const inter = Inter({ subsets: ["latin"] });
+const mona = localFont({
+  src: '../fonts/Mona-Sans.ttf',
+  display: 'swap',
+  variable: '--font-mona',
+})
+const dmserif = localFont({
+  src: '../fonts/Dmserif.ttf',
+  display: 'swap',
+  variable: '--font-dmserif',
+})
 
 // export const metadata: Metadata = {
 //   title: "Create Next App",
@@ -19,8 +28,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className={`${mona.variable} ${dmserif.variable}`}>
+      <body className={mona.className}>
       <NextUIProvider>
         <Header />
         {children}
