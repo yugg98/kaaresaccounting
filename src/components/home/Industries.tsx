@@ -10,7 +10,7 @@ const Industries = () => {
   return (
     <div>
       <Container className="border-x !px-0">
-        <div className="grid md:grid-cols-2">
+        <div className="grid md:grid-cols-2 grid-row-reverse">
           <div>
             <div className="grid grid-cols-3 overflow-hidden">
               <div >
@@ -70,11 +70,11 @@ const Industries = () => {
              
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center px-10">
-            <p className="text-4xl">
+          <div className="flex flex-col justify-center items-center px-10 my-12">
+            <p className="text-4xl ">
               Accountancy & Taxation, Auditing & Advisory.
             </p>
-            <p className="text-lg mt-6">
+            <p className="md:text-lg mt-6">
               We are a trusted provider of comprehensive accounting, auditing,
               taxation and Global Bookkeeping and reporting services for
               businesses of all sizes.

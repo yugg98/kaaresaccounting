@@ -11,7 +11,7 @@ export default function Contactus() {
     <div className="relative isolate border-y  ">
       <Container className="border-x !px-0">
         <div className="mx-auto grid px-4 sm:px-6 lg:px-10 grid-cols-1 lg:grid-cols-2 ">
-          <div className="relative  lg:static border-r pr-10 py-24">
+          <div className="relative  lg:static border-r md:pr-10 py-24 px-4">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">
               Get in touch
             </h2>
@@ -71,7 +71,7 @@ export default function Contactus() {
               </div>
             </dl>
           </div>
-          <form action="#" method="POST" className="py-24 px-10">
+          <form action="#" method="POST" className="md:py-24 md:px-10 px-4">
             <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
               <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 <div>
@@ -150,7 +150,7 @@ export default function Contactus() {
             </div>
           </form>
         </div>
-        <div>
+        <div className="md:mt-0 mt-4">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448194.82162352453!2d77.09323125!3d28.6440836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1696014332387!5m2!1sen!2sin"
             className="w-full h-[450px]"
