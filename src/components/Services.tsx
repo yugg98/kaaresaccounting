@@ -5,17 +5,6 @@ import React, { Fragment } from "react";
 
 const Services = () => {
   return (
-    <Container className="border-x !px-0">
-      <div className="mx-auto max-w-2xl text-center py-12 ">
-        <h2 className="text-4xl font-lg tracking-tight text-black sm:text-6xl">
-          Support center
-        </h2>
-        <p className="mt-6 text-lg leading-8 text-black">
-          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-          cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat
-          aliqua.
-        </p>
-      </div>
       <div className="w-full divide-y">
         <Tab.Group>
           <Tab.List>
@@ -97,8 +86,7 @@ const Services = () => {
           </Tab.Panels>
         </Tab.Group>
       </div>
-    </Container>
   );
 };
 
-export default page;
+export default Services;
