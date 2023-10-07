@@ -3,6 +3,7 @@ import { Container } from "@/components/Container";
 import { Tab } from "@headlessui/react";
 import React, { Fragment } from "react";
 import Services from "@/components/Services";
+import Faqs from "@/components/Faqs";
 const page = () => {
   return (
     <div>
@@ -19,6 +20,8 @@ const page = () => {
         </div>
         <Services />
       </Container>
+      <Faqs/>
+
     </div>
   );
 };

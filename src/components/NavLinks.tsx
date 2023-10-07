@@ -25,9 +25,8 @@ export default function NavLinks() {
       onMouseLeave={() => setHoveredIndex(null)}
     >
       <AnimatePresence>
-        {hoveredIndex === index || active === index && (
           <motion.span
-            className={active==index?"absolute inset-0 rounded-lg bg-gray-100 font-bold":''}
+            className={active==index||hoveredIndex==index?"absolute inset-0 rounded-lg bg-gray-100 font-bold":""}
             layoutId="hoverBackground"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 0.15 } }}
@@ -36,7 +35,6 @@ export default function NavLinks() {
               transition: { duration: 0.15, delay: 0.2 },
             }}
           />
-        )}
       </AnimatePresence>
       <span className="relative z-10">{label}</span>
     </Link>
