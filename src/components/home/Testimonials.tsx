@@ -3,19 +3,19 @@ import { Container } from "../Container";
 
 export default function Testimonials() {
   return (
-    <div className="bg-[url('/images/bg/testimonial.svg')] py-24">
+    <div className="bg-[url('/images/bg/testimonial.svg')] py-32">
       <section className=" ">
         <div className="mx-auto max-w-2xl text-center my-6">
-          <h2 className="text-4xl font-lg tracking-tight text-white sm:text-6xl">
-            Support center
+          <h2 className="font-dmserif text-4xl font-lg tracking-tight text-white sm:text-6xl">
+          What our clients say
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
+          <p className="my-4 text-lg leading-8 text-gray-300">
             Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
             lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
             fugiat aliqua.
           </p>
         </div>
-        <div className=" flex flex-row "> 
+        <div className=" flex flex-row my-8"> 
         <Marquee>
           <div className="border bg-[url('/images/bg/testimonial2.svg')] px-12 py-12  md:border border-gray-700 md:py-16  md:pr-0  max-w-lg min-w-lg">
             <div className="md:flex-shrink-0">

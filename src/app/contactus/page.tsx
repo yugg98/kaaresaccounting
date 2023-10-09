@@ -8,19 +8,19 @@ import {
 import {Button, Input, Textarea} from "@nextui-org/react";
 export default function Contactus() {
   return (
-    <div className="relative isolate border-y  ">
+    <div className="relative isolate border-b  ">
       <Container className="border-x !px-0">
         <div className="mx-auto grid px-4 sm:px-6 lg:px-10 grid-cols-1 lg:grid-cols-2 ">
           <div className="relative  lg:static border-r md:pr-10 py-24 px-4">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900">
+            <h2 className="text-4xl sm:text-6xl font-bold tracking-tight text-gray-900">
               Get in touch
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-4 text-lg leading-8 text-gray-600">
               Proin volutpat consequat porttitor cras nullam gravida at. Orci
               molestie a eu arcu. Sed ut tincidunt integer elementum id sem.
               Arcu sed malesuada et magna.
             </p>
-            <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
+            <dl className="mt-8 space-y-4 text-base leading-7 text-gray-600">
               <div className="flex gap-x-4">
                 <dt className="flex-none">
                   <span className="sr-only">Address</span>
@@ -140,12 +140,9 @@ export default function Contactus() {
                 </div>
               </div>
               <div className="mt-8 flex justify-end">
-                <Button
-                  type="submit"
-                  className=" bg-gray-800 rounded-full px-4 py-3 text-center text-sm font-semibold text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
-                >
-                  Send message
-                </Button>
+              <a className="rounded-full max-w-xs font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 flex my-6 ">
+                Send Message
+              </a>
               </div>
             </div>
           </form>

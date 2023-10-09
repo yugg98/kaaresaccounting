@@ -8,11 +8,10 @@ export default function NavLinks() {
   let [hoveredIndex, setHoveredIndex] = useState(null)
   const [active, setActive] = useState(0)
 
-  const router = useRouter()
   return [
-    ['Indian Services', '/#'],
-    ['Global Services', '/#reviews'],
-    ['Industries', '/#faqs'],
+    ['Indian Services', '/ourservices?region=india'],
+    ['Global Services', '/ourservices/?region=global'],
+    ['Industries', '/#industries'],
     ['About us', '/aboutus'],
 
   ].map(([label, href], index:any) => (

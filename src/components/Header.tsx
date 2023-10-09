@@ -126,12 +126,12 @@ export function Header() {
               )}
             </Popover>
 
-            <a
-              href="#"
-              className="rounded-full py-3 px-8 bg-black text-white hover:bg-gray-800 hidden lg:block"
+            <Link
+              href="/contactus"
+              className="rounded-full font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 hidden lg:block"
             >
               Contact us
-            </a>
+            </Link>
           </div>
         </Container>
       </nav>

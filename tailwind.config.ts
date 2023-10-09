@@ -21,6 +21,7 @@ const config: Config = {
     },
   },
   darkMode: "class",
-  plugins: [nextui()],
+ 
+  plugins: [nextui(), require('@tailwindcss/aspect-ratio')],
 }
 export default config
