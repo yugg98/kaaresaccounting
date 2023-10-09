@@ -5,7 +5,7 @@ import React, { Fragment } from "react";
 import Services from "@/components/Services";
 import Faqs from "@/components/Faqs";
 import { useSearchParams } from "next/navigation";
-const page = () => {
+const Page = () => {
   const searchParams = useSearchParams()
   const region = searchParams.get('region')
 
@@ -30,4 +30,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
