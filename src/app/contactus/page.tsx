@@ -12,7 +12,7 @@ export default function Contactus() {
       <Container className="border-x !px-0">
         <div className="mx-auto grid px-4 sm:px-6 lg:px-10 grid-cols-1 lg:grid-cols-2 ">
           <div className="relative  lg:static border-r md:pr-10 py-24 px-4">
-            <h2 className="text-4xl sm:text-6xl font-bold tracking-tight text-gray-900">
+            <h2 className="text-4xl font-dmserif sm:text-6xl font-bold tracking-tight text-gray-900">
               Get in touch
             </h2>
             <p className="mt-4 text-lg leading-8 text-gray-600">

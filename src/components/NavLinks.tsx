@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation'
 
 export default function NavLinks() {
   let [hoveredIndex, setHoveredIndex] = useState(null)
-  const [active, setActive] = useState(0)
+  const [active, setActive] = useState(null)
 
   return [
     ['Indian Services', '/ourservices?region=india'],
@@ -19,13 +19,13 @@ export default function NavLinks() {
       key={label}
       href={href}
       onClick={()=>setActive(index)}
-      className={"relative -mx-3 -my-2 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]"}
+      className={"relative -mx-3 -my-2 rounded-lg px-3 py-2 text-sm text-gray-600 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]"}
       onMouseEnter={() => setHoveredIndex(index)}
       onMouseLeave={() => setHoveredIndex(null)}
     >
       <AnimatePresence>
           <motion.span
-            className={active==index||hoveredIndex==index?"absolute inset-0 rounded-lg bg-gray-100 font-bold":""}
+            className={active==index||hoveredIndex==index?"absolute inset-0 rounded-lg  font-bold":""}
             layoutId="hoverBackground"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 0.15 } }}
@@ -35,7 +35,7 @@ export default function NavLinks() {
             }}
           />
       </AnimatePresence>
-      <span className="relative z-10">{label}</span>
+      <span  className={active==index||hoveredIndex==index?"relative z-10 underline underline-offset-4 ":"relative z-10 "}>{label}</span>
     </Link>
   ))
 }
