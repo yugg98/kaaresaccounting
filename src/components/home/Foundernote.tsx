@@ -1,5 +1,7 @@
 import { Button } from "@nextui-org/button";
 import { Container } from "../Container";
+import Link from "next/link";
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
 
 export default function FounderNote() {
   return (
@@ -11,7 +13,12 @@ export default function FounderNote() {
           </p>
           <blockquote className="text-center text-xl mx-auto max-w-3xl text-gray-600 sm:text-lg">
             <p>
-            With a vision to provide high-quality financial solutions, she founded Kares Consultancy, which has grown to become a trusted partner for businesses. Known for her meticulous approach, attention to detail, and commitment to continuous learning, Khushboo continues to lead Kares Consultancy with unwavering dedication to client success
+              With a vision to provide high-quality financial solutions, she
+              founded Kares Consultancy, which has grown to become a trusted
+              partner for businesses. Known for her meticulous approach,
+              attention to detail, and commitment to continuous learning,
+              Khushboo continues to lead Kares Consultancy with unwavering
+              dedication to client success
             </p>
           </blockquote>
 
@@ -21,21 +28,28 @@ export default function FounderNote() {
               src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
               alt=""
             />
-            <div >
+            <div>
               <h3 className="text-xl font-semibold leading-7 tracking-tight text-gray-900">
                 Kushboo Agarwal
               </h3>
               <p className="text-sm font-semibold leading-6 text-gray-600">
-              CA, CFA (Level 2 Cleared), <br/>
-MBA (Finance and Marketing)
+                CA, CFA (Level 2 Cleared), <br />
+                MBA (Finance and Marketing)
               </p>
             </div>
           </div>
         </figure>
         <div className="flex justify-center items-center mt-10">
-        <a className="rounded-full max-w-xs font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 flex my-6 ">
-               Our Mission and Vision
-              </a>
+          <Link
+            href="/aboutus"
+            className="rounded-full max-w-xs font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 flex my-6 "
+          >
+            Our Mission and Vision
+          </Link>
+          <Link href="/contactus" className="rounded-full  underline cursor-pointer underline-offset-4 justify-center items-center font-semibold  py-3 px-8   flex md:my-6 my-2">
+                Visit Linkedin{" "}
+                <ArrowTopRightOnSquareIcon className="h-5 underline" />
+              </Link>
         </div>
         <p className="text-center mt-16 text-gray-600">
           Global software and expertise

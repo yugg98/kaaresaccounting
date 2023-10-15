@@ -9,8 +9,8 @@ export default function NavLinks() {
   const [active, setActive] = useState(null)
 
   return [
-    ['Indian Services', '/ourservices?region=india'],
-    ['Global Services', '/ourservices/?region=global'],
+    ['Indian Services', '/indianservices?region=india'],
+    ['Global Services', '/globalservices/?region=global'],
     ['Industries', '/#industries'],
     ['About us', '/aboutus'],
 

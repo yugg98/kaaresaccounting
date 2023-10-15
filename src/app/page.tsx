@@ -6,6 +6,7 @@ import Industries from "@/components/home/Industries";
 import Testimonials from "@/components/home/Testimonials";
 import Whyus from "@/components/home/Whyus";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -33,18 +34,16 @@ export default function Home() {
               Why Us
             </h2>
             <p className="mt-4 text-lg leading-8 text-gray-600">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+            Our team of legal experts collaborates with clients to understand their roadblocks and objectives, enabling us to develop legal solutions that are efficient and scalable for diverse industries.
             </p>
             <div className="flex justify-center flex-wrap">
-              <a className="rounded-full font-semibold  py-3 px-8 bg-black text-white hover:bg-gray-800 flex md:my-6 my-2">
+              <Link href="/aboutus" className="rounded-full font-semibold cursor-pointer  py-3 px-8 bg-black text-white hover:bg-gray-800 flex md:my-6 my-2">
                 Know more about us
-              </a>
-              <a className="rounded-full  underline underline-offset-4 justify-center items-center font-semibold  py-3 px-8   flex md:my-6 my-2">
+              </Link>
+              <Link href="/contactus" className="rounded-full  underline cursor-pointer underline-offset-4 justify-center items-center font-semibold  py-3 px-8   flex md:my-6 my-2">
                 Get in touch{" "}
                 <ArrowTopRightOnSquareIcon className="h-5 underline" />
-              </a>
+              </Link>
             </div>
           </div>
         </Container>

@@ -1,6 +1,7 @@
 import Cta from '@/components/Cta'
 import Cards from '@/components/about/Cards'
-import Hero from '@/components/about/hero'
+import Hero from '@/components/about/Hero'
+import FounderNote from '@/components/home/Foundernote'
 import Whyus from '@/components/home/Whyus'
 import React from 'react'
 
@@ -10,6 +11,7 @@ const page = () => {
       <Hero/>
       <Whyus/>
       <Cards/>
+      <FounderNote/>
       <Cta/>
 
     </div>

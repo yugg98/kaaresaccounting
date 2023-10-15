@@ -79,16 +79,17 @@ const Industries = () => {
               </h2>
 
               <p className="md:text-lg mt-4 text-gray-600">
-                We are a trusted provider of comprehensive accounting, auditing,
-                taxation and Global Bookkeeping and reporting services for
-                businesses of all sizes.
+                Our team of legal experts collaborates with clients to
+                understand their roadblocks and objectives, enabling us to
+                develop legal solutions that are efficient and scalable for
+                diverse industries.
               </p>
             </div>
             <div>
-              <a className="rounded-full max-w-xs font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 flex my-6 ">
+              <Link href="/" className="rounded-full max-w-xs font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 flex my-6 ">
                 <DocumentArrowDownIcon className="w-6 mr-2" />
                 Download Company Profile
-              </a>
+              </Link>
             </div>
           </div>
         </div>

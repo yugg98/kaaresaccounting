@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function Cta() {
     return (
@@ -72,12 +73,12 @@ export default function Cta() {
                 <p className="text-lg text-white">
                 Let us take care of your accounting, tax, and auditing needs so that you can focus on growing your business with confidence.
                 </p>
-                <a
-                  className="block w-full rounded-md border border-transparent bg-white px-5 py-3 text-center text-base font-medium text-black shadow-md hover:bg-gray-50 sm:inline-block sm:w-auto"
-                  href="#"
-                >
-                  Explore open positions
-                </a>
+                <Link
+            href="/aboutus"
+            className="rounded-full inline-block max-w-xs font-semibold py-3 px-8 bg-white text-black hover:bg-gray-800  my-6 "
+          >
+            Contact us
+          </Link>
               </div>
             </div>
           </div>

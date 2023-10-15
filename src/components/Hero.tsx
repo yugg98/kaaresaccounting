@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "./Container";
 import Marquee from "react-fast-marquee";
 import { DocumentArrowDownIcon } from "@heroicons/react/20/solid";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -20,11 +21,12 @@ const Hero = () => {
             </p>
             </div>
             <div>
-            <button
-              className="rounded-full font-semibold max-w-xs  py-3 px-8 bg-black text-white hover:bg-gray-800 flex my-8 "
+            <Link
+              href="/globalservices"
+              className="rounded-full font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 hidden lg:inline-block	my-8"
             >
               View Our Services
-            </button>
+            </Link>
             </div>
           </div>
           <div>
