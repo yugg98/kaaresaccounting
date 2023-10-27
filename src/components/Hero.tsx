@@ -7,8 +7,8 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div className="border-b">
-      <Container className="border-x">
-        <div className="grid md:grid-cols-2">
+      <Container className="border-x !px-0">
+        <div className="grid md:grid-cols-2 px-8 border-b">
           <div className="flex flex-col justify-center my-12 mx-4">
             <div>
             <p className="md:text-6xl text-4xl font-dmserif">
@@ -97,6 +97,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
+
       </Container>
     </div>
   );
