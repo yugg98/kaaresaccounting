@@ -1,0 +1,98 @@
+[
+    {
+        "name": "CFO Services/ Finance and Accounts Outsourcing",
+        "otherservice": [
+            {
+                "name": "CFO Services and Interim Financial Controller"
+            },
+            {
+                "name": "Finance and Accounting Functions"
+            },
+            {
+                "name": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)"
+            }
+        ]
+    },
+    {
+        "name": "Back-office operations (BOO)",
+        "otherservice": [
+            {
+                "name": "Solutions for global compliance and reporting"
+            },
+            {
+                "name": "Outsourcing business processes and shared service centers"
+            },
+            {
+                "name": "About Global compliance and Reporting solutions"
+            }
+        ]
+    },
+    {
+        "name": "Our Methodology",
+        "otherservice": [
+            {
+                "name": "Services GCRS"
+            },
+            {
+                "name": "Unlocking the Potential with Kaares"
+            }
+        ]
+    },
+    {
+        "name": "Financial modelling",
+        "otherservice": [
+            {
+                "name": "Comprehensive Financial Modeling"
+            },
+            {
+                "name": "DCF Modelling"
+            },
+            {
+                "name": "M&A Modelling"
+            },
+            {
+                "name": "LBO Modelling"
+            }
+        ]
+    },
+    {
+        "name": "Financial Reporting Advisory Services",
+        "otherservice": [
+            {
+                "name": "Financial Statement Preparation Services"
+            },
+            {
+                "name": "Transaction accounting"
+            },
+            {
+                "name": "New standards implementation"
+            },
+            {
+                "name": "GAAP"
+            },
+            {
+                "name": "Group consolidation"
+            }
+        ]
+    },
+    {
+        "name": "Compliance and secretarial services",
+        "otherservice": [
+            {
+                "name": "Foreign Exchange Management Act (FEMA) Services"
+            },
+            {
+                "name": "Foreign Contribution (Regulation) Act Services"
+            },
+            {
+                "name": "Documentation and drafting Services"
+            },
+            {
+                "name": "Corporate Secretarial Services"
+            },
+            {
+                "name": "India entry entity set up"
+            }
+        ]
+    }
+]

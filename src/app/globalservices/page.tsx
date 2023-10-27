@@ -4,81 +4,58 @@ import { Tab } from "@headlessui/react";
 import React, { Fragment } from "react";
 import Services from "@/components/Services";
 import { useSearchParams } from "next/navigation";
+import { Disclosure } from "@headlessui/react";
+import {
+  ArrowTopRightOnSquareIcon,
+  ChevronUpIcon,
+} from "@heroicons/react/20/solid";
+import data from "@/utils/data.json";
+import Link from "next/link";
 const Page = () => {
   const searchParams = useSearchParams();
   const region = searchParams.get("region");
-
+  console.log(data);
   return (
     <div>
       <Container className="border-x !px-0  sm:px-6">
-        <div className="md:mx-auto max-w-2xl text-center py-12 sm:px-0 mx-12 ">
-          <h2 className="text-4xl font-lg tracking-tight font-dmserif text-black sm:text-6xl">
-            Support center
+        <div className="md:mx-auto max-w-5xl text-center py-12 sm:px-0 mx-12 ">
+          <h2 className="text-3xl font-lg tracking-tight font-dmserif text-black sm:text-5xl">
+          Navigating Growth and Ensuring Financial Resilience
+
           </h2>
+          <p className="mt-10">
+          We are experts in delivering growth navigation services and strong compliance, giving you the assurance you need to explore new possibilities while preserving your financial stability.
+          </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
+          A distinguished firm specialising in providing top-tier financial and accounting solutions to foreign clients. With a wealth of experience and a dedication to excellence, we offer a wide array of services tailored to meet the unique needs of businesses operating on the global stage.
+
+We understand the importance of financial excellence, growth management, and compliance in today's dynamic business landscape.
           </p>
         </div>
         <div className="grid sm:grid-cols-2 grid-rows-2 border-y">
-          <div className="p-8  border-b border-r ">
-            <p className="text-lg">
-              <span className="mr-2 text-sm text-gray-500">01</span>
-              Registration services
-            </p>
-            <p className="text-gray-600 mt-1">
-              Maintenance of the accounts and preparation of Financial
-              Statements. It includes various vast services like simple
-              Bookkeeping to complex financial analysis.
-            </p>
-            <p className="mt-2 font-semibold underline underline-offset-2">
-              See how we can help
-            </p>
-           
-          </div>
-          <div className="p-8  border-b border-r ">
-            <p className="text-lg">
-              <span className="mr-2 text-sm text-gray-500">01</span>
-              Registration services 1
-            </p>
-            <p className="text-gray-600 mt-1">
-              Maintenance of the accounts and preparation of Financial
-              Statements. It includes various vast services like simple
-              Bookkeeping to complex financial analysis.
-            </p>
-            <p className="mt-2 font-semibold underline underline-offset-2">
-              See how we can help
-            </p>
-          </div>
-          <div className="p-8  border-b border-r">
-            <p className="text-lg">
-              <span className="mr-2 text-sm text-gray-500">01</span>
-              Registration services 1
-            </p>
-            <p className="text-gray-600 mt-1">
-              Maintenance of the accounts and preparation of Financial
-              Statements. It includes various vast services like simple
-              Bookkeeping to complex financial analysis.
-            </p>
-            <p className="mt-2 font-semibold underline underline-offset-2">
-              See how we can help
-            </p>
-          </div>
-          <div className="p-8  border-b">
-            <p className="text-lg">
-              <span className="mr-2 text-sm text-gray-500">01</span>
-              Registration services 1
-            </p>
-            <p className="text-gray-600 mt-1">
-              Maintenance of the accounts and preparation of Financial
-              Statements. It includes various vast services like simple
-              Bookkeeping to complex financial analysis.
-            </p>
-            <p className="mt-2 font-semibold underline underline-offset-2">
-              See how we can help
-            </p>
-          </div>
+          {data.map((item, index) => (
+            <div className="p-8  border-b border-r ">
+              <p className="text-lg">
+                <span className="mr-2 text-sm text-gray-500">0{index + 1}</span>
+                {item.name}
+              </p>
+              <p className="text-gray-600 mt-1">
+                Maintenance of the accounts and preparation of Financial
+                Statements. It includes various vast services like simple
+                Bookkeeping to complex financial analysis.
+              </p>
+              <ul className="">
+                {item.otherservice.map((item) => (
+                  <li className="border bg-[#FAFBF8] py-2 px-4 my-2">
+                    <p className=" font-semibold  flex ">
+                      <span className="mr-2"> {item.name} </span>{" "}
+                      <ArrowTopRightOnSquareIcon className="w-6 h-6" />
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </Container>
       <Faqs />
@@ -88,71 +65,101 @@ const Page = () => {
 
 const faqs = [
   {
-    question: "How can your financial reporting services assist with compliance and regulatory requirements?",
-    answer: "We ensure that your financial reports are compliant with international and local accounting standards, providing accurate and timely information to stakeholders, including investors, regulators, and lenders."
+    question:
+      "What accounting services do you offer for businesses and individuals?",
+    answer:
+      "Our accounting services include bookkeeping, financial statement preparation, budgeting, and customized accounting solutions to meet your financial needs.",
   },
   {
-    question: "How do you ensure compliance with the latest accounting standards and regulations?",
-    answer: "Our team is dedicated to staying up-to-date with accounting standards and regulations. We provide ongoing training and professional development to ensure that our services are in line with the latest requirements."
+    question:
+      "How can your accounting services help me with financial decision-making?",
+    answer:
+      "Our accounting services provide accurate financial data and insights that are essential for informed decision-making, helping you manage your finances effectively.",
   },
   {
-    question: "What accounting software do you use for your clients' financial needs?",
-    answer: "We adapt to our clients' preferences and use a variety of accounting software, including Xero, QuickBooks, Wave, and many others, to ensure a seamless and efficient process that aligns with your specific requirements."
+    question:
+      "Can you assist with financial planning and analysis for my business?",
+    answer:
+      "Yes, we offer financial planning and analysis services to help businesses create budgets, forecast financial outcomes, and make informed financial decisions.",
   },
   {
-    question: "Can I continue using my existing accounting software, or will I need to switch to your recommended platform?",
-    answer: "You can certainly continue using your existing accounting software if you prefer. We can work with various platforms and tailor our services to integrate with your existing systems."
+    question:
+      "Do I need to register for GST, and how can you assist with the registration process?",
+    answer:
+      "GST registration is mandatory for certain businesses. We can help you determine if you need to register and guide you through the registration process, ensuring compliance with GST regulations.",
   },
   {
-    question: "How do I share my financial documents with your firm?",
-    answer: "You can securely share your financial documents through email or other methods that best suit your needs and ensure data confidentiality."
+    question:
+      "What are the GST return filing requirements, and how can you assist with them?",
+    answer:
+      "GST return filing is crucial for maintaining compliance. We offer services for timely and accurate GST return preparation and filing, helping you avoid penalties.",
   },
   {
-    question: "Can you assist with transitioning my financial data to a new software platform, if necessary?",
-    answer: "Yes, we offer data migration services to help you smoothly transition your financial data to a new software platform, should the need arise."
+    question:
+      "Can you provide GST audit and reconciliation services for my business?",
+    answer:
+      "Yes, we offer GST audit and reconciliation services to ensure that your GST returns are accurate and in line with your financial records.",
   },
   {
-    question: "How can I trust your firm to handle my financial data and maintain confidentiality?",
-    answer: "We take data security and client confidentiality seriously. Our team follows strict protocols to protect your information, and we adhere to industry standards and regulations."
-  }
+    question: "What is the importance of an audit for my business?",
+    answer:
+      "Audits help ensure the accuracy and transparency of financial information. They are also required for regulatory compliance and can boost the confidence of stakeholders in your business.",
+  },
+  {
+    question:
+      "What types of audits do you provide, and how do they differ from each other?",
+    answer:
+      "We offer various audit services, including financial statement audits, internal audits, and tax audits. They differ in scope and purpose, with financial statement audits focusing on financial reporting and compliance, internal audits on internal controls, and tax audits on tax compliance.",
+  },
+  {
+    question: "Do you provide audit services for individuals as well?",
+    answer:
+      "Yes, we offer audit services for individuals, such as tax audits and forensic audits, to address specific financial and tax-related needs.",
+  },
+  {
+    question:
+      "How do I get started with your GST, audit, or accounting services?",
+    answer:
+      "You can contact us via our website, email, or phone to discuss your specific needs and to arrange a consultation with our experts.",
+  },
 ];
-
-
-
-
-
-
-
-
 
 function Faqs() {
   return (
-      <div className="mx-auto max-w-6xl px-6 py-24 sm:pt-32 lg:px-8 lg:py-40">
-        <div className="lg:grid lg:grid-cols-12 lg:gap-8">
-          <div className="lg:col-span-5">
-            <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
-            <p className="mt-4 text-base leading-7 text-gray-600">
-              Can’t find the answer you’re looking for? Reach out to our{' '}
-              <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
-                customer support
-              </a>{' '}
-              team.
-            </p>
-          </div>
-          <div className="mt-10 lg:col-span-7 lg:mt-0">
-            <dl className="space-y-10">
-              {faqs.map((faq) => (
-                <div key={faq.question}>
-                  <dt className="text-base font-semibold leading-7 text-gray-900">{faq.question}</dt>
-                  <dd className="mt-2 text-base leading-7 text-gray-600">{faq.answer}</dd>
-                </div>
-              ))}
-            </dl>
-          </div>
+    <div className="mx-auto max-w-6xl px-6 py-24 sm:pt-32 lg:px-8 lg:py-40">
+      <div className="lg:grid lg:grid-cols-12 lg:gap-8">
+        <div className="lg:col-span-5">
+          <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
+            Frequently asked questions
+          </h2>
+          <p className="mt-4 text-base leading-7 text-gray-600">
+            Can’t find the answer you’re looking for? Reach out to our{" "}
+            <Link
+              href="#"
+              className="font-semibold text-indigo-600 hover:text-indigo-500"
+            >
+              customer support
+            </Link>{" "}
+            team.
+          </p>
+        </div>
+        <div className="mt-10 lg:col-span-7 lg:mt-0">
+          <dl className="space-y-4">
+            {faqs.map((faq) => (
+              <Disclosure key={faq.question}>
+                <Disclosure.Button className="flex w-full justify-between rounded-lg  px-4 py-2 text-left  font-medium   focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span> {faq.question} </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-0 pb-2 text-sm text-gray-500">
+                  {faq.answer}
+                </Disclosure.Panel>
+              </Disclosure>
+            ))}
+          </dl>
         </div>
       </div>
-  )
+    </div>
+  );
 }
-
 
 export default Page;
