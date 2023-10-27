@@ -17,56 +17,56 @@ const Industries = () => {
             <div className="grid grid-cols-3 overflow-hidden">
               <div>
                 <div className="border flex justify-center items-center flex-col p-8">
-                  <Image src={icon1} alt="icon1" />
-                  <p className="my-4">Industry</p>
+                  <img src="/logo/Education.svg" className="w-8" alt="icon1" />
+                  <p className="my-4">Education</p>
                 </div>
                 <div className="border flex justify-center items-center flex-col p-8">
-                  <Image src={icon1} alt="icon1" />
-                  <p className="my-4">Industry</p>
+                  <img src="/logo/Finance.svg" className="w-8" alt="icon1" />
+                  <p className="my-4">Finance</p>
                 </div>
                 <div className="border flex justify-center items-center flex-col p-8">
-                  <Image src={icon1} alt="icon1" />
-                  <p className="my-4">Industry</p>
+                  <img src="/logo/Healthcare.svg" className="w-8" alt="icon1" />
+                  <p className="my-4">Healthcare</p>
                 </div>
                 <div className="border flex justify-center items-center flex-col p-8">
-                  <Image src={icon1} alt="icon1" />
-                  <p className="my-4">Industry</p>
-                </div>
-              </div>
-              <div>
-                <div className="border flex justify-center items-center flex-col p-8">
-                  <Image src={icon1} alt="icon1" />
-                  <p className="my-4">Industry</p>
-                </div>
-                <div className="border flex justify-center items-center flex-col p-8">
-                  <Image src={icon1} alt="icon1" />
-                  <p className="my-4">Industry</p>
-                </div>
-                <div className="border flex justify-center items-center flex-col p-8">
-                  <Image src={icon1} alt="icon1" />
-                  <p className="my-4">Industry</p>
-                </div>
-                <div className="border flex justify-center items-center flex-col p-8">
-                  <Image src={icon1} alt="icon1" />
-                  <p className="my-4">Industry</p>
+                  <img src="/logo/HiTech.svg" className="w-8" alt="icon1" />
+                  <p className="my-4">HiTech</p>
                 </div>
               </div>
               <div>
                 <div className="border flex justify-center items-center flex-col p-8">
-                  <Image src={icon1} alt="icon1" />
-                  <p className="my-4">Industry</p>
+                  <img src="/logo/Logistics.svg" className="w-8" alt="icon1" />
+                  <p className="my-4">Logistics</p>
                 </div>
                 <div className="border flex justify-center items-center flex-col p-8">
-                  <Image src={icon1} alt="icon1" />
-                  <p className="my-4">Industry</p>
+                  <img src="/logo/Manufacturing.svg" className="w-8" alt="icon1" />
+                  <p className="my-4">Manufacturing</p>
                 </div>
                 <div className="border flex justify-center items-center flex-col p-8">
-                  <Image src={icon1} alt="icon1" />
-                  <p className="my-4">Industry</p>
+                  <img src="/logo/Media.svg" className="w-8" alt="icon1" />
+                  <p className="my-4">Media</p>
                 </div>
                 <div className="border flex justify-center items-center flex-col p-8">
-                  <Image src={icon1} alt="icon1" />
-                  <p className="my-4">Industry</p>
+                  <img src="/logo/Oil.svg" className="w-8" alt="icon1" />
+                  <p className="my-4">Oil</p>
+                </div>
+              </div>
+              <div>
+                <div className="border flex justify-center items-center flex-col p-8">
+                  <img src="/logo/RealEstate.svg" className="w-8" alt="icon1" />
+                  <p className="my-4">RealEstate</p>
+                </div>
+                <div className="border flex justify-center items-center flex-col p-8">
+                  <img src="/logo/Retail.svg" className="w-8" alt="icon1" />
+                  <p className="my-4">Retail</p>
+                </div>
+                <div className="border flex justify-center items-center flex-col p-8">
+                  <img src="/logo/Travel.svg" className="w-8" alt="icon1" />
+                  <p className="my-4">Travel</p>
+                </div>
+                <div className="border flex justify-center items-center flex-col p-8">
+                  <img src="/logo/Utilities.svg" className="w-8"  alt="icon1" />
+                  <p className="my-4">Utilities</p>
                 </div>
               </div>
             </div>

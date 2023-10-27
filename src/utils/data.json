@@ -1,6 +1,7 @@
 [
     {
         "name": "CFO Services/ Finance and Accounts Outsourcing",
+        "slug": "cfo_service",
         "otherservice": [
             {
                 "name": "CFO Services and Interim Financial Controller"
@@ -14,8 +15,12 @@
         ]
     },
     {
-        "name": "Back-office operations (BOO)",
+        "name": "GCRS",
+        "slug": "global_compliance_service",
         "otherservice": [
+            {
+                "name": "Back-office operations (BOO)"
+            },
             {
                 "name": "Solutions for global compliance and reporting"
             },
@@ -23,23 +28,27 @@
                 "name": "Outsourcing business processes and shared service centers"
             },
             {
-                "name": "About Global compliance and Reporting solutions"
-            }
-        ]
-    },
-    {
-        "name": "Our Methodology",
-        "otherservice": [
-            {
-                "name": "Services GCRS"
+                "name": "About Global Compliance and Reporting Solutions",
+                "slug": "about_gcrs"
             },
             {
-                "name": "Unlocking the Potential with Kaares"
+                "name": "Our Methodology",
+                "slug": "methodology"
+            },
+            {
+                "name": "Services GCRS",
+                "slug": "services_gcrs"
+            },
+            {
+                "name": "Unlocking the Potential with Kaares",
+                "slug": "unlocking_potential"
             }
         ]
     },
+   
     {
         "name": "Financial modelling",
+        "slug": "financial_modelling",
         "otherservice": [
             {
                 "name": "Comprehensive Financial Modeling"
@@ -57,6 +66,7 @@
     },
     {
         "name": "Financial Reporting Advisory Services",
+        "slug": "financial_reporting_advisory",
         "otherservice": [
             {
                 "name": "Financial Statement Preparation Services"

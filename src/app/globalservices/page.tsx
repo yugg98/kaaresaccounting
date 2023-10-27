@@ -33,24 +33,24 @@ We understand the importance of financial excellence, growth management, and com
           </p>
         </div>
         <div className="grid sm:grid-cols-2 grid-rows-2 border-y">
-          {data.map((item, index) => (
+          {data.map((e, index) => (
             <div className="p-8  border-b border-r ">
-              <p className="text-lg">
+              <p  className="text-lg">
                 <span className="mr-2 text-sm text-gray-500">0{index + 1}</span>
-                {item.name}
+                {e.name}
               </p>
-              <p className="text-gray-600 mt-1">
+              {/* <p className="text-gray-600 mt-1">
                 Maintenance of the accounts and preparation of Financial
                 Statements. It includes various vast services like simple
                 Bookkeeping to complex financial analysis.
-              </p>
+              </p> */}
               <ul className="">
-                {item.otherservice.map((item) => (
+                {e.otherservice.map((item) => (
                   <li className="border bg-[#FAFBF8] py-2 px-4 my-2">
-                    <p className=" font-semibold  flex ">
+                    <Link href={"globalservices/services/"+e.slug} className=" font-semibold  flex ">
                       <span className="mr-2"> {item.name} </span>{" "}
                       <ArrowTopRightOnSquareIcon className="w-6 h-6" />
-                    </p>
+                    </Link>
                   </li>
                 ))}
               </ul>

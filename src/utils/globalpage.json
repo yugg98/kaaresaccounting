@@ -1,378 +1,372 @@
 [
     {
-        "cfo_service": {
-            "name": "CFO Services/ Finance and Accounts Outsourcing",
-            "desc": "At KAARES, we specialize in relieving dynamic enterprises' administrative obligations, allowing them to focus on their primary business activities. Our major purpose is to take on your non-core responsibilities. Our accounting experts are committed to supporting businesses in properly managing their accounting and reporting operations. We take a proactive strategy that includes a commitment to transparency, the implementation of industry best practices, and the use of cutting-edge technological platforms. As a result, we can deliver timely and relevant insights to your management team, unlocking the potential for growth in your dynamic organization. We offer an integrated worldwide service through a single point of contact, functioning as an extension of your team. Our objective is to ensure that we are in conformity with ever-changing regulatory standards. Our global presence, along with a suite of scalable solutions suited to unique needs and circumstances, provides the specialized talents and knowledge you demand, when and when you need them.",
-            "features": [
-                {
-                    "icon": "",
-                    "text": "CFO Services and Interim Financial Controller"
-                },
-                {
-                    "icon": "",
-                    "text": "Finance and Accounting functions"
-                },
-                {
-                    "icon": "",
-                    "text": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)"
-                }
-            ],
-            "featuresdesc": "Join forces with us for a more promising financial future. By outsourcing your accounting and financial responsibilities to KAARES, you have access to a specialized group of professionals that are committed to raising the effectiveness and performance of your company. To advance your company, we use the leading industry standards in techniques, systems, and procedures, backed by a strong financial and reporting foundation. Learn how our outsourcing solutions may help your business cut expenses, boost output, and realize its full development potential. Join forces with us to get the rewards of effective financial management.",
-            "otherservices": [
-                {
-                    "title": "CFO and Interim Financial Controller",
-                    "points": [
-                        "Accounting Excellence and Financial Reporting: This encompasses general ledger maintenance, financial statement preparation, and rigorous oversight of the closing process.",
-                        "Financial Planning and Analysis (FP&A) and Budgetary Reporting: We empower you to make well-informed decisions by delivering insights derived from your financial data and pinpointing opportunities for enhancement.",
-                        "Insightful Management Reporting: Our reports focus on key performance indicators (KPIs), providing a clear view of your business's financial well-being.",
-                        "Streamlined Month-End Closures and Rigorous Account Review: We facilitate seamless month-end closures, ensuring that all financial transactions are meticulously recorded and accounted for.",
-                        "Process Enhancement and Optimization: By streamlining operations and implementing industry best practices, we can significantly enhance the overall effectiveness of your finance function.",
-                        "Proficient MIS Review, Monthly Accrual Report, and Revenue Recognition: This helps maintain a transparent and precise view of your financial performance.",
-                        "Accessible On-Call Advisory and Support: KAARES stands ready to address your inquiries, alleviate concerns, and offer expert advice whenever you need it.",
-                        "New Standards Implementation: Additionally, we assist in implementing new accounting standards, ensuring your financial reporting remains current and compliant."
-                    ]
-                },
-                {
-                    "title": "Finance and Accounting",
-                    "points": [
-                        "Accounting Record Maintenance: We meticulously manage your accounting records in strict accordance with local Generally Accepted Accounting Principles (GAAP), assuring correctness and compliance.",
-                        "Accounts Payable and Receivable Management: Our professionals handle accounts payable and receivable functions, improving payment processes and optimizing cash flow management.",
-                        "Preparation of Statutory Financial Statements: We prepare accurate and compliant statutory financial statements, meeting regulatory requirements and providing transparency to stakeholders.",
-                        "Preparation of Management Reports: Our team delivers insightful management reports, offering a clear view of your financial performance and aiding in informed decision-making.",
-                        "Accounts and Tax Reconciliations: To ensure financial correctness and pinpoint areas for development, we meticulously handle accounts and tax reconciliations.",
-                        "Tax and Regulatory Compliance Management: Our experts are well-versed in managing tax and regulatory compliance, safeguarding your organization against potential risks and penalties."
-                    ]
-                },
-                {
-                    "title": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
-                    "points": [
-                        "It includes single procedures like 'Procure to Pay,' 'Order to Cash,' and 'Record to Report,' as well as sub-processes including invoice processing, disbursements, collections, expense claim processing, and MIS administration.",
-                        "Sales Invoicing and Collection administration: We excel at managing your sales invoicing and guaranteeing effective collection administration. Our automated methods improve cash flow and reduce payment delays.",
-                        "Vendor Invoice Processing and Disbursement Assistance: We ensure that payments are made on schedule while maintaining vendor relationships.",
-                        "Expense Management: We manage your expenses, streamlining the process to cut costs and increase efficiency.",
-                        "Accounts and Tax Reconciliations: Our professionals are adept in reconciling accounts and tax records, assuring accuracy and compliance with tax requirements. This reduces the possibility of financial irregularities.",
-                        "Month-End Closure and Reporting: Our thorough reporting offers insightful information for making wise decisions.",
-                        "Year-End Accounts Preparation: We are experts at meticulously preparing year-end accounts while ensuring adherence to rules and standards for accounting.",
-                        "Audit Support: Our team provides thorough audit support to assist you in getting ready for audits and navigating the procedure with ease."
-                    ]
-                }
-            ]
-        }
+        "name": "CFO Services/ Finance and Accounts Outsourcing",
+        "slug": "cfo_service",
+        "desc": "At KAARES, we specialize in relieving dynamic enterprises' administrative obligations, allowing them to focus on their primary business activities. Our major purpose is to take on your non-core responsibilities. Our accounting experts are committed to supporting businesses in properly managing their accounting and reporting operations. We take a proactive strategy that includes a commitment to transparency, the implementation of industry best practices, and the use of cutting-edge technological platforms. As a result, we can deliver timely and relevant insights to your management team, unlocking the potential for growth in your dynamic organization. We offer an integrated worldwide service through a single point of contact, functioning as an extension of your team. Our objective is to ensure that we are in conformity with ever-changing regulatory standards. Our global presence, along with a suite of scalable solutions suited to unique needs and circumstances, provides the specialized talents and knowledge you demand, when and when you need them.",
+        "features": [
+            {
+                "icon": "",
+                "text": "CFO Services and Interim Financial Controller"
+            },
+            {
+                "icon": "",
+                "text": "Finance and Accounting functions"
+            },
+            {
+                "icon": "",
+                "text": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)"
+            }
+        ],
+        "featuresdesc": "Join forces with us for a more promising financial future. By outsourcing your accounting and financial responsibilities to KAARES, you have access to a specialized group of professionals that are committed to raising the effectiveness and performance of your company. To advance your company, we use the leading industry standards in techniques, systems, and procedures, backed by a strong financial and reporting foundation. Learn how our outsourcing solutions may help your business cut expenses, boost output, and realize its full development potential. Join forces with us to get the rewards of effective financial management.",
+        "otherservices": [
+            {
+                "title": "CFO and Interim Financial Controller",
+                "points": [
+                    "Accounting Excellence and Financial Reporting: This encompasses general ledger maintenance, financial statement preparation, and rigorous oversight of the closing process.",
+                    "Financial Planning and Analysis (FP&A) and Budgetary Reporting: We empower you to make well-informed decisions by delivering insights derived from your financial data and pinpointing opportunities for enhancement.",
+                    "Insightful Management Reporting: Our reports focus on key performance indicators (KPIs), providing a clear view of your business's financial well-being.",
+                    "Streamlined Month-End Closures and Rigorous Account Review: We facilitate seamless month-end closures, ensuring that all financial transactions are meticulously recorded and accounted for.",
+                    "Process Enhancement and Optimization: By streamlining operations and implementing industry best practices, we can significantly enhance the overall effectiveness of your finance function.",
+                    "Proficient MIS Review, Monthly Accrual Report, and Revenue Recognition: This helps maintain a transparent and precise view of your financial performance.",
+                    "Accessible On-Call Advisory and Support: KAARES stands ready to address your inquiries, alleviate concerns, and offer expert advice whenever you need it.",
+                    "New Standards Implementation: Additionally, we assist in implementing new accounting standards, ensuring your financial reporting remains current and compliant."
+                ]
+            },
+            {
+                "title": "Finance and Accounting",
+                "points": [
+                    "Accounting Record Maintenance: We meticulously manage your accounting records in strict accordance with local Generally Accepted Accounting Principles (GAAP), assuring correctness and compliance.",
+                    "Accounts Payable and Receivable Management: Our professionals handle accounts payable and receivable functions, improving payment processes and optimizing cash flow management.",
+                    "Preparation of Statutory Financial Statements: We prepare accurate and compliant statutory financial statements, meeting regulatory requirements and providing transparency to stakeholders.",
+                    "Preparation of Management Reports: Our team delivers insightful management reports, offering a clear view of your financial performance and aiding in informed decision-making.",
+                    "Accounts and Tax Reconciliations: To ensure financial correctness and pinpoint areas for development, we meticulously handle accounts and tax reconciliations.",
+                    "Tax and Regulatory Compliance Management: Our experts are well-versed in managing tax and regulatory compliance, safeguarding your organization against potential risks and penalties."
+                ]
+            },
+            {
+                "title": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
+                "points": [
+                    "It includes single procedures like 'Procure to Pay,' 'Order to Cash,' and 'Record to Report,' as well as sub-processes including invoice processing, disbursements, collections, expense claim processing, and MIS administration.",
+                    "Sales Invoicing and Collection administration: We excel at managing your sales invoicing and guaranteeing effective collection administration. Our automated methods improve cash flow and reduce payment delays.",
+                    "Vendor Invoice Processing and Disbursement Assistance: We ensure that payments are made on schedule while maintaining vendor relationships.",
+                    "Expense Management: We manage your expenses, streamlining the process to cut costs and increase efficiency.",
+                    "Accounts and Tax Reconciliations: Our professionals are adept in reconciling accounts and tax records, assuring accuracy and compliance with tax requirements. This reduces the possibility of financial irregularities.",
+                    "Month-End Closure and Reporting: Our thorough reporting offers insightful information for making wise decisions.",
+                    "Year-End Accounts Preparation: We are experts at meticulously preparing year-end accounts while ensuring adherence to rules and standards for accounting.",
+                    "Audit Support: Our team provides thorough audit support to assist you in getting ready for audits and navigating the procedure with ease."
+                ]
+            }
+        ]
     },
     {
-        "global_compliance_service": {
-            "name": "Global Compliance and Reporting Solutions",
-            "desc": "In the current business environment, firms are extending their reach both domestically and abroad. However, running back-office activities can frequently take valuable resources away from the main business. Dynamic global firms commonly use outsourcing solutions to address these challenges in order to narrow their emphasis on core skills, improve overall performance, and lower the expenses related to non-core operations. At Kaares, we recognize how important it is for companies to streamline their processes, and we provide a full range of outsourcing services to successfully handle these issues. With the help of our services, your business may go forward with fresh focus and vitality while also saving you a lot of money. We provide the following services:",
-            "features": [
-                {
-                    "icon": "",
-                    "text": "Holistic Business Comprehension and Transition Blueprinting"
-                },
-                {
-                    "icon": "",
-                    "text": "Dynamic Implementation and Streamlining"
-                },
-                {
-                    "icon": "",
-                    "text": "Analyzing Gaps and Crafting a Visionary Model"
-                },
-                {
-                    "icon": "",
-                    "text": "Going Live and Continuous Enhancement"
-                }
-            ],
-            "featuresdesc": "At Kaares, we take pleasure in meeting our clients' issues head-on and giving them the tools they need to reach their full potential. Our service packages have been carefully designed to meet the various international accounting and statutory reporting needs of our esteemed clients. Our value proposition is supported by a number of important pillars, each of which is intended to improve your experience and results: Adaptability and Forward-Thinking Solutions, Transparent Pricing and Assurance, Simplified Coordination with a Single Touchpoint, Expertise at the Core of our Service. We provide thorough global reporting and compliance services across many countries thanks to our global presence and committed team of professionals. We at Kaares are your dependable partners in financial success, not just service suppliers. Let us assist you in accomplishing your business objectives while navigating the challenges of worldwide reporting.",
-            "otherservices": [
-                {
-                    "title": "Global compliance and reporting solutions",
-                    "points": [
-                        "Centralized accounting and management reporting",
-                        "Consolidated Financial Oversight and Reporting",
-                        "Preparing and maintaining financial records in accordance with individual or group GAAP",
-                        "Oversight of Global and Local Management Reporting",
-                        "Multilingual Financial Statements Across Borders",
-                        "Precise Shadow Book Maintenance",
-                        "Assist with the necessary audits"
-                    ]
-                },
-                {
-                    "title": "Tax and regulatory compliance services",
-                    "points": [
-                        "Tax Return Preparation and Submission",
-                        "Liaison with Local Authorities",
-                        "Tax Assessments and Diagnostic Reviews",
-                        "Preparation and filing of all tax returns",
-                        "Tax reviews including diagnostic reviews, setting up multijurisdictional tax compliance reporting systems, etc.",
-                        "Statutory Register Maintenance and Meeting Preparation",
-                        "Maintain statutory registers, prepare agenda, notice and minutes",
-                        "Preparation and filing of annual financials and other required documentation with local authorities"
-                    ]
-                },
-                {
-                    "title": "Controller and review services",
-                    "points": [
-                        "Monthly and Year-End Book Closure Assurance",
-                        "Global and Local Management Reporting Assessment",
-                        "Expert Financial Oversight and Transaction Review",
-                        "Prompt Adherence to Statutory Compliances and Tax Regulations"
-                    ]
-                },
-                {
-                    "title": "GAAP conversion",
-                    "points": [
-                        "Uniform Bridge Files with Comprehensive Audit Assistance",
-                        "Expertise in Diverse Global Accounting Standards",
-                        "Thorough Financial Statement Reconciliation and Mapping"
-                    ]
-                }
-            ]
-        }
+        "name": "Global Compliance and Reporting Solutions",
+        "slug": "global_compliance_service",
+        "desc": "In the current business environment, firms are extending their reach both domestically and abroad. However, running back-office activities can frequently take valuable resources away from the main business. Dynamic global firms commonly use outsourcing solutions to address these challenges in order to narrow their emphasis on core skills, improve overall performance, and lower the expenses related to non-core operations. At Kaares, we recognize how important it is for companies to streamline their processes, and we provide a full range of outsourcing services to successfully handle these issues. With the help of our services, your business may go forward with fresh focus and vitality while also saving you a lot of money. We provide the following services:",
+        "features": [
+            {
+                "icon": "",
+                "text": "Holistic Business Comprehension and Transition Blueprinting"
+            },
+            {
+                "icon": "",
+                "text": "Dynamic Implementation and Streamlining"
+            },
+            {
+                "icon": "",
+                "text": "Analyzing Gaps and Crafting a Visionary Model"
+            },
+            {
+                "icon": "",
+                "text": "Going Live and Continuous Enhancement"
+            }
+        ],
+        "featuresdesc": "At Kaares, we take pleasure in meeting our clients' issues head-on and giving them the tools they need to reach their full potential. Our service packages have been carefully designed to meet the various international accounting and statutory reporting needs of our esteemed clients. Our value proposition is supported by a number of important pillars, each of which is intended to improve your experience and results: Adaptability and Forward-Thinking Solutions, Transparent Pricing and Assurance, Simplified Coordination with a Single Touchpoint, Expertise at the Core of our Service. We provide thorough global reporting and compliance services across many countries thanks to our global presence and committed team of professionals. We at Kaares are your dependable partners in financial success, not just service suppliers. Let us assist you in accomplishing your business objectives while navigating the challenges of worldwide reporting.",
+        "otherservices": [
+            {
+                "title": "Global compliance and reporting solutions",
+                "points": [
+                    "Centralized accounting and management reporting",
+                    "Consolidated Financial Oversight and Reporting",
+                    "Preparing and maintaining financial records in accordance with individual or group GAAP",
+                    "Oversight of Global and Local Management Reporting",
+                    "Multilingual Financial Statements Across Borders",
+                    "Precise Shadow Book Maintenance",
+                    "Assist with the necessary audits"
+                ]
+            },
+            {
+                "title": "Tax and regulatory compliance services",
+                "points": [
+                    "Tax Return Preparation and Submission",
+                    "Liaison with Local Authorities",
+                    "Tax Assessments and Diagnostic Reviews",
+                    "Preparation and filing of all tax returns",
+                    "Tax reviews including diagnostic reviews, setting up multijurisdictional tax compliance reporting systems, etc.",
+                    "Statutory Register Maintenance and Meeting Preparation",
+                    "Maintain statutory registers, prepare agenda, notice and minutes",
+                    "Preparation and filing of annual financials and other required documentation with local authorities"
+                ]
+            },
+            {
+                "title": "Controller and review services",
+                "points": [
+                    "Monthly and Year-End Book Closure Assurance",
+                    "Global and Local Management Reporting Assessment",
+                    "Expert Financial Oversight and Transaction Review",
+                    "Prompt Adherence to Statutory Compliances and Tax Regulations"
+                ]
+            },
+            {
+                "title": "GAAP conversion",
+                "points": [
+                    "Uniform Bridge Files with Comprehensive Audit Assistance",
+                    "Expertise in Diverse Global Accounting Standards",
+                    "Thorough Financial Statement Reconciliation and Mapping"
+                ]
+            }
+        ]
     },
     {
-        "financial_modelling": {
-            "name": "Financial Modelling",
-            "desc": "A key method for determining a company's present and prospective future worth is business valuation. It's important when making decisions for companies that want to grow, get investments, or go through a transformation. Business valuation is an essential phase in the process, whether you're an investor evaluating opportunities or a business owner trying to figure out what your company is really worth. At Kares, we understand the value of precise business appraisal, and our staff of experts is committed to helping our clients with this important undertaking. In the event that flaws are found during the valuation process, we offer advice on how to improve the worth of your company in addition to valuation services.",
-            "features": [
-                {
-                    "icon": "",
-                    "text": "Complete Financial Modelling"
-                },
-                {
-                    "icon": "",
-                    "text": "DCF Modelling"
-                },
-                {
-                    "icon": "",
-                    "text": "M&A Modelling"
-                },
-                {
-                    "icon": "",
-                    "text": "LBO Modelling"
-                }
-            ],
-            "featuresdesc": "In the ever-changing global services landscape, it is critical to recognize the actual worth of your company. It gives you the ability to protect your money, take advantage of growth opportunities, and make well-informed decisions. Kares is your reliable travel companion, offering professional business valuation and financial modeling services to steer you in the direction of a profitable future.",
-            "otherservices": [
-                {
-                    "title": "Complete Financial Modelling",
-                    "points": [
-                        "Projections for the Strategic Income Statement",
-                        "Expertise in projecting balance sheets",
-                        "Effective management of revolvers and liquidity planning",
-                        "Comprehensive Sensitivity Analysis and Scenario Analysis",
-                        "Balancing a model precisely",
-                        "Analysis of Segment-Level Revenue at Present Value (PV)",
-                        "CAGR Perspectives",
-                        "Complete Financial Evaluations",
-                        "We analyze your financial situation and make tactical suggestions for improvement."
-                    ]
-                },
-                {
-                    "title": "DCF Modelling",
-                    "points": [
-                        "Enterprise Value versus Equity Value Comparison",
-                        "Examining Market and Book Value",
-                        "Comparing and contrasting cash flow and relative valuation",
-                        "Discounted cash flow (DCF) mechanics",
-                        "Building the Core DCF Model",
-                        "DCF Outputs Presentation and Interpretation",
-                        "The Mid-Year Convention: An Overview",
-                        "Managing Splits, Dual Classes, Convertibles, and Stock Options",
-                        "Adding a 3 Statement Model to the DCF Model",
-                        "Considering Additional Factors in DCF"
-                    ]
-                },
-                {
-                    "title": "M&A Modelling",
-                    "points": [
-                        "Expertise on both the buy and sell sides",
-                        "Analysis of Accretion and Dilution",
-                        "M&A Accounting and Purchase Price Allocation",
-                        "Advanced Modeling Solutions",
-                        "Analysis of Contribution and Exchange Ratios"
-                    ]
-                },
-                {
-                    "title": "LBO Modelling",
-                    "points": [
-                        "Strategic LBO Modeling",
-                        "Tax Optimization in LBO Modeling",
-                        "Mezzanine Financing and Bridge Loans",
-                        "Understanding the PE Firm Structure and Investor Dynamics",
-                        "LBO Exits and Return Possible Analysis",
-                        "Investigating Sensitivity and Risk Analysis",
-                        "Adjusting Pro Forma Balance Sheets"
-                    ]
-                }
-            ]
-        }
+        "name": "Financial Modelling",
+        "slug": "financial_modelling",
+        "desc": "A key method for determining a company's present and prospective future worth is business valuation. It's important when making decisions for companies that want to grow, get investments, or go through a transformation. Business valuation is an essential phase in the process, whether you're an investor evaluating opportunities or a business owner trying to figure out what your company is really worth. At Kares, we understand the value of precise business appraisal, and our staff of experts is committed to helping our clients with this important undertaking. In the event that flaws are found during the valuation process, we offer advice on how to improve the worth of your company in addition to valuation services.",
+        "features": [
+            {
+                "icon": "",
+                "text": "Complete Financial Modelling"
+            },
+            {
+                "icon": "",
+                "text": "DCF Modelling"
+            },
+            {
+                "icon": "",
+                "text": "M&A Modelling"
+            },
+            {
+                "icon": "",
+                "text": "LBO Modelling"
+            }
+        ],
+        "featuresdesc": "In the ever-changing global services landscape, it is critical to recognize the actual worth of your company. It gives you the ability to protect your money, take advantage of growth opportunities, and make well-informed decisions. Kares is your reliable travel companion, offering professional business valuation and financial modeling services to steer you in the direction of a profitable future.",
+        "otherservices": [
+            {
+                "title": "Complete Financial Modelling",
+                "points": [
+                    "Projections for the Strategic Income Statement",
+                    "Expertise in projecting balance sheets",
+                    "Effective management of revolvers and liquidity planning",
+                    "Comprehensive Sensitivity Analysis and Scenario Analysis",
+                    "Balancing a model precisely",
+                    "Analysis of Segment-Level Revenue at Present Value (PV)",
+                    "CAGR Perspectives",
+                    "Complete Financial Evaluations",
+                    "We analyze your financial situation and make tactical suggestions for improvement."
+                ]
+            },
+            {
+                "title": "DCF Modelling",
+                "points": [
+                    "Enterprise Value versus Equity Value Comparison",
+                    "Examining Market and Book Value",
+                    "Comparing and contrasting cash flow and relative valuation",
+                    "Discounted cash flow (DCF) mechanics",
+                    "Building the Core DCF Model",
+                    "DCF Outputs Presentation and Interpretation",
+                    "The Mid-Year Convention: An Overview",
+                    "Managing Splits, Dual Classes, Convertibles, and Stock Options",
+                    "Adding a 3 Statement Model to the DCF Model",
+                    "Considering Additional Factors in DCF"
+                ]
+            },
+            {
+                "title": "M&A Modelling",
+                "points": [
+                    "Expertise on both the buy and sell sides",
+                    "Analysis of Accretion and Dilution",
+                    "M&A Accounting and Purchase Price Allocation",
+                    "Advanced Modeling Solutions",
+                    "Analysis of Contribution and Exchange Ratios"
+                ]
+            },
+            {
+                "title": "LBO Modelling",
+                "points": [
+                    "Strategic LBO Modeling",
+                    "Tax Optimization in LBO Modeling",
+                    "Mezzanine Financing and Bridge Loans",
+                    "Understanding the PE Firm Structure and Investor Dynamics",
+                    "LBO Exits and Return Possible Analysis",
+                    "Investigating Sensitivity and Risk Analysis",
+                    "Adjusting Pro Forma Balance Sheets"
+                ]
+            }
+        ]
     },
     {
-        "financial_reporting_advisory": {
-            "name": "Financial Reporting Advisory Services",
-            "desc": "As companies in India gradually transition to Ind AS and globally to IFRS, the dynamic nature of these evolving Generally Accepted Accounting Principles (GAAPs) poses unique challenges in financial reporting. At KAARES, our team of seasoned professionals steps in to alleviate the burden on in-house finance teams by meticulously preparing compliant financial statements. Welcome to KAARES, a distinguished firm specialising in providing top-tier financial and accounting solutions to foreign clients. With a wealth of experience and a dedication to excellence, we offer a wide array of services tailored to meet the unique needs of businesses operating on the global stage.",
-            "features": [
-                {
-                    "icon": "",
-                    "text": "Sophisticated Accounting Scenarios"
-                },
-                {
-                    "icon": "",
-                    "text": "Accounting Advice Changes"
-                },
-                {
-                    "icon": "",
-                    "text": "Occasional Reporting Needs"
-                },
-                {
-                    "icon": "",
-                    "text": "Adapting to Rapid Changes"
-                },
-                {
-                    "icon": "",
-                    "text": "Complex Group Structures"
-                }
-            ],
-            "featuresdesc": "At KAARES, we understand the importance of financial excellence, growth management, and compliance in today's dynamic business landscape. Our team of seasoned professionals is dedicated to delivering excellence at every step, providing tailored solutions that meet the unique needs of businesses operating on the global stage. Contact us today to discover how we can be your trusted partner in achieving financial success.",
-            "otherservices": [
-                {
-                    "title": "Financial Statement Preparation Services",
-                    "points": [
-                        "Defining Key Milestones: We establish clear milestones to guide the financial reporting process effectively.",
-                        "Ready-to-Use Templates: Our team prepares user-friendly templates that streamline the reporting process.",
-                        "Chart of Accounts Mapping: We meticulously map the chart of accounts to ensure accuracy and consistency.",
-                        "Structuring Financial Statements: This includes the creation of financial statement structures, including consolidation workings.",
-                        "Structured Templates: We provide structured templates for GAAP adjustments and major accounting computations.",
-                        "Financial Reporting Templates: Our comprehensive financial reporting templates enable efficient and compliant financial statement preparation.",
-                        "We are committed to simplifying financial statement preparation, enabling your organization to meet reporting requirements with precision and ease. Our expertise ensures that your financial statements not only adhere to evolving GAAPs but also provide valuable insights for strategic decision-making. Let us be your trusted partner in financial reporting excellence."
-                    ]
-                },
-                {
-                    "title": "Transaction Accounting",
-                    "points": [
-                        "The area of complex financial transactions frequently calls for rigorous study, use of GAAP standards, and use of judgment.",
-                        "Examples of complex transactions are: Revenue recognition, assessment of performance obligations, Business combinations, Service concession arrangements, Recognition of deferred taxes, Financial instruments, Shareholder agreements with investors, Power purchase agreements, Joint venture agreements, ESOP schemes, Complex leasing arrangements/embedded leases"
-                    ]
-                },
-                {
-                    "title": "New Standards Implementation",
-                    "points": [
-                        "Since Ind AS draws its dynamism from IFRS, both IFRS and Ind AS are perpetually changing GAAPs.",
-                        "Key changes due to new accounting standards (Ind AS 115, Ind AS 116, IFRS 9, IFRS 15, IFRS 16, ASC 606)",
-                        "What do we deliver?",
-                        "Comprehensive Financial Statement Disclosure and Updates",
-                        "Seamless Implementation Assistance",
-                        "Strategic Sustainable Reporting Process Design",
-                        "In-Depth Diagnostic Analysis",
-                        "Efficient Automated Template Development"
-                    ]
-                },
-                {
-                    "title": "GAAP Conversion",
-                    "points": [
-                        "It becomes more and more important to follow internationally accepted financial reporting standards.",
-                        "When is a conversion to GAAP required?",
-                        "Acquisitions made internationally that necessitate the conversion of the acquiree's financial records to GAAP",
-                        "Activities to raise equity or loans in a separate market",
-                        "Important issues with GAAP conversion:",
-                        "Managing the diversity of GAAPs for statutory/group reporting and tax compliance"
-                    ]
-                },
-                {
-                    "title": "Group Consolidation",
-                    "points": [
-                        "Navigating the consolidation process poses numerous challenges, especially when dealing with diverse reporting formats and methodologies employed by various group entities.",
-                        "When might your organization require our group consolidation services?",
-                        "Post-Acquisition Consolidation: Our services become invaluable when acquisitions necessitate the preparation of consolidated financial statements.",
-                        "Diverse Geographic GAAPs: Managing a multitude of GAAPs across different geographic locations is a vital aspect of consolidation.",
-                        "Non-Standard Chart of Accounts: When various group companies utilize non-standard charts of accounts, our expertise comes into play.",
-                        "Complex Intercompany Transactions: If a high volume of intercompany transactions demands meticulous matching and gap-plugging, our services provide the necessary support.",
-                        "Standardized Reporting Templates: We deliver standardized reporting templates designed to accommodate all group companies.",
-                        "Harmonized Chart of Accounts: We ensure alignment across the chart of accounts (CoA) to facilitate smooth consolidation."
-                    ]
-                }
-            ]
-        }
+        "name": "Financial Reporting Advisory Services",
+        "slug": "financial_reporting_advisory",
+        "desc": "As companies in India gradually transition to Ind AS and globally to IFRS, the dynamic nature of these evolving Generally Accepted Accounting Principles (GAAPs) poses unique challenges in financial reporting. At KAARES, our team of seasoned professionals steps in to alleviate the burden on in-house finance teams by meticulously preparing compliant financial statements. Welcome to KAARES, a distinguished firm specialising in providing top-tier financial and accounting solutions to foreign clients. With a wealth of experience and a dedication to excellence, we offer a wide array of services tailored to meet the unique needs of businesses operating on the global stage.",
+        "features": [
+            {
+                "icon": "",
+                "text": "Sophisticated Accounting Scenarios"
+            },
+            {
+                "icon": "",
+                "text": "Accounting Advice Changes"
+            },
+            {
+                "icon": "",
+                "text": "Occasional Reporting Needs"
+            },
+            {
+                "icon": "",
+                "text": "Adapting to Rapid Changes"
+            },
+            {
+                "icon": "",
+                "text": "Complex Group Structures"
+            }
+        ],
+        "featuresdesc": "At KAARES, we understand the importance of financial excellence, growth management, and compliance in today's dynamic business landscape. Our team of seasoned professionals is dedicated to delivering excellence at every step, providing tailored solutions that meet the unique needs of businesses operating on the global stage. Contact us today to discover how we can be your trusted partner in achieving financial success.",
+        "otherservices": [
+            {
+                "title": "Financial Statement Preparation Services",
+                "points": [
+                    "Defining Key Milestones: We establish clear milestones to guide the financial reporting process effectively.",
+                    "Ready-to-Use Templates: Our team prepares user-friendly templates that streamline the reporting process.",
+                    "Chart of Accounts Mapping: We meticulously map the chart of accounts to ensure accuracy and consistency.",
+                    "Structuring Financial Statements: This includes the creation of financial statement structures, including consolidation workings.",
+                    "Structured Templates: We provide structured templates for GAAP adjustments and major accounting computations.",
+                    "Financial Reporting Templates: Our comprehensive financial reporting templates enable efficient and compliant financial statement preparation.",
+                    "We are committed to simplifying financial statement preparation, enabling your organization to meet reporting requirements with precision and ease. Our expertise ensures that your financial statements not only adhere to evolving GAAPs but also provide valuable insights for strategic decision-making. Let us be your trusted partner in financial reporting excellence."
+                ]
+            },
+            {
+                "title": "Transaction Accounting",
+                "points": [
+                    "The area of complex financial transactions frequently calls for rigorous study, use of GAAP standards, and use of judgment.",
+                    "Examples of complex transactions are: Revenue recognition, assessment of performance obligations, Business combinations, Service concession arrangements, Recognition of deferred taxes, Financial instruments, Shareholder agreements with investors, Power purchase agreements, Joint venture agreements, ESOP schemes, Complex leasing arrangements/embedded leases"
+                ]
+            },
+            {
+                "title": "New Standards Implementation",
+                "points": [
+                    "Since Ind AS draws its dynamism from IFRS, both IFRS and Ind AS are perpetually changing GAAPs.",
+                    "Key changes due to new accounting standards (Ind AS 115, Ind AS 116, IFRS 9, IFRS 15, IFRS 16, ASC 606)",
+                    "What do we deliver?",
+                    "Comprehensive Financial Statement Disclosure and Updates",
+                    "Seamless Implementation Assistance",
+                    "Strategic Sustainable Reporting Process Design",
+                    "In-Depth Diagnostic Analysis",
+                    "Efficient Automated Template Development"
+                ]
+            },
+            {
+                "title": "GAAP Conversion",
+                "points": [
+                    "It becomes more and more important to follow internationally accepted financial reporting standards.",
+                    "When is a conversion to GAAP required?",
+                    "Acquisitions made internationally that necessitate the conversion of the acquiree's financial records to GAAP",
+                    "Activities to raise equity or loans in a separate market",
+                    "Important issues with GAAP conversion:",
+                    "Managing the diversity of GAAPs for statutory/group reporting and tax compliance"
+                ]
+            },
+            {
+                "title": "Group Consolidation",
+                "points": [
+                    "Navigating the consolidation process poses numerous challenges, especially when dealing with diverse reporting formats and methodologies employed by various group entities.",
+                    "When might your organization require our group consolidation services?",
+                    "Post-Acquisition Consolidation: Our services become invaluable when acquisitions necessitate the preparation of consolidated financial statements.",
+                    "Diverse Geographic GAAPs: Managing a multitude of GAAPs across different geographic locations is a vital aspect of consolidation.",
+                    "Non-Standard Chart of Accounts: When various group companies utilize non-standard charts of accounts, our expertise comes into play.",
+                    "Complex Intercompany Transactions: If a high volume of intercompany transactions demands meticulous matching and gap-plugging, our services provide the necessary support.",
+                    "Standardized Reporting Templates: We deliver standardized reporting templates designed to accommodate all group companies.",
+                    "Harmonized Chart of Accounts: We ensure alignment across the chart of accounts (CoA) to facilitate smooth consolidation."
+                ]
+            }
+        ]
     },
     {
-        "Financial Reporting Advisory Services": {
-            "desc": "As companies in India gradually transition to Ind AS and globally to IFRS, the dynamic nature of these evolving Generally Accepted Accounting Principles (GAAPs) poses unique challenges in financial reporting. At KAARES, our team of seasoned professionals steps in to alleviate the burden on in-house finance teams by meticulously preparing compliant financial statements. Welcome to KAARES, a distinguished firm specializing in providing top-tier financial and accounting solutions to foreign clients. With a wealth of experience and a dedication to excellence, we offer a wide array of services tailored to meet the unique needs of businesses operating on the global stage.",
-            "features": [
-                {
-                    "icon": "",
-                    "text": "Sophisticated Accounting Scenarios"
-                },
-                {
-                    "icon": "",
-                    "text": "Accounting Advice Changes"
-                },
-                {
-                    "icon": "",
-                    "text": "Occasional Reporting Needs"
-                },
-                {
-                    "icon": "",
-                    "text": "Adapting to Rapid Changes"
-                },
-                {
-                    "icon": "",
-                    "text": "Complex Group Structures"
-                }
-            ],
-            "featuresdesc": "At KAARES, we understand the importance of financial excellence, growth management, and compliance in today's dynamic business landscape. Our team of seasoned professionals is dedicated to delivering excellence at every step, providing tailored solutions that meet the unique needs of businesses operating on the global stage. Contact us today to discover how we can be your trusted partner in achieving financial success.",
-            "otherservices": {
-                "Financial Statement Preparation Services": {
-                    "points": [
-                        "Defining Key Milestones: We establish clear milestones to guide the financial reporting process effectively.",
-                        "Ready-to-Use Templates: Our team prepares user-friendly templates that streamline the reporting process.",
-                        "Chart of Accounts Mapping: We meticulously map the chart of accounts to ensure accuracy and consistency.",
-                        "Structuring Financial Statements: This includes the creation of financial statement structures, including consolidation workings.",
-                        "Structured Templates: We provide structured templates for GAAP adjustments and major accounting computations.",
-                        "Financial Reporting Templates: Our comprehensive financial reporting templates enable efficient and compliant financial statement preparation.",
-                        "We are committed to simplifying financial statement preparation, enabling your organization to meet reporting requirements with precision and ease. Our expertise ensures that your financial statements not only adhere to evolving GAAPs but also provide valuable insights for strategic decision-making. Let us be your trusted partner in financial reporting excellence."
-                    ]
-                },
-                "Transaction Accounting": {
-                    "points": [
-                        "The area of complex financial transactions frequently calls for rigorous study, use of GAAP standards, and use of judgment.",
-                        "Examples of complex transactions are: Revenue recognition, assessment of performance obligations, Business combinations, Service concession arrangements, Recognition of deferred taxes, Financial instruments, Shareholder agreements with investors, Power purchase agreements, Joint venture agreements, ESOP schemes, Complex leasing arrangements/embedded leases"
-                    ]
-                },
-                "New Standards Implementation": {
-                    "points": [
-                        "Since Ind AS draws its dynamism from IFRS, both IFRS and Ind AS are perpetually changing GAAPs.",
-                        "Key changes due to new accounting standards (Ind AS 115, Ind AS 116, IFRS 9, IFRS 15, IFRS 16, ASC 606)",
-                        "What do we deliver?",
-                        "Comprehensive Financial Statement Disclosure and Updates",
-                        "Seamless Implementation Assistance",
-                        "Strategic Sustainable Reporting Process Design",
-                        "In-Depth Diagnostic Analysis",
-                        "Efficient Automated Template Development"
-                    ]
-                },
-                "GAAP Conversion": {
-                    "points": [
-                        "It becomes more and more important to follow internationally accepted financial reporting standards.",
-                        "When is a conversion to GAAP required?",
-                        "Acquisitions made internationally that necessitate the conversion of the acquiree's financial records to GAAP",
-                        "Activities to raise equity or loans in a separate market",
-                        "Important issues with GAAP conversion:",
-                        "Managing the diversity of GAAPs for statutory/group reporting and tax compliance"
-                    ]
-                },
-                "Group Consolidation": {
-                    "points": [
-                        "Navigating the consolidation process poses numerous challenges, especially when dealing with diverse reporting formats and methodologies employed by various group entities.",
-                        "When might your organization require our group consolidation services?",
-                        "Post-Acquisition Consolidation: Our services become invaluable when acquisitions necessitate the preparation of consolidated financial statements.",
-                        "Diverse Geographic GAAPs: Managing a multitude of GAAPs across different geographic locations is a vital aspect of consolidation.",
-                        "Non-Standard Chart of Accounts: When various group companies utilize non-standard charts of accounts, our expertise comes into play.",
-                        "Complex Intercompany Transactions: If a high volume of intercompany transactions demands meticulous matching and gap-plugging, our services provide the necessary support.",
-                        "Standardized Reporting Templates: We deliver standardized reporting templates designed to accommodate all group companies.",
-                        "Harmonized Chart of Accounts: We ensure alignment across the chart of accounts (CoA) to facilitate smooth consolidation."
-                    ]
-                }
+        "desc": "As companies in India gradually transition to Ind AS and globally to IFRS, the dynamic nature of these evolving Generally Accepted Accounting Principles (GAAPs) poses unique challenges in financial reporting. At KAARES, our team of seasoned professionals steps in to alleviate the burden on in-house finance teams by meticulously preparing compliant financial statements. Welcome to KAARES, a distinguished firm specializing in providing top-tier financial and accounting solutions to foreign clients. With a wealth of experience and a dedication to excellence, we offer a wide array of services tailored to meet the unique needs of businesses operating on the global stage.",
+        "features": [
+            {
+                "icon": "",
+                "text": "Sophisticated Accounting Scenarios"
+            },
+            {
+                "icon": "",
+                "text": "Accounting Advice Changes"
+            },
+            {
+                "icon": "",
+                "text": "Occasional Reporting Needs"
+            },
+            {
+                "icon": "",
+                "text": "Adapting to Rapid Changes"
+            },
+            {
+                "icon": "",
+                "text": "Complex Group Structures"
+            }
+        ],
+        "slug": "financial_reporting_advisory_services",
+        "featuresdesc": "At KAARES, we understand the importance of financial excellence, growth management, and compliance in today's dynamic business landscape. Our team of seasoned professionals is dedicated to delivering excellence at every step, providing tailored solutions that meet the unique needs of businesses operating on the global stage. Contact us today to discover how we can be your trusted partner in achieving financial success.",
+        "otherservices": {
+            "Financial Statement Preparation Services": {
+                "points": [
+                    "Defining Key Milestones: We establish clear milestones to guide the financial reporting process effectively.",
+                    "Ready-to-Use Templates: Our team prepares user-friendly templates that streamline the reporting process.",
+                    "Chart of Accounts Mapping: We meticulously map the chart of accounts to ensure accuracy and consistency.",
+                    "Structuring Financial Statements: This includes the creation of financial statement structures, including consolidation workings.",
+                    "Structured Templates: We provide structured templates for GAAP adjustments and major accounting computations.",
+                    "Financial Reporting Templates: Our comprehensive financial reporting templates enable efficient and compliant financial statement preparation.",
+                    "We are committed to simplifying financial statement preparation, enabling your organization to meet reporting requirements with precision and ease. Our expertise ensures that your financial statements not only adhere to evolving GAAPs but also provide valuable insights for strategic decision-making. Let us be your trusted partner in financial reporting excellence."
+                ]
+            },
+            "Transaction Accounting": {
+                "points": [
+                    "The area of complex financial transactions frequently calls for rigorous study, use of GAAP standards, and use of judgment.",
+                    "Examples of complex transactions are: Revenue recognition, assessment of performance obligations, Business combinations, Service concession arrangements, Recognition of deferred taxes, Financial instruments, Shareholder agreements with investors, Power purchase agreements, Joint venture agreements, ESOP schemes, Complex leasing arrangements/embedded leases"
+                ]
+            },
+            "New Standards Implementation": {
+                "points": [
+                    "Since Ind AS draws its dynamism from IFRS, both IFRS and Ind AS are perpetually changing GAAPs.",
+                    "Key changes due to new accounting standards (Ind AS 115, Ind AS 116, IFRS 9, IFRS 15, IFRS 16, ASC 606)",
+                    "What do we deliver?",
+                    "Comprehensive Financial Statement Disclosure and Updates",
+                    "Seamless Implementation Assistance",
+                    "Strategic Sustainable Reporting Process Design",
+                    "In-Depth Diagnostic Analysis",
+                    "Efficient Automated Template Development"
+                ]
+            },
+            "GAAP Conversion": {
+                "points": [
+                    "It becomes more and more important to follow internationally accepted financial reporting standards.",
+                    "When is a conversion to GAAP required?",
+                    "Acquisitions made internationally that necessitate the conversion of the acquiree's financial records to GAAP",
+                    "Activities to raise equity or loans in a separate market",
+                    "Important issues with GAAP conversion:",
+                    "Managing the diversity of GAAPs for statutory/group reporting and tax compliance"
+                ]
+            },
+            "Group Consolidation": {
+                "points": [
+                    "Navigating the consolidation process poses numerous challenges, especially when dealing with diverse reporting formats and methodologies employed by various group entities.",
+                    "When might your organization require our group consolidation services?",
+                    "Post-Acquisition Consolidation: Our services become invaluable when acquisitions necessitate the preparation of consolidated financial statements.",
+                    "Diverse Geographic GAAPs: Managing a multitude of GAAPs across different geographic locations is a vital aspect of consolidation.",
+                    "Non-Standard Chart of Accounts: When various group companies utilize non-standard charts of accounts, our expertise comes into play.",
+                    "Complex Intercompany Transactions: If a high volume of intercompany transactions demands meticulous matching and gap-plugging, our services provide the necessary support.",
+                    "Standardized Reporting Templates: We deliver standardized reporting templates designed to accommodate all group companies.",
+                    "Harmonized Chart of Accounts: We ensure alignment across the chart of accounts (CoA) to facilitate smooth consolidation."
+                ]
             }
         }
     }
-    
 ]
