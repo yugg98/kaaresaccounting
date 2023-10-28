@@ -17,7 +17,7 @@ const Cards = () => {
           </p>
         </div>
         <div className="border rounded-3xl p-8 max-w-md my-4 bg-white mx-auto">
-          <img src="/images/about/img1.png" />
+          <img src="/images/mission.svg" />
           <h2 className="font-dmserif text-4xl font-lg tracking-tight mt-8 sm:text-6xl">
             Our Mission
           </h2>
@@ -28,7 +28,7 @@ const Cards = () => {
           </p>
         </div>
         <div className="border rounded-3xl p-8 max-w-md my-4 bg-white mx-auto">
-          <img src="/images/about/img1.png" />
+          <img src="/images/team.svg" />
           <h2 className="font-dmserif text-4xl font-lg tracking-tight mt-8 sm:text-6xl">
             Our Team
           </h2>
@@ -39,7 +39,7 @@ const Cards = () => {
           </p>
         </div>
         <div className="border rounded-3xl p-8 max-w-md my-4 bg-white mx-auto">
-          <img src="/images/about/img1.png" />
+          <img src="/images/values.svg" />
           <h2 className="font-dmserif text-4xl font-lg tracking-tight mt-8 sm:text-6xl">
             Our Values
           </h2>

@@ -290,83 +290,67 @@
         ]
     },
     {
-        "desc": "As companies in India gradually transition to Ind AS and globally to IFRS, the dynamic nature of these evolving Generally Accepted Accounting Principles (GAAPs) poses unique challenges in financial reporting. At KAARES, our team of seasoned professionals steps in to alleviate the burden on in-house finance teams by meticulously preparing compliant financial statements. Welcome to KAARES, a distinguished firm specializing in providing top-tier financial and accounting solutions to foreign clients. With a wealth of experience and a dedication to excellence, we offer a wide array of services tailored to meet the unique needs of businesses operating on the global stage.",
+        "name": "Compliance and Secretarial Services",
+        "slug": "compliance_secretarial_services",
+        "desc": "At KAARES, we offer comprehensive solutions aimed at the complete overhaul of your organization's compliance machinery. This encompasses the evaluation of statutory obligations, implementation of robust governance controls, and ensuring timely reporting and ongoing support. We specialize in various domains including corporate secretarial compliance, FEMA, FCRA, and Labour law, providing you with a one-stop solution for all your compliance needs.",
         "features": [
-            {
-                "icon": "",
-                "text": "Sophisticated Accounting Scenarios"
-            },
-            {
-                "icon": "",
-                "text": "Accounting Advice Changes"
-            },
-            {
-                "icon": "",
-                "text": "Occasional Reporting Needs"
-            },
-            {
-                "icon": "",
-                "text": "Adapting to Rapid Changes"
-            },
-            {
-                "icon": "",
-                "text": "Complex Group Structures"
-            }
+          {
+            "icon": "",
+            "text": "Statutory Obligation Evaluation"
+          },
+          {
+            "icon": "",
+            "text": "Governance Controls Monitoring"
+          },
+          {
+            "icon": "",
+            "text": "Comprehensive Reporting and Support"
+          },
+          {
+            "icon": "",
+            "text": "Expertise in Corporate Secretarial Compliance, FEMA, FCRA, and Labour Law"
+          }
         ],
-        "slug": "financial_reporting_advisory_services",
-        "featuresdesc": "At KAARES, we understand the importance of financial excellence, growth management, and compliance in today's dynamic business landscape. Our team of seasoned professionals is dedicated to delivering excellence at every step, providing tailored solutions that meet the unique needs of businesses operating on the global stage. Contact us today to discover how we can be your trusted partner in achieving financial success.",
-        "otherservices": {
-            "Financial Statement Preparation Services": {
-                "points": [
-                    "Defining Key Milestones: We establish clear milestones to guide the financial reporting process effectively.",
-                    "Ready-to-Use Templates: Our team prepares user-friendly templates that streamline the reporting process.",
-                    "Chart of Accounts Mapping: We meticulously map the chart of accounts to ensure accuracy and consistency.",
-                    "Structuring Financial Statements: This includes the creation of financial statement structures, including consolidation workings.",
-                    "Structured Templates: We provide structured templates for GAAP adjustments and major accounting computations.",
-                    "Financial Reporting Templates: Our comprehensive financial reporting templates enable efficient and compliant financial statement preparation.",
-                    "We are committed to simplifying financial statement preparation, enabling your organization to meet reporting requirements with precision and ease. Our expertise ensures that your financial statements not only adhere to evolving GAAPs but also provide valuable insights for strategic decision-making. Let us be your trusted partner in financial reporting excellence."
-                ]
-            },
-            "Transaction Accounting": {
-                "points": [
-                    "The area of complex financial transactions frequently calls for rigorous study, use of GAAP standards, and use of judgment.",
-                    "Examples of complex transactions are: Revenue recognition, assessment of performance obligations, Business combinations, Service concession arrangements, Recognition of deferred taxes, Financial instruments, Shareholder agreements with investors, Power purchase agreements, Joint venture agreements, ESOP schemes, Complex leasing arrangements/embedded leases"
-                ]
-            },
-            "New Standards Implementation": {
-                "points": [
-                    "Since Ind AS draws its dynamism from IFRS, both IFRS and Ind AS are perpetually changing GAAPs.",
-                    "Key changes due to new accounting standards (Ind AS 115, Ind AS 116, IFRS 9, IFRS 15, IFRS 16, ASC 606)",
-                    "What do we deliver?",
-                    "Comprehensive Financial Statement Disclosure and Updates",
-                    "Seamless Implementation Assistance",
-                    "Strategic Sustainable Reporting Process Design",
-                    "In-Depth Diagnostic Analysis",
-                    "Efficient Automated Template Development"
-                ]
-            },
-            "GAAP Conversion": {
-                "points": [
-                    "It becomes more and more important to follow internationally accepted financial reporting standards.",
-                    "When is a conversion to GAAP required?",
-                    "Acquisitions made internationally that necessitate the conversion of the acquiree's financial records to GAAP",
-                    "Activities to raise equity or loans in a separate market",
-                    "Important issues with GAAP conversion:",
-                    "Managing the diversity of GAAPs for statutory/group reporting and tax compliance"
-                ]
-            },
-            "Group Consolidation": {
-                "points": [
-                    "Navigating the consolidation process poses numerous challenges, especially when dealing with diverse reporting formats and methodologies employed by various group entities.",
-                    "When might your organization require our group consolidation services?",
-                    "Post-Acquisition Consolidation: Our services become invaluable when acquisitions necessitate the preparation of consolidated financial statements.",
-                    "Diverse Geographic GAAPs: Managing a multitude of GAAPs across different geographic locations is a vital aspect of consolidation.",
-                    "Non-Standard Chart of Accounts: When various group companies utilize non-standard charts of accounts, our expertise comes into play.",
-                    "Complex Intercompany Transactions: If a high volume of intercompany transactions demands meticulous matching and gap-plugging, our services provide the necessary support.",
-                    "Standardized Reporting Templates: We deliver standardized reporting templates designed to accommodate all group companies.",
-                    "Harmonized Chart of Accounts: We ensure alignment across the chart of accounts (CoA) to facilitate smooth consolidation."
-                ]
-            }
-        }
-    }
+        "featuresdesc": "Our specialists integrate seamlessly with your team, ensuring flawless secretarial compliances and aiding you in achieving your strategic objectives.",
+        "otherservices": [
+          {
+            "title": "Corporate Secretarial Services",
+            "points": [
+              "Maintenance of statutory registers, meeting preparations, and filing of financial statements",
+              "Assistance with share allotment, certificate services, and filing various forms like DPT-3, BEN-2",
+              "Handling of MSME Registration, share capital advisory, deposit, charges, and winding up services",
+              "Compounding of offences and support for Employee Stock Option Scheme/ESOPs preparation and filing"
+            ]
+          },
+          {
+            "title": "Foreign Exchange Management Act (FEMA) Services",
+            "points": [
+              "Setting up and winding up of LO/BO/PO, regulatory advisory, and compliance",
+              "Document drafting, obtaining approvals for direct investments, and conducting due diligence",
+              "Obtaining specific approvals as required under FEMA regulations"
+            ]
+          },
+          {
+            "title": "Foreign Contribution (Regulation) Act Services",
+            "points": [
+              "Handling of FCRA annual returns, advisory on provisions, registration/renewal, and prior approvals",
+              "Management of foreign contribution utilization and other related applications and approvals"
+            ]
+          },
+          {
+            "title": "Documentation and Drafting Services",
+            "points": [
+              "Preparation of statutory documents, service agreements, deeds, and other contracts",
+              "Drafting shareholders or share purchase agreements, joint venture, and ECB agreements"
+            ]
+          },
+          {
+            "title": "India Entry Entity Set-Up",
+            "points": [
+              "Provision of incorporation services, set-up of liaison or project offices, and advisory services"
+            ]
+          }
+        ]
+      }
+      
 ]

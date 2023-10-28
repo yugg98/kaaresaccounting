@@ -1,102 +1,7 @@
 [
     {
-        "name": "CFO Services/ Finance and Accounts Outsourcing",
-        "otherservice": [
-            {
-                "name": "CFO Services and Interim Financial Controller"
-            },
-            {
-                "name": "Finance and Accounting Functions"
-            },
-            {
-                "name": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)"
-            }
-        ]
-    },
-    {
-        "name": "Back-office operations (BOO)",
-        "otherservice": [
-            {
-                "name": "Solutions for global compliance and reporting"
-            },
-            {
-                "name": "Outsourcing business processes and shared service centers"
-            },
-            {
-                "name": "About Global compliance and Reporting solutions"
-            }
-        ]
-    },
-    {
-        "name": "Our Methodology",
-        "otherservice": [
-            {
-                "name": "Services GCRS"
-            },
-            {
-                "name": "Unlocking the Potential with Kaares"
-            }
-        ]
-    },
-    {
-        "name": "Financial modelling",
-        "otherservice": [
-            {
-                "name": "Comprehensive Financial Modeling"
-            },
-            {
-                "name": "DCF Modelling"
-            },
-            {
-                "name": "M&A Modelling"
-            },
-            {
-                "name": "LBO Modelling"
-            }
-        ]
-    },
-    {
-        "name": "Financial Reporting Advisory Services",
-        "otherservice": [
-            {
-                "name": "Financial Statement Preparation Services"
-            },
-            {
-                "name": "Transaction accounting"
-            },
-            {
-                "name": "New standards implementation"
-            },
-            {
-                "name": "GAAP"
-            },
-            {
-                "name": "Group consolidation"
-            }
-        ]
-    },
-    {
-        "name": "Compliance and secretarial services",
-        "otherservice": [
-            {
-                "name": "Foreign Exchange Management Act (FEMA) Services"
-            },
-            {
-                "name": "Foreign Contribution (Regulation) Act Services"
-            },
-            {
-                "name": "Documentation and drafting Services"
-            },
-            {
-                "name": "Corporate Secretarial Services"
-            },
-            {
-                "name": "India entry entity set up"
-            }
-        ]
-    },
-    {
         "name": "Business Registration",
+        "slug": "business_registration",
         "otherservice": [
             {
                 "name": "Startup India and MSME Registration"
@@ -106,17 +11,15 @@
             },
             {
                 "name": "GST Registration"
-            }
-        ]
-    },
-    {
-        "name": "Limited Liability Partnership",
-        "otherservice": [
+            },
+            {
+                "name": "Limited Liability Partnership"
+            },
             {
                 "name": "HUF, OPC and Societies Registration"
             },
             {
-                "name": "NPO, Trust, Section 8 and Nidhi Company Reg"
+                "name": "NPO, Trust, Section 8 and Nidhi Company Registration"
             },
             {
                 "name": "Branch and Liaison Office in India"
@@ -131,22 +34,29 @@
     },
     {
         "name": "Accounting & Bookkeeping",
+        "slug": "accounting_bookkeeping",
         "otherservice": [
             {
                 "name": "Startup / MSME Service"
             },
             {
                 "name": "Accounting system setup and transition"
-            },
-            {
-                "name": "Auditing & Assurance"
-            },
+            }
+        ]
+    },
+    {
+        "name": "Auditing & Assurance",
+        "slug": "auditing_assurance",
+        "otherservice": [
             {
                 "name": "Financial Statement Audit and Attestation Services"
-            },
-            {
-                "name": "Risk Advisory"
-            },
+            }
+        ]
+    },
+    {
+        "name": "Risk Advisory",
+        "slug": "risk_advisory",
+        "otherservice": [
             {
                 "name": "Risk Advisory / Internal Audit"
             },
@@ -170,10 +80,13 @@
             },
             {
                 "name": "CSR Audit"
-            },
-            {
-                "name": "Direct Taxation"
-            },
+            }
+        ]
+    },
+    {
+        "name": "Direct Taxation",
+        "slug": "direct_taxation",
+        "otherservice": [
             {
                 "name": "Domestic Tax"
             },
@@ -191,10 +104,13 @@
             },
             {
                 "name": "DTAA (Double Taxation Avoidance Agreement)"
-            },
-            {
-                "name": "Indirect Taxation"
-            },
+            }
+        ]
+    },
+    {
+        "name": "Indirect Taxation",
+        "slug": "indirect_taxation",
+        "otherservice": [
             {
                 "name": "GST (Goods & Services) Tax"
             },
@@ -212,7 +128,13 @@
             },
             {
                 "name": "Miscellaneous"
-            },
+            }
+        ]
+    },
+    {
+        "name": "Business Valuation",
+        "slug": "business_valuation",
+        "otherservice": [
             {
                 "name": "Business Valuation"
             },

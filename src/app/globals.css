@@ -5,3 +5,14 @@
 body{
   background: #FBFBF5;
 }
+.grid1{
+  grid-template-rows: repeat(auto-fit, minmax(min-content,min-content));
+
+}
+.grid-item {
+  padding: 32px; /* equivalent to Tailwind's p-8 */
+  border-bottom: 1px solid #e5e7eb; /* equivalent to Tailwind's border-b */
+  border-right: 1px solid #e5e7eb; /* equivalent to Tailwind's border-r */
+  display: flex;
+  flex-direction: column;
+}

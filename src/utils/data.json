@@ -87,6 +87,7 @@
     },
     {
         "name": "Compliance and secretarial services",
+        "slug":"compliance_secretarial_services",
         "otherservice": [
             {
                 "name": "Foreign Exchange Management Act (FEMA) Services"

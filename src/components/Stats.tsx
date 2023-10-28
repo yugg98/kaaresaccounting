@@ -1,7 +1,7 @@
 export default function Stats({ data }: any) {
   return (
     <div className="bg-[#1E2224] py-24 sm:py-24">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-6xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <div className="text-left">
             <h2 className="text-xl  font-semibold tracking-tight text-white ">
