@@ -74,7 +74,7 @@ const faqs = [
               Can’t find the answer you’re looking for? Reach out to our{" "}
               <Link
                 href="#"
-                className="font-semibold text-indigo-600 hover:text-indigo-500"
+                className="font-semibold text-black hover:text-gray-800"
               >
                 customer support
               </Link>{" "}
