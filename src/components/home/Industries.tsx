@@ -12,7 +12,7 @@ const Industries = () => {
   return (
     <div id="industries">
       <Container className="border-x !px-0">
-        <div className="grid md:grid-cols-2 grid-row-reverse">
+        <div className="grid lg:grid-cols-2 grid-row-reverse">
           <div>
             <div className="grid grid-cols-3 overflow-hidden">
               <div>

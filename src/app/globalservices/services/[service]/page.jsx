@@ -11,6 +11,7 @@ import htmlReactParser from "html-react-parser";
 import jdata from "@/utils/globalpage.json";
 import gdata from "@/utils/data.json";
 import Loader from "@/components/Loader";
+import LeadForm from "@/components/LeadForm";
 
 const Page = ({ params }) => {
   const [data, setData] = useState({});
@@ -76,7 +77,7 @@ const Page = ({ params }) => {
             </Container>
           </div>
           <Container className="border-x border-b ">
-            <div className="grid grid-cols-2 ">
+            <div className="grid grid-cols-1 md:grid-cols-2 ">
               <div className="border-r py-12">
                 {gdata.map((item, index) => (
                   <div key={index} className="flex my-2 items-center ">
@@ -100,7 +101,9 @@ const Page = ({ params }) => {
                   </div>
                 ))}
               </div>
-              <div></div>
+              <div>
+            <LeadForm />
+          </div>
             </div>
           </Container>
           <Cta />

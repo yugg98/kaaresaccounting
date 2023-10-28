@@ -15,8 +15,8 @@ const Page = () => {
   console.log(data);
   return (
     <div>
-      <Container className="border-x !px-0  sm:px-6">
-        <div className="md:mx-auto max-w-5xl text-center py-12 sm:px-0 mx-12 ">
+      <Container className="border-x !px-0 sm:px-6">
+        <div className="md:mx-auto max-w-5xl md:text-center py-12 px-4">
           <h2 className="text-3xl font-lg tracking-tight font-dmserif text-black sm:text-5xl">
             Compliance-driven strategies for sustainable growth
           </h2>
@@ -40,7 +40,7 @@ const Page = () => {
             {data
               .filter((_, index) => index % 2 === 0)
               .map((e, index) => (
-                <div key={index} className="p-8 border-b border-r ">
+                <div key={index} className="p-6 md:p-8 border-b border-r ">
                   <p className="text-xl font-semibold mb-4">{e.name}</p>
                   {/* <p className="text-gray-600 mt-1">
                 Maintenance of the accounts and preparation of Financial
@@ -82,7 +82,7 @@ const Page = () => {
             {data
               .filter((_, index) => index % 2 != 0)
               .map((e, index) => (
-                <div key={index} className="p-8  border-b border-r  ">
+                <div key={index} className="p-6 md:p-8  border-b border-r  ">
                   <p className="font-semibold mb-4 text-xl">
                     {/* <span className="mr-2 text-sm text-gray-500">
                       0{index + 1}

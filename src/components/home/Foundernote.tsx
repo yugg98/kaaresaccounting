@@ -8,7 +8,7 @@ export default function FounderNote() {
     <Container className="border-x bg-[url('/images/bg/foundernote.svg')] bg-cover border-y px-6 py-24 sm:py-32 lg:px-8 ">
       <div className="mx-auto max-w-4xl">
         <figure className="mt-10">
-          <p className="text-center tracking-wide max-w-4xl mx-auto leading-relaxed text-4xl font-semibold my-4 font-dmserif text-gray-900 sm:text-5xl">
+          <p className="text-center tracking-wide max-w-4xl mx-auto text-4xl font-semibold my-4 font-dmserif text-gray-900 sm:text-5xl">
             We believe in working as a partner with our clients
           </p>
           <blockquote className="text-center text-xl mx-auto max-w-3xl text-gray-600 sm:text-lg">
@@ -39,7 +39,7 @@ export default function FounderNote() {
             </div>
           </div>
         </figure>
-        <div className="flex justify-center items-center mt-10">
+        <div className="flex flex-col md:flex-row justify-center items-center mt-10">
           <Link
             href="/aboutus"
             className="rounded-full max-w-xs hover:scale-95 transition-all duration-150 ease-in-out font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 flex my-6 "
@@ -65,7 +65,6 @@ export default function FounderNote() {
         <p className="text-center mt-16 text-gray-600">
           Global software and expertise
         </p>
-
         <div className=" py-8 sm:py-12">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="-mx-6 grid grid-cols-2 gap-8 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-4">
@@ -97,7 +96,9 @@ export default function FounderNote() {
                   alt="Level"
                 />
               </div>
-              <div className=" mt-4 flex flex-shrink-0 flex-grow max-w-screen justify-center lg:ml-4 lg:flex-grow-0">
+            </div>
+            <div className="flex justify-center flex-wrap items-center space-x-8 md:space-x-14 mt-10">
+            <div className=" mt-4 flex flex-shrink-0 flex-grow max-w-screen justify-center lg:ml-4 lg:flex-grow-0">
                 <img
                   className="h-10 "
                   src="/images/logo/logo5.svg"
@@ -118,7 +119,7 @@ export default function FounderNote() {
                   alt="Level"
                 />
               </div>
-            </div>
+              </div>
           </div>
         </div>
       </div>

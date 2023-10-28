@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="border-b">
       <Container className="border-x !px-0">
-        <div className="grid md:grid-cols-2 px-8 border-b">
+        <div className="grid md:grid-cols-2 px-4  md:px-8 border-b">
           <div className="flex flex-col justify-center my-12 mx-4">
             <div>
             <p className="md:text-6xl text-4xl font-dmserif">
@@ -34,13 +34,13 @@ const Hero = () => {
           </div>
         </div>
         <div className=" ">
-          <div className="mx-auto px-6 py-8 lg:px-8">
-            <div className="flex md:flex-row flex-col">
+          <div className="mx-auto md:px-8 py-8">
+            <div className="flex lg:flex-row items-center overflow-hidden flex-col">
               <h2 className="!max-w-md text-center text-lg tracking-tight text-gray-600 lg:max-w-[14rem] lg:text-left">
                 Software and tools we use
               </h2>
-              <div className="mt-8 flow-root self-center lg:mt-0">
-                <div className="-ml-8 -mt-4 flex flex-wrap justify-between lg:ml-4">
+              <div className="mt-8 flow-root self-center overflow-hidden lg:mt-0">
+                <div className="-ml-8 -mt-4 flex overflow-hidden justify-between lg:ml-4">
                   <Marquee>
                     <div className="ml-8 mt-4 flex max-w-screen flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
                       <img

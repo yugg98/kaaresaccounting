@@ -5,7 +5,7 @@ const Cards = () => {
   return (
     <Container className="border border-y-0">
       <div className="grid md:grid-cols-2 grid-rows-2 gap-8 py-20">
-        <div className="border rounded-3xl p-8 my-4 bg-white mx-auto">
+        <div className="border rounded-3xl p-8 my-4 bg-white hover:shadow-md transition-all duration-150 ease-in-out cursor-pointer hover:rounded-2xl mx-auto">
           <img src="/images/about/img1.png" />
           <h2 className="font-dmserif text-4xl font-lg tracking-tight mt-8 sm:text-6xl">
             Our Vision
@@ -16,7 +16,7 @@ const Cards = () => {
             serve our clients with best financial solutions.
           </p>
         </div>
-        <div className="border rounded-3xl p-8 my-4 bg-white mx-auto">
+        <div className="border rounded-3xl p-8 my-4 bg-white hover:shadow-md transition-all duration-150 ease-in-out cursor-pointer hover:rounded-2xl mx-auto">
           <img src="/images/mission.svg" />
           <h2 className="font-dmserif text-4xl font-lg tracking-tight mt-8 sm:text-6xl">
             Our Mission
@@ -27,7 +27,7 @@ const Cards = () => {
             compliances.
           </p>
         </div>
-        <div className="border rounded-3xl p-8 my-4 bg-white mx-auto">
+        <div className="border rounded-3xl p-8 my-4 bg-white hover:shadow-md transition-all duration-150 ease-in-out cursor-pointer hover:rounded-2xl mx-auto">
           <img src="/images/team.svg" />
           <h2 className="font-dmserif text-4xl font-lg tracking-tight mt-8 sm:text-6xl">
             Our Team
@@ -38,7 +38,7 @@ const Cards = () => {
             ensuring that your business remains compliant and financially sound.
           </p>
         </div>
-        <div className="border rounded-3xl p-8 my-4 bg-white mx-auto">
+        <div className="border rounded-3xl p-8 my-4 bg-white hover:shadow-md transition-all duration-150 ease-in-out cursor-pointer hover:rounded-2xl mx-auto">
           <img src="/images/values.svg" />
           <h2 className="font-dmserif text-4xl font-lg tracking-tight mt-8 sm:text-6xl">
             Our Values

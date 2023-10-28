@@ -74,7 +74,7 @@ export default function Cta() {
                 Let us take care of your accounting, tax, and auditing needs so that you can focus on growing your business with confidence.
                 </p>
                 <Link
-            href="/aboutus"
+            href="/contactus"
             className="rounded-full inline-block max-w-xs hover:scale-95 duration-150 ease-in-out transition-all font-semibold py-3 px-8 bg-white text-black hover:bg-white/90  my-6 "
           >
             Contact us

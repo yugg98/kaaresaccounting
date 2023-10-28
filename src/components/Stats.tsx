@@ -8,9 +8,9 @@ export default function Stats({ data }: any) {
               Trusted by creators worldwide
             </h2>
           </div>
-          <dl className="mt-8 flex mx-auto overflow-hidden rounded-2xl text-center ">
+          <dl className="mt-8 flex flex-col md:flex-row mx-auto overflow-hidden rounded-2xl text-center ">
             {data.features?.map((stat: any) => (
-              <div key={stat.id} className="flex flex-col  p-8">
+              <div key={stat.id} className="flex flex-col p-8">
                 <img src="/headphone.svg" className="w-8 h-8 mx-auto" />
                 <dt className="text-lg mt-4 font-semibold leading-6 text-gray-300">
                   {stat.text}
