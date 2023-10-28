@@ -1,416 +1,417 @@
 [
-    {
-        "name": "Business Registration",
-        "slug": "business_registration",
-        "desc": "Kares Consultancy is your dedicated hub for accessing dependable and budget-friendly business registration services. India boasts a diverse landscape of business structures, which can often leave entrepreneurs in a state of uncertainty when it comes to choosing the ideal one. However, with Kares at your side, such concerns become a thing of the past. We pride ourselves on comprehending your unique requirements and your long-term aspirations. Our team is dedicated to offering expert advice, ensuring you select the business structure that perfectly aligns with your vision. Whether you are embarking on a new business venture or looking to streamline an existing one, our tailored solutions are designed to simplify the complexities of business registration in India.",
-        "features": [
-            {
-                "icon": "",
-                "text": "Streamlined Registration"
-            },
-            {
-                "icon": "",
-                "text": "Dedicated Advisor"
-            },
-            {
-                "icon": "",
-                "text": "Regulatory Insights"
-            },
-            {
-                "icon": "",
-                "text": "Legal Expertise"
-            }
-        ],
-        "featuresdesc": "Collaborate with Kares Consultancy today, and let us chart the course to a successful registration journey for your business. Your ambitions are our commitment.",
-        "otherservices": [
-            {
-                "title": "Business Registration Services",
-                "points": [
-                    "Startup and MSME Registration",
-                    "Private Limited Company",
-                    "Public Limited Company",
-                    "Partnership Registration",
-                    "Limited Liability Partnership",
-                    "One Person Company (OPC)",
-                    "Societies Registration",
-                    "Hindu Undivided Family (HUF)",
-                    "NPO Registration",
-                    "Trust",
-                    "Section 8 Company",
-                    "Nidhi Company",
-                    "Indian Subsidiary",
-                    "Joint Venture",
-                    "Branch Office in India",
-                    "Liaison Office in India"
-                ]
-            },
-            {
-                "title": "Other Registration Services",
-                "points": [
-                    "Startup India Registration",
-                    "GST Registration",
-                    "MSME Registration",
-                    "FCRA Registration",
-                    "Trademark Registration",
-                    "Import Export Code",
-                    "EPF Registration",
-                    "ESI Registration"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Accounting & Bookkeeping",
-        "slug": "accounting_bookkeeping",
-        "desc": "Accounting now plays more than just the conventional roles of recording transactions and creating financial statements in the ever-changing world of business. It has become a potent instrument for producing insightful and in-depth business analyses. At Kares, we welcome this change and provide a comprehensive method of financial management. We offer more than just standard bookkeeping and accounting. We thoroughly examine your financial environment to find any potential leaks and offer workable solutions to close them.",
-        "features": [
-            {
-                "icon": "",
-                "text": "Timely Accounts"
-            },
-            {
-                "icon": "",
-                "text": "Cost Saving analysis"
-            },
-            {
-                "icon": "",
-                "text": "Revenue leakage identification"
-            },
-            {
-                "icon": "",
-                "text": "Software of your choice"
-            }
-        ],
-        "featuresdesc": "We offer an integrated worldwide service through a single point of contact, functioning as an extension of your team. Our objective is to ensure that we are in conformity with ever-changing regulatory standards. We at Kaares see accounting as a dynamic instrument for improving businesses. Beyond the numbers, we find areas for financial optimization to ensure that your company is prepared for expansion and resiliency in the always shifting corporate landscape.",
-        "otherservices": [
-            {
-                "title": "Our Services",
-                "points": [
-                    "Startup Service",
-                    "Best Software Advice: Depending upon your business model, we suggest you best cost effective software for your startup",
-                    "Accounting system setup: To provide flawless financial administration, we specialise in creating accounting systems that are adapted to your business needs.",
-                    "Timely Financial Statements and Reviews: To give you precise financial insights, we meticulously create and evaluate monthly, quarterly, and year-end financial statements.",
-                    "Cost Saving Guidance: To give startups a proper specialised guidance on cost saving opportunities in their accounts",
-                    "Accounting system setup and transition",
-                    "To provide flawless financial administration, we specialize in creating accounting systems that are adapted to your business needs.",
-                    "To provide transition from one software to another, we provide specialised support and carry out this transition",
-                    "Timely Financial Statements and Reviews - To give you precise financial insights, we meticulously create and evaluate monthly, quarterly, and year-end financial statements.",
-                    "Customized MIS Reports and Chart of Accounts - To perfectly meet your specific needs, we design MIS Reports and alter the Chart of Accounts.",
-                    "Standard Operating Procedures Implementation - To ensure efficiency and consistency, we assist with developing and implementing standard operating procedures for accounting and bookkeeping.",
-                    "Accounts Receivable and Payable Management - Your company's cash flow management is optimized by our expertise in handling accounts receivable (AR) and accounts payable (AP).",
-                    "Bank and Credit Card Reconciliation - We precisely classify expenses while methodically reconciling bank and credit card information.",
-                    "Audit Support and Guidance - To ensure accuracy and compliance during statutory and internal audits, our staff provides invaluable support.",
-                    "Management of Inventory, Payroll, and Asset Accounts - By skillfully managing inventory, payroll, and asset accounts, we can give clients a thorough financial picture.",
-                    "Tax Compliance and Reporting - We help you comply with tax laws, particularly those relating to advance tax, TDS, and GST, and we produce the relevant reports so that you may fulfill your duties.",
-                    "Strategic Management Reporting and Financial Planning - We offer management reporting, budgeting, financial planning, analysis, and follow-ups as part of our services. We give you the tools you need to make decisions that will advance your company's success."
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Risk Advisory",
-        "slug": "risk_advisory",
-        "desc": "In the current landscape, where corporate governance is under scrutiny by regulators, investors, and independent directors, organizations are compelled to enhance their operational efficiency and risk management. In response, leadership teams are increasingly turning to their internal auditors for both system robustness assurance and risk mitigation strategies.",
-        "features": [
-            {
-                "text": "Our IA team comprises forward-thinking professionals from diverse industries, ensuring that we possess the requisite business insights and best practices to cater to the unique needs of our clients."
-            },
-            {
-                "text": "We specialize in proactive risk mitigation, establishing resilient processes, institutionalizing effective internal controls, harnessing the power of technology, and achieving performance enhancements."
-            },
-            {
-                "text": "With the digital transformation of businesses, the generation of data has surged across all operational domains. In line with this trend, our internal audit (IA) approach seamlessly incorporates data analytics to deliver heightened efficiency, assurance, and value."
-            }
-        ],
-        "featuresdesc": "At KAARES, we provide a comprehensive range of services to assist businesses in managing their risks and ensuring compliance. Our services span across various domains including Risk Advisory / Internal Audit, Risk Assessments / Risk Control Matrix (RCM), SOPs Development, Income Tax / Tax Audit, GST / Goods and Service Tax Audit, Operational Audits, Stock Audit, and CSR Audit.",
-        "otherservices": [
-            {
-                "title": "Our Audit Approach",
-                "points": [
-                    "Audit can be of any type but the underlying purpose of all audits is to check if the business is complying with all the laws and regulations to increase trust of stakeholders on the business.",
-                    "Audit of a business is done for its stakeholders to give them assurance and to maintain their trust in the business.",
-                    "Our professionals, at Kaares, are committed to inspire greater confidence and trust to the stakeholders with a transparency and detailed understanding of the business."
-                ]
-            },
-            {
-                "title": "Corporate Governance Solutions",
-                "points": [
-                    "Internal Audit",
-                    "Internal Auditing",
-                    "Risk Monitoring",
-                    "Risk Evaluation",
-                    "Internal audit transformation",
-                    "IA Compliance",
-                    "Standard Operating procedures",
-                    "SOP Development",
-                    "Authority Matrix",
-                    "Risk Control Matrix",
-                    "SOP Validation",
-                    "Ethical Training",
-                    "IFC / SOX Compliance",
-                    "Designing",
-                    "Risk Assessment",
-                    "Program Management",
-                    "Control testing",
-                    "Documentation",
-                    "Process Improvement and Enhancements",
-                    "Business process improvement",
-                    "Working Capital optimisation",
-                    "Supply chain improvement",
-                    "Improvement in Decision-Making",
-                    "Corporate Governance",
-                    "Customer & Operations Advisory",
-                    "Enterprise risk management",
-                    "Code of conduct for all Board members and senior management",
-                    "Future Proofing"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Business Valuation",
-        "slug": "business_valuation",
-        "desc": "Business valuation is an essential tool to assess both the opportunities as well as opportunity costs in future if the business is planning for future growth or even for transition. It’s required for business owners to evaluate their business as well as for investors who are willing to invest in the business. We, at Kaares, with the help of our specialised professionals provide business valuation to the clients and also guide them on how to improve their valuations in case there are any weaknesses in the business.",
-        "features": [
-            {
-                "text": "Thorough Due Diligence and Structured Evaluation"
-            },
-            {
-                "text": "Competitive Benchmarking"
-            },
-            {
-                "text": "Risk Identification and Mitigation Strategies"
-            },
-            {
-                "text": "Mergers and Acquisitions Support"
-            }
-        ],
-        "featuresdesc": "In the ever-changing global services landscape, it is critical to recognize the actual worth of your company. It gives you the ability to protect your money, take advantage of growth opportunities, and make well-informed decisions. Kares is your reliable travel companion, offering professional business valuation and financial modelling services to steer you in the direction of a profitable future.",
-        "otherservices": [
-            {
-                "title": "Valuation Services",
-                "points": [
-                    "Business Valuation: Determining the economic value of a business or company using various approaches.",
-                    "Valuation for Merger/Acquisition: Determining the fair price or value of the target company using various methods.",
-                    "ESOP Valuation for Accounting or Taxation purposes: Assisting in determining strike prices for ESOPs and carrying out the valuation of options.",
-                    "Intangible Valuation: Determining the value of a company’s intangible assets.",
-                    "Goodwill and Asset Impairment Testing (US GAAP/IFRS/Indian GAAP): Reviewing annual goodwill impairment.",
-                    "Purchase Price Allocation: Assisting in the fair value allocation of assets and liabilities acquired in a transaction.",
-                    "Valuation for regulatory compliances (e.g. Income Tax, Companies Act, FEMA, IFRS, etc): Assisting in assessing the fair value of a business for various regulatory compliances.",
-                    "Valuation for Restructuring/Reorganization: Determining the value of a company or business unit before and after restructuring or reorganization."
-                ]
-            },
-            {
-                "title": "Miscellaneous Valuation Services",
-                "points": [
-                    "Asset valuation for purchase price allocation (US GAAP/IFRS)",
-                    "Brand valuation",
-                    "Forensic valuations",
-                    "Intellectual property valuation",
-                    "Acquisition – Domestic & Cross Border",
-                    "Merger – Assessment of Swap Ratio",
-                    "Fairness Opinion",
-                    "Valuation for spin-off restructuring",
-                    "Share Purchase / Investment / Fund Raising",
-                    "Valuations for Family settlements",
-                    "Carried Interest valuation",
-                    "Derivative Valuation under IFRS"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Audit Services",
-        "slug": "audit_services",
-        "desc": "The purpose of audits, in their various forms, is to ensure that a business meets its legal and regulatory obligations, ultimately enhancing stakeholder confidence. The main objective of business audits is to provide reassurance to stakeholders and maintain their unwavering trust in the company.",
-        "features": [
-          {
-            "icon": "",
-            "text": "Ethical Commitment"
-          },
-          {
-            "icon": "",
-            "text": "Methodical Consistency"
-          },
-          {
-            "icon": "",
-            "text": "Personalised Client Engagement"
-          },
-          {
-            "icon": "",
-            "text": "Sector-Specific Knowledge"
-          },
-          {
-            "icon": "",
-            "text": "Excellent Financial Reporting Guidance Services"
-          },
-          {
-            "icon": "",
-            "text": "Trustworthy Certification Services"
-          }
-        ],
-        "featuresdesc": "At Kaares, our devoted team of professionals is committed to building greater confidence and trust among stakeholders by offering transparency into our business operations. Our worldwide network ensures uniformity in implementation across all locations, using cutting-edge technology and creative ideas to enhance our audit process for the Indian market.",
-        "otherservices": [
-          {
-            "title": "Audit Planning and Execution",
-            "points": [
-              "Pre-engagement activities, including client acceptance and team allocation",
-              "Overall Audit Strategy and Detailed Audit Plan Development",
-              "Risk Assessment, Response, and Reporting using a Risk-Based Audit Approach",
-              "Conducting Process Walkthroughs and Documenting Narratives and Flow Charts",
-              "Analysis of Risks requiring special audit consideration",
-              "Materiality Determination, Significant Account Identification, and Documentation",
-              "Audit Evidence Gathering and Evaluation",
-              "Risk Responses & Audit Procedures Implementation",
-              "Analytical Review for Financial Data and Relationships",
-              "Substantive Procedure and Test of Controls"
-            ]
-          },
-          {
-            "title": "Audit Review & Completion",
-            "points": [
-              "Identify areas of importance and discuss them",
-              "Conduct Post Balance Sheet Review",
-              "Prepare Analytical Review sheet and obtain explanations from the client",
-              "Finalize Financial Statements and send draft to Board of Directors for approval",
-              "Prepare Filing Structure and Procedures, including document linking and stamping"
-            ]
-          }
-        ]
-      },{
-        "name": "Indirect Taxation",
-        "slug": "indirect_taxation",
-        "desc": "Taxation is a complex field and our expert tax professionals aim to simplify all the tax compliances prevailing in India. Every business has a different accompanying tax and regulatory implication which when not complied with could lead to severe consequences in the smooth running of the business. Since tax laws evolve dynamically, our tax professionals continuously interpret the impact of tax incidence and keep clients updated on a real-time basis on how the changes in tax will affect their business and how the same can be mitigated/leveraged. We provide a range of on-going specialised services that makes it possible for the clients to attain a tax-efficient and regulatory-compliant structure with proper tax planning.",
-        "features": [
-          {
-            "text": "Expert Tax Professionals"
-          },
-          {
-            "text": "Real-time Updates on Tax Incidence"
-          },
-          {
-            "text": "Specialized Ongoing Services"
-          },
-          {
-            "text": "Tax-Efficient and Regulatory-Compliant Structure"
-          }
-        ],
-        "featuresdesc": "At Kaares, we strive to offer tailored solutions for every business, ensuring their seamless operation and compliance with all relevant tax laws and regulations. Our commitment is to provide clarity, reduce complexity, and optimize tax obligations.",
-        "otherservices": [
-          {
-            "title": "GST Services",
-            "points": [
-              "Registration and support for new units in India",
-              "Advisory, Compliance, and Litigation Services for GST, Excise Duty, Service Tax & other indirect taxes",
-              "Representation before CBIC, Ministry, Senior Revenue Authorities",
-              "Implementation assistance for indirect tax laws",
-              "Processing of refund",
-              "Export Zone & Export Oriented Unit services",
-              "Support with Foreign Trade Policy"
-            ]
-          },
-          {
-            "title": "Customs Services",
-            "points": [
-              "Import Export Licensing and Customs Filing",
-              "Advisory and Compliance for Deemed Exports",
-              "DGFT Registration and consultancy",
-              "Assistance in Duty Exemption Scheme",
-              "Assistance in EPCG Export promotion and SAD Refund"
-            ]
-          },
-          {
-            "title": "Advisory Services",
-            "points": [
-              "Tax Implication Assessment for Business Transactions",
-              "GST Impact Analysis in Contracts and Agreements",
-              "Optimal Valuation Model for Related Party Transactions",
-              "Review of Legal Positions Under GST Regime",
-              "Anti-Profiteering Rule Compliance",
-              "Customs Act Consultation",
-              "Customs Valuation for Related Party Imports",
-              "Advice on Incentive Schemes Under Foreign Trade Policy"
-            ]
-          },
-          {
-            "title": "Compliance Services",
-            "points": [
-              "Facilitating Registrations Under GST and Other Statutory Law",
-              "Validation of Input Tax Credit Records",
-              "Examination of Periodic Tax Liability Calculations",
-              "Assistance in Periodic Return Preparation and Submission",
-              "Submission of Statutory Applications",
-              "Provision of GSP/ASP Solutions for Compliance Management"
-            ]
-          },
-          {
-            "title": "Litigation Services",
-            "points": [
-              "Support for Appeals Preparation and Submission",
-              "Responses to Notices and Inquiries",
-              "Submission of Advance Rule Applications",
-              "Representation Before Authorities",
-              "Legal Counsel Engagement"
-            ]
-          },
-          {
-            "title": "Miscellaneous Services",
-            "points": [
-              "Support in Crafting and Submitting Representations",
-              "Conducting Due Diligence and Compliance Checks",
-              "Technical Assistance and Representation During Audits",
-              "Facilitating Management and Employees Training"
-            ]
-          }
+  {
+    "name": "Business Registration",
+    "slug": "business_registration",
+    "desc": "Kares Consultancy is your dedicated hub for accessing dependable and budget-friendly business registration services. India boasts a diverse landscape of business structures, which can often leave entrepreneurs in a state of uncertainty when it comes to choosing the ideal one. However, with Kares at your side, such concerns become a thing of the past. We pride ourselves on comprehending your unique requirements and your long-term aspirations. Our team is dedicated to offering expert advice, ensuring you select the business structure that perfectly aligns with your vision. Whether you are embarking on a new business venture or looking to streamline an existing one, our tailored solutions are designed to simplify the complexities of business registration in India.",
+    "features": [
+      {
+        "icon": "",
+        "text": "Streamlined Registration"
+      },
+      {
+        "icon": "",
+        "text": "Dedicated Advisor"
+      },
+      {
+        "icon": "",
+        "text": "Regulatory Insights"
+      },
+      {
+        "icon": "",
+        "text": "Legal Expertise"
+      }
+    ],
+    "featuresdesc": "Collaborate with Kares Consultancy today, and let us chart the course to a successful registration journey for your business. Your ambitions are our commitment.",
+    "otherservices": [
+      {
+        "title": "Business Registration Services",
+        "points": [
+          "Startup and MSME Registration",
+          "Private Limited Company",
+          "Public Limited Company",
+          "Partnership Registration",
+          "Limited Liability Partnership",
+          "One Person Company (OPC)",
+          "Societies Registration",
+          "Hindu Undivided Family (HUF)",
+          "NPO Registration",
+          "Trust",
+          "Section 8 Company",
+          "Nidhi Company",
+          "Indian Subsidiary",
+          "Joint Venture",
+          "Branch Office in India",
+          "Liaison Office in India"
         ]
       },
       {
-        "name": "Tax and Regulatory Services",
-        "slug": "tax_regulatory_services",
-        "desc": "Kaares offers an extensive range of integrated tax and regulatory services tailored to meet the diverse needs of businesses. We empower dynamic organizations in realizing their international aspirations through our deep expertise, rich knowledge, and innovative solutions. The improving economic landscape in India has heightened investor interest in making strategic investments, and our team of professionals is dedicated to supporting firms throughout their entire business lifecycle, addressing various tax and regulatory challenges. Our proactive approach enables companies to seize and capitalize on the opportunities presented to them, ensuring a smoother process even in complex cross-border transactions.",
-        "features": [
-            {
-                "icon": "",
-                "text": "Comprehensive Tax Solutions"
-            },
-            {
-                "icon": "",
-                "text": "International Ambitions Support"
-            },
-            {
-                "icon": "",
-                "text": "Strategic Investment Guidance"
-            },
-            {
-                "icon": "",
-                "text": "Cross-Border Transaction Expertise"
-            }
-        ],
-        "featuresdesc": "At Kaares, we serve a wide array of clients, including large multinational firms, mid-sized businesses, high-net-worth individuals, and young entrepreneurs eager to expand their ventures. Our specialized teams are committed to delivering holistic and highly tax-efficient solutions to meet the unique needs of every client.",
-        "otherservices": [
-            {
-                "title": "Tax Services",
-                "points": [
-                    "Domestic Tax",
-                    "Advisory Services",
-                    "Compliance Services (Filing Returns)",
-                    "Litigation Services",
-                    "Corporate Tax",
-                    "International Tax",
-                    "Transfer Pricing",
-                    "Non-Resident and Expat Taxation",
-                    "DTAA (Double Taxation Avoidance Agreement)"
-                ]
-            },
-            {
-                "title": "Proactive Tax and Regulatory Management",
-                "points": [
-                    "Minimizing Business and Personal Tax Responsibilities",
-                    "Real-Time Updates on Changing Tax Laws",
-                    "Specialized Ongoing Services for Tax-Efficiency",
-                    "Proactive Approach to Seize Business Opportunities"
-                ]
-            }
+        "title": "Other Registration Services",
+        "points": [
+          "Startup India Registration",
+          "GST Registration",
+          "MSME Registration",
+          "FCRA Registration",
+          "Trademark Registration",
+          "Import Export Code",
+          "EPF Registration",
+          "ESI Registration"
         ]
-    } 
+      }
+    ]
+  },
+  {
+    "name": "Accounting & Bookkeeping",
+    "slug": "accounting_bookkeeping",
+    "desc": "Accounting now plays more than just the conventional roles of recording transactions and creating financial statements in the ever-changing world of business. It has become a potent instrument for producing insightful and in-depth business analyses. At Kares, we welcome this change and provide a comprehensive method of financial management. We offer more than just standard bookkeeping and accounting. We thoroughly examine your financial environment to find any potential leaks and offer workable solutions to close them.",
+    "features": [
+      {
+        "icon": "",
+        "text": "Timely Accounts"
+      },
+      {
+        "icon": "",
+        "text": "Cost Saving analysis"
+      },
+      {
+        "icon": "",
+        "text": "Revenue leakage identification"
+      },
+      {
+        "icon": "",
+        "text": "Software of your choice"
+      }
+    ],
+    "featuresdesc": "We offer an integrated worldwide service through a single point of contact, functioning as an extension of your team. Our objective is to ensure that we are in conformity with ever-changing regulatory standards. We at Kaares see accounting as a dynamic instrument for improving businesses. Beyond the numbers, we find areas for financial optimization to ensure that your company is prepared for expansion and resiliency in the always shifting corporate landscape.",
+    "otherservices": [
+      {
+        "title": "Our Services",
+        "points": [
+          "Startup Service",
+          "Best Software Advice: Depending upon your business model, we suggest you best cost effective software for your startup",
+          "Accounting system setup: To provide flawless financial administration, we specialise in creating accounting systems that are adapted to your business needs.",
+          "Timely Financial Statements and Reviews: To give you precise financial insights, we meticulously create and evaluate monthly, quarterly, and year-end financial statements.",
+          "Cost Saving Guidance: To give startups a proper specialised guidance on cost saving opportunities in their accounts",
+          "Accounting system setup and transition",
+          "To provide flawless financial administration, we specialize in creating accounting systems that are adapted to your business needs.",
+          "To provide transition from one software to another, we provide specialised support and carry out this transition",
+          "Timely Financial Statements and Reviews - To give you precise financial insights, we meticulously create and evaluate monthly, quarterly, and year-end financial statements.",
+          "Customized MIS Reports and Chart of Accounts - To perfectly meet your specific needs, we design MIS Reports and alter the Chart of Accounts.",
+          "Standard Operating Procedures Implementation - To ensure efficiency and consistency, we assist with developing and implementing standard operating procedures for accounting and bookkeeping.",
+          "Accounts Receivable and Payable Management - Your company's cash flow management is optimized by our expertise in handling accounts receivable (AR) and accounts payable (AP).",
+          "Bank and Credit Card Reconciliation - We precisely classify expenses while methodically reconciling bank and credit card information.",
+          "Audit Support and Guidance - To ensure accuracy and compliance during statutory and internal audits, our staff provides invaluable support.",
+          "Management of Inventory, Payroll, and Asset Accounts - By skillfully managing inventory, payroll, and asset accounts, we can give clients a thorough financial picture.",
+          "Tax Compliance and Reporting - We help you comply with tax laws, particularly those relating to advance tax, TDS, and GST, and we produce the relevant reports so that you may fulfill your duties.",
+          "Strategic Management Reporting and Financial Planning - We offer management reporting, budgeting, financial planning, analysis, and follow-ups as part of our services. We give you the tools you need to make decisions that will advance your company's success."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Risk Advisory",
+    "slug": "risk_advisory",
+    "desc": "In the current landscape, where corporate governance is under scrutiny by regulators, investors, and independent directors, organizations are compelled to enhance their operational efficiency and risk management. In response, leadership teams are increasingly turning to their internal auditors for both system robustness assurance and risk mitigation strategies.",
+    "features": [
+      {
+        "text": "Our IA team comprises forward-thinking professionals from diverse industries, ensuring that we possess the requisite business insights and best practices to cater to the unique needs of our clients."
+      },
+      {
+        "text": "We specialize in proactive risk mitigation, establishing resilient processes, institutionalizing effective internal controls, harnessing the power of technology, and achieving performance enhancements."
+      },
+      {
+        "text": "With the digital transformation of businesses, the generation of data has surged across all operational domains. In line with this trend, our internal audit (IA) approach seamlessly incorporates data analytics to deliver heightened efficiency, assurance, and value."
+      }
+    ],
+    "featuresdesc": "At KAARES, we provide a comprehensive range of services to assist businesses in managing their risks and ensuring compliance. Our services span across various domains including Risk Advisory / Internal Audit, Risk Assessments / Risk Control Matrix (RCM), SOPs Development, Income Tax / Tax Audit, GST / Goods and Service Tax Audit, Operational Audits, Stock Audit, and CSR Audit.",
+    "otherservices": [
+      {
+        "title": "Our Audit Approach",
+        "points": [
+          "Audit can be of any type but the underlying purpose of all audits is to check if the business is complying with all the laws and regulations to increase trust of stakeholders on the business.",
+          "Audit of a business is done for its stakeholders to give them assurance and to maintain their trust in the business.",
+          "Our professionals, at Kaares, are committed to inspire greater confidence and trust to the stakeholders with a transparency and detailed understanding of the business."
+        ]
+      },
+      {
+        "title": "Corporate Governance Solutions",
+        "points": [
+          "Internal Audit",
+          "Internal Auditing",
+          "Risk Monitoring",
+          "Risk Evaluation",
+          "Internal audit transformation",
+          "IA Compliance",
+          "Standard Operating procedures",
+          "SOP Development",
+          "Authority Matrix",
+          "Risk Control Matrix",
+          "SOP Validation",
+          "Ethical Training",
+          "IFC / SOX Compliance",
+          "Designing",
+          "Risk Assessment",
+          "Program Management",
+          "Control testing",
+          "Documentation",
+          "Process Improvement and Enhancements",
+          "Business process improvement",
+          "Working Capital optimisation",
+          "Supply chain improvement",
+          "Improvement in Decision-Making",
+          "Corporate Governance",
+          "Customer & Operations Advisory",
+          "Enterprise risk management",
+          "Code of conduct for all Board members and senior management",
+          "Future Proofing"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Business Valuation",
+    "slug": "business_valuation",
+    "desc": "Business valuation is an essential tool to assess both the opportunities as well as opportunity costs in future if the business is planning for future growth or even for transition. It’s required for business owners to evaluate their business as well as for investors who are willing to invest in the business. We, at Kaares, with the help of our specialised professionals provide business valuation to the clients and also guide them on how to improve their valuations in case there are any weaknesses in the business.",
+    "features": [
+      {
+        "text": "Thorough Due Diligence and Structured Evaluation"
+      },
+      {
+        "text": "Competitive Benchmarking"
+      },
+      {
+        "text": "Risk Identification and Mitigation Strategies"
+      },
+      {
+        "text": "Mergers and Acquisitions Support"
+      }
+    ],
+    "featuresdesc": "In the ever-changing global services landscape, it is critical to recognize the actual worth of your company. It gives you the ability to protect your money, take advantage of growth opportunities, and make well-informed decisions. Kares is your reliable travel companion, offering professional business valuation and financial modelling services to steer you in the direction of a profitable future.",
+    "otherservices": [
+      {
+        "title": "Valuation Services",
+        "points": [
+          "Business Valuation: Determining the economic value of a business or company using various approaches.",
+          "Valuation for Merger/Acquisition: Determining the fair price or value of the target company using various methods.",
+          "ESOP Valuation for Accounting or Taxation purposes: Assisting in determining strike prices for ESOPs and carrying out the valuation of options.",
+          "Intangible Valuation: Determining the value of a company’s intangible assets.",
+          "Goodwill and Asset Impairment Testing (US GAAP/IFRS/Indian GAAP): Reviewing annual goodwill impairment.",
+          "Purchase Price Allocation: Assisting in the fair value allocation of assets and liabilities acquired in a transaction.",
+          "Valuation for regulatory compliances (e.g. Income Tax, Companies Act, FEMA, IFRS, etc): Assisting in assessing the fair value of a business for various regulatory compliances.",
+          "Valuation for Restructuring/Reorganization: Determining the value of a company or business unit before and after restructuring or reorganization."
+        ]
+      },
+      {
+        "title": "Miscellaneous Valuation Services",
+        "points": [
+          "Asset valuation for purchase price allocation (US GAAP/IFRS)",
+          "Brand valuation",
+          "Forensic valuations",
+          "Intellectual property valuation",
+          "Acquisition – Domestic & Cross Border",
+          "Merger – Assessment of Swap Ratio",
+          "Fairness Opinion",
+          "Valuation for spin-off restructuring",
+          "Share Purchase / Investment / Fund Raising",
+          "Valuations for Family settlements",
+          "Carried Interest valuation",
+          "Derivative Valuation under IFRS"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Audit Services",
+    "slug": "audit_services",
+    "desc": "The purpose of audits, in their various forms, is to ensure that a business meets its legal and regulatory obligations, ultimately enhancing stakeholder confidence. The main objective of business audits is to provide reassurance to stakeholders and maintain their unwavering trust in the company.",
+    "features": [
+      {
+        "icon": "",
+        "text": "Ethical Commitment"
+      },
+      {
+        "icon": "",
+        "text": "Methodical Consistency"
+      },
+      {
+        "icon": "",
+        "text": "Personalised Client Engagement"
+      },
+      {
+        "icon": "",
+        "text": "Sector-Specific Knowledge"
+      },
+      {
+        "icon": "",
+        "text": "Excellent Financial Reporting Guidance Services"
+      },
+      {
+        "icon": "",
+        "text": "Trustworthy Certification Services"
+      }
+    ],
+    "featuresdesc": "At Kaares, our devoted team of professionals is committed to building greater confidence and trust among stakeholders by offering transparency into our business operations. Our worldwide network ensures uniformity in implementation across all locations, using cutting-edge technology and creative ideas to enhance our audit process for the Indian market.",
+    "otherservices": [
+      {
+        "title": "Audit Planning and Execution",
+        "points": [
+          "Pre-engagement activities, including client acceptance and team allocation",
+          "Overall Audit Strategy and Detailed Audit Plan Development",
+          "Risk Assessment, Response, and Reporting using a Risk-Based Audit Approach",
+          "Conducting Process Walkthroughs and Documenting Narratives and Flow Charts",
+          "Analysis of Risks requiring special audit consideration",
+          "Materiality Determination, Significant Account Identification, and Documentation",
+          "Audit Evidence Gathering and Evaluation",
+          "Risk Responses & Audit Procedures Implementation",
+          "Analytical Review for Financial Data and Relationships",
+          "Substantive Procedure and Test of Controls"
+        ]
+      },
+      {
+        "title": "Audit Review & Completion",
+        "points": [
+          "Identify areas of importance and discuss them",
+          "Conduct Post Balance Sheet Review",
+          "Prepare Analytical Review sheet and obtain explanations from the client",
+          "Finalize Financial Statements and send draft to Board of Directors for approval",
+          "Prepare Filing Structure and Procedures, including document linking and stamping"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Indirect Taxation",
+    "slug": "indirect_taxation",
+    "desc": "Taxation is a complex field and our expert tax professionals aim to simplify all the tax compliances prevailing in India. Every business has a different accompanying tax and regulatory implication which when not complied with could lead to severe consequences in the smooth running of the business. Since tax laws evolve dynamically, our tax professionals continuously interpret the impact of tax incidence and keep clients updated on a real-time basis on how the changes in tax will affect their business and how the same can be mitigated/leveraged. We provide a range of on-going specialised services that makes it possible for the clients to attain a tax-efficient and regulatory-compliant structure with proper tax planning.",
+    "features": [
+      {
+        "text": "Expert Tax Professionals"
+      },
+      {
+        "text": "Real-time Updates on Tax Incidence"
+      },
+      {
+        "text": "Specialized Ongoing Services"
+      },
+      {
+        "text": "Tax-Efficient and Regulatory-Compliant Structure"
+      }
+    ],
+    "featuresdesc": "At Kaares, we strive to offer tailored solutions for every business, ensuring their seamless operation and compliance with all relevant tax laws and regulations. Our commitment is to provide clarity, reduce complexity, and optimize tax obligations.",
+    "otherservices": [
+      {
+        "title": "GST Services",
+        "points": [
+          "Registration and support for new units in India",
+          "Advisory, Compliance, and Litigation Services for GST, Excise Duty, Service Tax & other indirect taxes",
+          "Representation before CBIC, Ministry, Senior Revenue Authorities",
+          "Implementation assistance for indirect tax laws",
+          "Processing of refund",
+          "Export Zone & Export Oriented Unit services",
+          "Support with Foreign Trade Policy"
+        ]
+      },
+      {
+        "title": "Customs Services",
+        "points": [
+          "Import Export Licensing and Customs Filing",
+          "Advisory and Compliance for Deemed Exports",
+          "DGFT Registration and consultancy",
+          "Assistance in Duty Exemption Scheme",
+          "Assistance in EPCG Export promotion and SAD Refund"
+        ]
+      },
+      {
+        "title": "Advisory Services",
+        "points": [
+          "Tax Implication Assessment for Business Transactions",
+          "GST Impact Analysis in Contracts and Agreements",
+          "Optimal Valuation Model for Related Party Transactions",
+          "Review of Legal Positions Under GST Regime",
+          "Anti-Profiteering Rule Compliance",
+          "Customs Act Consultation",
+          "Customs Valuation for Related Party Imports",
+          "Advice on Incentive Schemes Under Foreign Trade Policy"
+        ]
+      },
+      {
+        "title": "Compliance Services",
+        "points": [
+          "Facilitating Registrations Under GST and Other Statutory Law",
+          "Validation of Input Tax Credit Records",
+          "Examination of Periodic Tax Liability Calculations",
+          "Assistance in Periodic Return Preparation and Submission",
+          "Submission of Statutory Applications",
+          "Provision of GSP/ASP Solutions for Compliance Management"
+        ]
+      },
+      {
+        "title": "Litigation Services",
+        "points": [
+          "Support for Appeals Preparation and Submission",
+          "Responses to Notices and Inquiries",
+          "Submission of Advance Rule Applications",
+          "Representation Before Authorities",
+          "Legal Counsel Engagement"
+        ]
+      },
+      {
+        "title": "Miscellaneous Services",
+        "points": [
+          "Support in Crafting and Submitting Representations",
+          "Conducting Due Diligence and Compliance Checks",
+          "Technical Assistance and Representation During Audits",
+          "Facilitating Management and Employees Training"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Direct Taxation",
+    "slug": "direct_taxation",
+    "desc": "Kaares offers an extensive range of integrated tax and regulatory services tailored to meet the diverse needs of businesses. We empower dynamic organizations in realizing their international aspirations through our deep expertise, rich knowledge, and innovative solutions. The improving economic landscape in India has heightened investor interest in making strategic investments, and our team of professionals is dedicated to supporting firms throughout their entire business lifecycle, addressing various tax and regulatory challenges. Our proactive approach enables companies to seize and capitalize on the opportunities presented to them, ensuring a smoother process even in complex cross-border transactions.",
+    "features": [
+      {
+        "icon": "",
+        "text": "Comprehensive Tax Solutions"
+      },
+      {
+        "icon": "",
+        "text": "International Ambitions Support"
+      },
+      {
+        "icon": "",
+        "text": "Strategic Investment Guidance"
+      },
+      {
+        "icon": "",
+        "text": "Cross-Border Transaction Expertise"
+      }
+    ],
+    "featuresdesc": "At Kaares, we serve a wide array of clients, including large multinational firms, mid-sized businesses, high-net-worth individuals, and young entrepreneurs eager to expand their ventures. Our specialized teams are committed to delivering holistic and highly tax-efficient solutions to meet the unique needs of every client.",
+    "otherservices": [
+      {
+        "title": "Tax Services",
+        "points": [
+          "Domestic Tax",
+          "Advisory Services",
+          "Compliance Services (Filing Returns)",
+          "Litigation Services",
+          "Corporate Tax",
+          "International Tax",
+          "Transfer Pricing",
+          "Non-Resident and Expat Taxation",
+          "DTAA (Double Taxation Avoidance Agreement)"
+        ]
+      },
+      {
+        "title": "Proactive Tax and Regulatory Management",
+        "points": [
+          "Minimizing Business and Personal Tax Responsibilities",
+          "Real-Time Updates on Changing Tax Laws",
+          "Specialized Ongoing Services for Tax-Efficiency",
+          "Proactive Approach to Seize Business Opportunities"
+        ]
+      }
+    ]
+  }
 ]
