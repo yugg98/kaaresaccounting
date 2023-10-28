@@ -86,8 +86,8 @@ const Industries = () => {
               </p>
             </div>
             <div>
-              <Link href="/" className="rounded-full hover:scale-95 transition-all duration-150 ease-in-out max-w-xs font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 flex my-6 ">
-                <DocumentArrowDownIcon className="w-6 mr-2" />
+              <Link href="/" className="rounded-full text-sm items-center hover:scale-95 transition-all duration-150 ease-in-out max-w-xs font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 flex my-6 ">
+                <DocumentArrowDownIcon className="w-5 h-5 mr-2" />
                 Download Company Profile
               </Link>
             </div>
