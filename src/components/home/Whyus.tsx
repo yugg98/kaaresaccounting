@@ -41,13 +41,13 @@ export default function Whyus() {
             {cards.map((card) => (
               <div
                 key={card.name}
-                className="flex gap-x-4 rounded-xl bg-white/40 align-middle  p-6 ring-1 ring-inset ring-white/10 "
+                className="flex gap-x-4 rounded-xl bg-white/30 hover:scale-95 cursor-pointer hover:bg-white/40 transition-all ease-in-out duration-150 align-middle  p-6 ring-1 ring-inset ring-white/10 "
               >
-                <div className="text-base leading-7">
-                  <h3 className="font-semibold text-3xl text-white">
+                <div className="">
+                  <h3 className="font-semibold text-4xl text-white">
                     {card.name}
                   </h3>
-                  <p className="mt-2 text-gray-300">{card.description}</p>
+                  <p className="mt-2 text-lg text-white/80">{card.description}</p>
                 </div>
               </div>
             ))}

@@ -3,7 +3,7 @@ import { Container } from "../Container";
 
 export default function Testimonials() {
   return (
-    <div className="bg-[url('/images/bg/testimonial.svg')] py-32">
+    <div className="bg-[url('/images/bg/testimonial.svg')] bg-cover py-32">
       <section className=" ">
         <div className="mx-auto max-w-2xl text-center my-6">
           <h2 className="font-dmserif text-4xl font-lg tracking-tight text-white sm:text-6xl">

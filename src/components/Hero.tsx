@@ -14,7 +14,7 @@ const Hero = () => {
             <p className="md:text-6xl text-4xl font-dmserif">
               Accountancy & Taxation, Auditing & Advisory.
             </p>
-            <p className="text-lg mt-4 text-gray-600">
+            <p className="text-lg mt-4 font-normal text-gray-600">
               We are a trusted provider of comprehensive accounting, auditing,
               taxation and Global Bookkeeping and reporting services for
               businesses of all sizes.
@@ -23,7 +23,7 @@ const Hero = () => {
             <div>
             <Link
               href="/globalservices"
-              className="rounded-full font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 hidden lg:inline-block	my-8"
+              className="rounded-full hover:scale-95 transition-all duration-150 ease-in-out font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 hidden lg:inline-block	my-8"
             >
               View Our Services
             </Link>
@@ -34,13 +34,13 @@ const Hero = () => {
           </div>
         </div>
         <div className=" ">
-          <div className="mx-auto  px-6 py-16 sm:py-24 lg:px-8">
+          <div className="mx-auto px-6 py-8 lg:px-8">
             <div className="flex md:flex-row flex-col">
-              <h2 className="!max-w-md	 text-center text-lg  tracking-tight text-gray-600 lg:max-w-[10rem] lg:text-left">
+              <h2 className="!max-w-md text-center text-lg tracking-tight text-gray-600 lg:max-w-[14rem] lg:text-left">
                 Software and tools we use
               </h2>
               <div className="mt-8 flow-root self-center lg:mt-0">
-                <div className="-ml-8  -mt-4 flex flex-wrap justify-between lg:ml-4">
+                <div className="-ml-8 -mt-4 flex flex-wrap justify-between lg:ml-4">
                   <Marquee>
                     <div className="ml-8 mt-4 flex max-w-screen flex-shrink-0 flex-grow justify-center lg:ml-4 lg:flex-grow-0">
                       <img

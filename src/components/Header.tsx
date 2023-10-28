@@ -113,7 +113,7 @@ export function Header() {
                           <div className="mt-8 flex flex-col gap-4">
                             <Button
                               href="#"
-                              className="rounded-full bg-black text-white hover:bg-gray-800  lg:hidden block"
+                              className="rounded-full hover:scale-95 transition-all duration-150 ease-in-out font-semibold bg-black text-white hover:bg-gray-900 lg:hidden block"
                             >
                               Contact us
                             </Button>
@@ -128,7 +128,7 @@ export function Header() {
 
             <Link
               href="/contactus"
-              className="rounded-full font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 hidden lg:block"
+              className="rounded-full font-semibold hover:scale-95 transition-all duration-150 ease-in-out  py-3 px-8 bg-black text-white hover:bg-gray-800 hidden lg:block"
             >
               Contact us
             </Link>
