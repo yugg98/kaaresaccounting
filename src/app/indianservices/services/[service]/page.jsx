@@ -12,7 +12,7 @@ import jdata from "@/utils/indianpage.json";
 import gdata from "@/utils/indiandata.json";
 import Loader from "@/components/Loader";
 
-const page = ({ params }) => {
+const Page = ({ params }) => {
   const [data, setData] = useState({});
   const router = useRouter();
   const [loader,setLoader] = useState(false)
@@ -49,7 +49,7 @@ const page = ({ params }) => {
             </h2>
           </div>
           {data?.otherservices?.map((item) => (
-            <div className="my-4">
+            <div className="my-4" key={item}>
               <Disclosure>
                 {({ open }) => (
                   <>
@@ -63,8 +63,8 @@ const page = ({ params }) => {
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 mx-2 border">
                       <ul className=" list-disc p-4">
-                        {item.points.map((item) => (
-                          <li className="my-2">{item}</li>
+                        {item.points.map((item,index) => (
+                          <li className="my-2" key={index}>{item}</li>
                         ))}
                       </ul>
                     </Disclosure.Panel>
@@ -78,8 +78,8 @@ const page = ({ params }) => {
       <Container className="border-x border-b ">
         <div className="grid grid-cols-2 ">
           <div className="border-r py-12">
-            {gdata.map((item) => (
-              <div className="flex my-2 items-center ">
+            {gdata.map((item,index) => (
+              <div key={index} className="flex my-2 items-center ">
                 <svg
                   width="24"
                   height="24"

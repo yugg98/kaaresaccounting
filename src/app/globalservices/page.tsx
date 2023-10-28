@@ -31,7 +31,7 @@ const Page = () => {
             experience and a dedication to excellence, we offer a wide array of
             services tailored to meet the unique needs of businesses operating
             on the global stage. We understand the importance of financial
-            excellence, growth management, and compliance in today's dynamic
+            excellence, growth management, and compliance in today&apos;s dynamic
             business landscape.
           </p>
         </div>
@@ -40,7 +40,7 @@ const Page = () => {
             {data
               .filter((_, index) => index % 2 === 0)
               .map((e, index) => (
-                <div className="p-8  border-b border-r ">
+                <div key={index} className="p-8  border-b border-r ">
                   <p className="text-lg">
                    
                     {e.name}
@@ -51,8 +51,8 @@ const Page = () => {
                 Bookkeeping to complex financial analysis.
               </p> */}
                   <ul className="">
-                    {e.otherservice.map((item) => (
-                      <li className="border bg-[#FAFBF8] py-2 px-4 my-2">
+                    {e.otherservice.map((item,index) => (
+                      <li key={index} className="border bg-[#FAFBF8] py-2 px-4 my-2">
                         <Link
                           href={"globalservices/services/" + e.slug}
                           className=" font-semibold  flex "
@@ -70,7 +70,7 @@ const Page = () => {
             {data
               .filter((_, index) => index % 2 != 0)
               .map((e, index) => (
-                <div className="p-8  border-b border-r  ">
+                <div key={index} className="p-8  border-b border-r  ">
                   <p className="text-lg">
                     {/* <span className="mr-2 text-sm text-gray-500">
                       0{index + 1}
@@ -83,8 +83,8 @@ const Page = () => {
                 Bookkeeping to complex financial analysis.
               </p> */}
                   <ul className="">
-                    {e.otherservice.map((item) => (
-                      <li className="border bg-[#FAFBF8] py-2 px-4 my-2">
+                    {e.otherservice.map((item,index) => (
+                      <li key={index} className="border bg-[#FAFBF8] py-2 px-4 my-2">
                         <Link
                           href={"gobalservices/services/" + e.slug}
                           className=" font-semibold  flex "
