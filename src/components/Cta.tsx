@@ -75,7 +75,7 @@ export default function Cta() {
                 </p>
                 <Link
             href="/aboutus"
-            className="rounded-full inline-block max-w-xs font-semibold py-3 px-8 bg-white text-black hover:bg-gray-800  my-6 "
+            className="rounded-full inline-block max-w-xs hover:scale-95 duration-150 ease-in-out transition-all font-semibold py-3 px-8 bg-white text-black hover:bg-white/90  my-6 "
           >
             Contact us
           </Link>
