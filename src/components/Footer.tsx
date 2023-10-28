@@ -1,9 +1,9 @@
 const navigation = {
   main: [
-    { name: 'About Us', href: '#' },
-    { name: 'Indian Services', href: '#' },
-    { name: 'Global Services', href: '#' },
-    { name: 'Contact Us', href: '#' },
+    { name: 'About Us', href: '/aboutus' },
+    { name: 'Indian Services', href: '/indianservices' },
+    { name: 'Global Services', href: '/globalservices' },
+    { name: 'Contact Us', href: '/contactus' },
   ],
   social: [
     {
