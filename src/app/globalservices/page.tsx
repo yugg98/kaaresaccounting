@@ -104,7 +104,7 @@ const Page = () => {
                         className="border bg-[#FAFBF8] py-2 px-4 my-2 group"
                       >
                         <Link
-                          href={"gobalservices/services/" + e.slug}
+                          href={"globalservices/services/" + e.slug}
                           className=" font-semibold  flex items-center"
                         >
                           <div className="h-2 w-2 bg-black mr-2"></div>
