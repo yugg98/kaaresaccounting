@@ -8,10 +8,10 @@ export default function FounderNote() {
     <Container className="border-x bg-[url('/images/bg/foundernote.svg')] bg-cover border-y px-6 py-24 sm:py-32 lg:px-8 ">
       <div className="mx-auto max-w-4xl">
         <figure className="mt-10">
-          <p className="text-center tracking-wide max-w-4xl mx-auto text-4xl font-semibold my-4 font-dmserif text-gray-900 sm:text-5xl">
+          <p className="text-left md:text-center max-w-4xl mx-auto text-4xl font-semibold my-4 font-dmserif text-gray-900 sm:text-5xl">
             We believe in working as a partner with our clients
           </p>
-          <blockquote className="text-center text-xl mx-auto max-w-3xl text-gray-600 sm:text-lg">
+          <blockquote className="text-justify md:text-center text-xl mx-auto max-w-3xl text-gray-600 sm:text-lg">
             <p>
               With a vision to provide high-quality financial solutions, she
               founded Kares Consultancy, which has grown to become a trusted
