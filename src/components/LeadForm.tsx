@@ -58,7 +58,7 @@ export default function Contactus() {
   };
   return (
         <div className="bg-[#FAFBF8] border border-gray-200 shadow-sm mx-4 my-8 md:m-8 rounded-2xl">
-          <p className="px-6 py-4 flex border-b"><SparklesIcon className="w-6 h-6 mr-2 text-amber-600" />Stay 100% compliant with <span className="font-semibold ml-1">{" "} Free Expert Advice</span></p>
+          <p className="px-6 py-4 flex border-b flex-wrap"><SparklesIcon className="w-6 h-6 mr-2 text-amber-600" />Stay 100% compliant with <span className="font-semibold ml-1">{" "} Free Expert Advice</span></p>
           <form onSubmit={handleSubmit} className="md:py-4 md:px-10 px-4">
             <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
               <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
@@ -104,7 +104,7 @@ export default function Contactus() {
                     />
                   </div>
                 </div>
-                <div className="sm:col-span-2">
+                <div className="sm:col-span-2 pb-6">
                   <div className="mt-2.5">
                     <Input
                       variant={"underlined"}

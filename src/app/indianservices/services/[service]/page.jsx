@@ -54,13 +54,14 @@ const Page = ({ params }) => {
               <Disclosure>
                 {({ open }) => (
                   <>
-                    <Disclosure.Button className="flex items-center justify-between text-xl bg-[#1E2224] text-white w-full py-4 px-6 rounded-lg">
-                      {item.title}
-                      {open ? (
-                        <ChevronRightIcon className="rotate-90 w-8" />
-                      ) : (
-                        <ChevronRightIcon className=" w-8" />
-                      )}
+                    <Disclosure.Button className="flex items-center justify-between space-x-2 bg-[#1E2224] text-white w-full py-4 px-6 rounded-lg">
+                          <p className="text-sm md:text-xl text-left">{item.title}</p>
+                          <div>
+                          {open ? (
+                            <ChevronRightIcon className="rotate-90 w-6 h-6" />
+                          ) : (
+                            <ChevronRightIcon className="w-6 h-6" />
+                          )}</div>
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 mx-2 border">
                       <ul className=" list-disc p-4">
@@ -81,6 +82,7 @@ const Page = ({ params }) => {
           <div className="border-r py-12">
             {gdata.map((item,index) => (
               <div key={index} className="flex my-2 items-center ">
+                <div>
                 <svg
                   width="24"
                   height="24"
@@ -97,6 +99,7 @@ const Page = ({ params }) => {
                     stroke-linejoin="round"
                   />
                 </svg>
+                </div>
                 <p className="text-lg">{item.name}</p>
               </div>
             ))}
