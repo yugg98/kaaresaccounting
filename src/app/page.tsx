@@ -25,7 +25,7 @@ export default function Home() {
               their roadblocks and objectives, enabling us to develop legal
               solutions that are efficient and scalable for diverse industries.
             </p>
-            <div className="flex justify-center flex-wrap">
+            <div className="flex justify-center flex-wrap mt-4">
               <Link
                 href="/aboutus"
                 className="rounded-full hover:scale-95 duration-150 transition-all ease-in-out font-semibold cursor-pointer  py-3 px-8 bg-black text-white hover:bg-gray-800 flex md:my-6 my-2"

@@ -34,10 +34,9 @@ const cards = [
 
 export default function Whyus() {
   return (
-   
       <div className="relative bg-[url('/images/bg/whyus.svg')] isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
         <div className="mx-auto max-w-10xl px-6 lg:px-8">
-          <div className="mx-auto  grid max-w-2xl grid-cols-1 gap-6  lg:max-w-none lg:grid-cols-6 lg:gap-8">
+          <div className="mx-auto  grid max-w-2xl grid-cols-1 md:grid-cols-2 gap-6  lg:max-w-none lg:grid-cols-6 lg:gap-8">
             {cards.map((card) => (
               <div
                 key={card.name}

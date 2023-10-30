@@ -56,10 +56,10 @@ export default function Contactus() {
     }
   };
   return (
-    <div className="relative isolate border-b  ">
+    <div className="relative isolate border-b">
       <Container className="border-x !px-0">
         <div className="mx-auto grid px-4 sm:px-6 lg:px-10 grid-cols-1 lg:grid-cols-2 ">
-          <div className="relative  lg:static border-r md:pr-10 py-24 px-4">
+          <div className="relative  lg:static lg:border-r md:pr-10 py-24 px-4">
             <h2 className="text-4xl font-dmserif sm:text-6xl font-bold tracking-tight text-gray-900">
               Get in touch
             </h2>
