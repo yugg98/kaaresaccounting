@@ -17,7 +17,7 @@ const Page = () => {
     <div>
       <Container className="border-x !px-0 sm:px-6">
         <div className="md:mx-auto max-w-5xl md:text-center py-12 px-4">
-          <h2 className="text-3xl font-lg tracking-tight font-dmserif text-black sm:text-5xl">
+          <h2 className="text-3xl font-lg tracking-tight font-dmserif text-black sm:text-4xl">
             Navigating Growth and Ensuring Financial Resilience
           </h2>
           <p className="mt-10">
@@ -25,7 +25,7 @@ const Page = () => {
             compliance, giving you the assurance you need to explore new
             possibilities while preserving your financial stability.
           </p>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-md leading-8 text-gray-600">
             A distinguished firm specialising in providing top-tier financial
             and accounting solutions to foreign clients. With a wealth of
             experience and a dedication to excellence, we offer a wide array of
@@ -41,7 +41,7 @@ const Page = () => {
               .filter((_, index) => index % 2 === 0)
               .map((e, index) => (
                 <div key={index} className="p-6 md:p-8 border-b border-r ">
-                  <p className="text-xl font-semibold mb-4">{e.name}</p>
+                  <p className="text-lg font-semibold mb-4">{e.name}</p>
                   {/* <p className="text-gray-600 mt-1">
                 Maintenance of the accounts and preparation of Financial
                 Statements. It includes various vast services like simple
@@ -87,7 +87,7 @@ const Page = () => {
               .filter((_, index) => index % 2 != 0)
               .map((e, index) => (
                 <div key={index} className="p-6 md:p-8  border-b border-r  ">
-                  <p className="text-xl font-semibold mb-4">
+                  <p className="text-lg font-semibold mb-4">
                     {/* <span className="mr-2 text-sm text-gray-500">
                       0{index + 1}
                     </span> */}

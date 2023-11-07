@@ -17,7 +17,7 @@ export default function Home() {
       <div className="border-t">
         <Container className="border-x ">
           <div className="mx-auto max-w-2xl text-center py-24 px-2 ">
-            <h2 className="text-4xl font-dmserif font-lg tracking-tight text-black sm:text-6xl">
+            <h2 className="text-4xl font-dmserif font-lg tracking-tight text-black sm:text-5xl">
               Why Us
             </h2>
             <p className="mt-4 text-lg leading-8 text-gray-600">

@@ -11,10 +11,10 @@ const Hero = () => {
         <div className="grid md:grid-cols-2 px-4  md:px-8 border-b">
           <div className="flex flex-col justify-center my-12 mx-4">
             <div>
-            <p className="md:text-6xl text-4xl font-dmserif">
+            <p className="md:text-5xl text-4xl font-dmserif">
               Accountancy & Taxation, Auditing & Advisory.
             </p>
-            <p className="text-lg mt-4 font-normal text-gray-600">
+            <p className="text-md mt-4 font-normal text-gray-600">
               We are a trusted provider of comprehensive accounting, auditing,
               taxation and Global Bookkeeping and reporting services for
               businesses of all sizes.
@@ -36,7 +36,7 @@ const Hero = () => {
         <div className=" ">
           <div className="mx-auto md:px-8 py-8">
             <div className="flex lg:flex-row items-center overflow-hidden flex-col">
-              <h2 className="!max-w-md text-center text-lg tracking-tight text-gray-600 lg:max-w-[14rem] lg:text-left">
+              <h2 className="!max-w-md text-center text-md tracking-tight text-gray-600 lg:max-w-[14rem] lg:text-left">
                 Software and tools we use
               </h2>
               <div className="mt-8 flow-root self-center overflow-hidden lg:mt-0">

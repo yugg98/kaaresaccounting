@@ -70,7 +70,7 @@ export default function Cta() {
                 <h2 className="text-3xl font-bold tracking-tight text-white" id="join-heading">
                 Let&apos;s Talk!
                 </h2>
-                <p className="text-lg text-white">
+                <p className="text-md text-white">
                 Let us take care of your accounting, tax, and auditing needs so that you can focus on growing your business with confidence.
                 </p>
                 <Link

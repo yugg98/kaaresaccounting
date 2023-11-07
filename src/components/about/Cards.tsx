@@ -7,7 +7,7 @@ const Cards = () => {
       <div className="grid md:grid-cols-2 grid-rows-2 gap-8 py-20">
         <div className="border rounded-3xl p-8 my-4 bg-white hover:shadow-md transition-all duration-150 ease-in-out cursor-pointer hover:rounded-2xl mx-auto">
           <img src="/images/about/img1.png" />
-          <h2 className="font-dmserif text-4xl font-lg tracking-tight mt-8 sm:text-6xl">
+          <h2 className="font-dmserif text-4xl font-lg tracking-tight mt-8 ">
             Our Vision
           </h2>
           <p className="text-gray-600 mt-4">
@@ -18,7 +18,7 @@ const Cards = () => {
         </div>
         <div className="border rounded-3xl p-8 my-4 bg-white hover:shadow-md transition-all duration-150 ease-in-out cursor-pointer hover:rounded-2xl mx-auto">
           <img src="/images/mission.svg" />
-          <h2 className="font-dmserif text-4xl font-lg tracking-tight mt-8 sm:text-6xl">
+          <h2 className="font-dmserif text-4xl font-lg tracking-tight mt-8 sm:text">
             Our Mission
           </h2>
           <p className="text-gray-600 mt-4">
@@ -29,7 +29,7 @@ const Cards = () => {
         </div>
         <div className="border rounded-3xl p-8 my-4 bg-white hover:shadow-md transition-all duration-150 ease-in-out cursor-pointer hover:rounded-2xl mx-auto">
           <img src="/images/team.svg" />
-          <h2 className="font-dmserif text-4xl font-lg tracking-tight mt-8 sm:text-6xl">
+          <h2 className="font-dmserif text-4xl font-lg tracking-tight mt-8 sm:text-4xl">
             Our Team
           </h2>
           <p className="text-gray-600 mt-4">
@@ -40,7 +40,7 @@ const Cards = () => {
         </div>
         <div className="border rounded-3xl p-8 my-4 bg-white hover:shadow-md transition-all duration-150 ease-in-out cursor-pointer hover:rounded-2xl mx-auto">
           <img src="/images/values.svg" />
-          <h2 className="font-dmserif text-4xl font-lg tracking-tight mt-8 sm:text-6xl">
+          <h2 className="font-dmserif text-4xl font-lg tracking-tight mt-8 sm:text-4xl">
             Our Values
           </h2>
           <p className="text-gray-600 mt-4">

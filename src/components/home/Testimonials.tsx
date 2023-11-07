@@ -6,10 +6,10 @@ export default function Testimonials() {
     <div className="bg-[url('/images/bg/testimonial.svg')] bg-cover py-32">
       <section className=" ">
         <div className="mx-auto max-w-2xl text-center my-6">
-          <h2 className="font-dmserif text-4xl font-lg tracking-tight text-white sm:text-6xl">
+          <h2 className="font-dmserif text-4xl font-lg tracking-tight text-white sm:text-5xl">
             What our clients say
           </h2>
-          <p className="my-4 text-lg leading-8 text-gray-300">
+          <p className="my-4 text-md leading-8 text-gray-300">
             We wish to provide customer satisfaction by achieving professional
             excellence.
           </p>
@@ -25,7 +25,7 @@ export default function Testimonials() {
                 />
               </div>
               <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
-                <div className="relative text-lg font-medium text-white md:flex-grow">
+                <div className="relative text-md font-medium text-white md:flex-grow">
                   <svg
                     className="absolute left-0 top-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-gray-600"
                     fill="currentColor"
@@ -70,7 +70,7 @@ export default function Testimonials() {
                 />
               </div>
               <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
-                <div className="relative text-lg font-medium text-white md:flex-grow">
+                <div className="relative text-md font-medium text-white md:flex-grow">
                   <svg
                     className="absolute left-0 top-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-gray-600"
                     fill="currentColor"
@@ -115,7 +115,7 @@ export default function Testimonials() {
                 />
               </div>
               <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
-                <div className="relative text-lg font-medium text-white md:flex-grow">
+                <div className="relative text-md font-medium text-white md:flex-grow">
                   <svg
                     className="absolute left-0 top-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-gray-600"
                     fill="currentColor"
@@ -160,7 +160,7 @@ export default function Testimonials() {
                 />
               </div>
               <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
-                <div className="relative text-lg font-medium text-white md:flex-grow">
+                <div className="relative text-md font-medium text-white md:flex-grow">
                   <svg
                     className="absolute left-0 top-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-gray-600"
                     fill="currentColor"
@@ -205,7 +205,7 @@ export default function Testimonials() {
                 />
               </div>
               <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
-                <div className="relative text-lg font-medium text-white md:flex-grow">
+                <div className="relative text-md font-medium text-white md:flex-grow">
                   <svg
                     className="absolute left-0 top-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-gray-600"
                     fill="currentColor"
@@ -250,7 +250,7 @@ export default function Testimonials() {
                 />
               </div>
               <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
-                <div className="relative text-lg font-medium text-white md:flex-grow">
+                <div className="relative text-md font-medium text-white md:flex-grow">
                   <svg
                     className="absolute left-0 top-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-gray-600"
                     fill="currentColor"
@@ -295,7 +295,7 @@ export default function Testimonials() {
                 />
               </div>
               <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
-                <div className="relative text-lg font-medium text-white md:flex-grow">
+                <div className="relative text-md font-medium text-white md:flex-grow">
                   <svg
                     className="absolute left-0 top-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-gray-600"
                     fill="currentColor"

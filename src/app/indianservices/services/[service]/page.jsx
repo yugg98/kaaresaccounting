@@ -33,19 +33,19 @@ const Page = ({ params }) => {
     <div>
       <div className='bg-[url("/services/one.png")] bg-cover  w-full py-20'>
         <Container>
-          <p className="text-5xl font-bold text-white text-left max-w-4xl ">
+          <p className=" font-bold text-white text-left max-w-4xl ">
             {data.name}
           </p>
         </Container>
       </div>
       <Container className="border-x py-10">
-        <p className="text-lg">{htmlReactParser(data.desc)}</p>
+        <p className="text-md">{htmlReactParser(data.desc)}</p>
       </Container>
       <Stats data={data} />
       <div className="border-y">
         <Container className="border-x bg-white py-10">
           <div className="text-left">
-            <h2 className="text-xl  font-semibold tracking-tight text-black ">
+            <h2 className="text-lg  font-semibold tracking-tight text-black ">
               Our Services
             </h2>
           </div>
@@ -55,7 +55,7 @@ const Page = ({ params }) => {
                 {({ open }) => (
                   <>
                     <Disclosure.Button className="flex items-center justify-between space-x-2 bg-[#1E2224] text-white w-full py-4 px-6 rounded-lg">
-                          <p className="text-sm md:text-xl text-left">{item.title}</p>
+                          <p className="text-sm md:text-lg text-left">{item.title}</p>
                           <div>
                           {open ? (
                             <ChevronRightIcon className="rotate-90 w-6 h-6" />
@@ -100,7 +100,7 @@ const Page = ({ params }) => {
                   />
                 </svg>
                 </div>
-                <p className="text-lg">{item.name}</p>
+                <p className="text-md">{item.name}</p>
               </div>
             ))}
           </div>

@@ -74,11 +74,11 @@ const Industries = () => {
 
           <div className="flex flex-col justify-center px-10 my-12">
             <div>
-              <h2 className="text-4xl font-lg font-dmserif tracking-tight text-black sm:text-6xl">
+              <h2 className="text-4xl font-lg font-dmserif tracking-tight text-black sm:text-5xl">
                 Delivering industry-focused legal solutions
               </h2>
 
-              <p className="md:text-lg mt-4 text-gray-600">
+              <p className="md:text-md mt-4 text-gray-600">
                 Our team of legal experts collaborates with clients to
                 understand their roadblocks and objectives, enabling us to
                 develop legal solutions that are efficient and scalable for

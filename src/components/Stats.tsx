@@ -12,14 +12,14 @@ export default function Stats({ data }: any) {
             {data.features?.map((stat: any) => (
               <div key={stat.id} className="flex flex-col p-8">
                 <img src="/headphone.svg" className="w-8 h-8 mx-auto" />
-                <dt className="text-lg mt-4 font-semibold leading-6 text-gray-300">
+                <dt className="text-md mt-4 font-semibold leading-6 text-gray-300">
                   {stat.text}
                 </dt>
               </div>
             ))}
           </dl>
         </div>
-        <p className="text-white text-lg mt-4">{data.featuresdesc}</p>
+        <p className="text-white text-md mt-4">{data.featuresdesc}</p>
       </div>
     </div>
   );
