@@ -25,7 +25,7 @@ const Page = () => {
             compliance, giving you the assurance you need to explore new
             possibilities while preserving your financial stability.
           </p>
-          <p className="mt-6 text-md leading-8 text-gray-600">
+          <p className="mt-6 text-md  text-gray-600">
             A distinguished firm specialising in providing top-tier financial
             and accounting solutions to foreign clients. With a wealth of
             experience and a dedication to excellence, we offer a wide array of

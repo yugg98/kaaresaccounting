@@ -33,9 +33,9 @@ const Page = ({ params }) => {
     <div>
       <div className='bg-[url("/services/one.png")] bg-cover  w-full py-20'>
         <Container>
-          <p className=" font-bold text-white text-left max-w-4xl ">
-            {data.name}
-          </p>
+        <p className="text-5xl font-bold text-white text-left max-w-4xl ">
+                {data.name}
+              </p>
         </Container>
       </div>
       <Container className="border-0 py-10">

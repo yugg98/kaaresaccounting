@@ -16,7 +16,7 @@ export default function Home() {
       <Industries />
       <div className="border-0">
         <Container className="border-0 ">
-          <div className="mx-auto max-w-2xl text-center py-24 px-2 ">
+          <div className="mx-auto max-w-2xl text-center py-12 px-2 ">
             <h2 className="text-4xl font-dmserif font-lg tracking-tight text-black sm:text-5xl">
               Why Us
             </h2>

@@ -1,12 +1,19 @@
 'use client'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { AnimatePresence, motion } from 'framer-motion'
-import { useRouter } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 
 export default function NavLinks() {
   let [hoveredIndex, setHoveredIndex] = useState(null)
   const [active, setActive] = useState(null)
+  const pathname = usePathname()
+
+  useEffect(()=>{
+    if (pathname !== "/" && pathname !== "/indianservices" && pathname !== "/globalservices" && pathname !== "/#industries" && pathname !== "/aboutus") {
+      setActive(null);
+    }
+  },[pathname])
 
   return [
     ['Indian Services', '/indianservices'],

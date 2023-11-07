@@ -17,14 +17,14 @@ const Page = () => {
     <div>
       <Container className="border-0 !px-0 sm:px-6">
         <div className="md:mx-auto max-w-5xl md:text-center py-12 px-4">
-          <h2 className="text-3xl font-lg tracking-tight font-dmserif text-black sm:text-5xl">
+          <h2 className="text-3xl font-lg tracking-tight font-dmserif text-black sm:text-4xl">
             Compliance-driven strategies for sustainable growth
           </h2>
           <p className="mt-10">
             Welcome to KAARES, a trustworthy partner in offering our esteemed
             clients in India a broad range of financial and business solutions.
           </p>
-          <p className="mt-6 text-xl md:leading-8 text-gray-600">
+          <p className="mt-6 text-md text-gray-600">
             We provide a range of services that are specialised to fit the
             particular demands of organisations across numerous industries
             thanks to a committed team of seasoned specialists. We are dedicated

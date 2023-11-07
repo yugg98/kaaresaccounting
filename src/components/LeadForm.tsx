@@ -12,7 +12,7 @@ import { doc, setDoc } from "firebase/firestore";
 import { InformationCircleIcon } from "@heroicons/react/24/outline";
 import { db } from "@/utils/firebase";
 import { useRouter } from "next/navigation";
-export default function Contactus() {
+export default function Leadform() {
   const [success, setSuccess] = useState(false);
   const router = useRouter();
   const [error, setError] = useState("");
@@ -57,7 +57,7 @@ export default function Contactus() {
     }
   };
   return (
-        <div className="bg-[#FAFBF8] border border-gray-200 shadow-sm mx-4 my-8 md:m-8 rounded-2xl">
+        <div className="bg-[#FAFBF8]  border border-gray-200 shadow-sm mx-4 my-8 md:m-8 rounded-2xl">
           <p className="px-6 py-4 flex border-b flex-wrap"><SparklesIcon className="w-6 h-6 mr-2 text-amber-600" />Stay 100% compliant with <span className="font-semibold ml-1">{" "} Free Expert Advice</span></p>
           <form onSubmit={handleSubmit} className="md:py-4 md:px-10 px-4">
             <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">

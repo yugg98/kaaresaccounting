@@ -11,7 +11,7 @@ export default function FounderNote() {
           <p className="text-left md:text-center max-w-4xl mx-auto text-4xl font-semibold my-4 font-dmserif text-gray-900 sm:text-4xl">
             We believe in working as a partner with our clients
           </p>
-          <blockquote className="text-justify md:text-center text-xl mx-auto max-w-3xl text-gray-600 sm:text-md">
+          <blockquote className="text-justify md:text-center text-md mx-auto max-w-3xl text-gray-600 sm:text-md">
             <p>
               With a vision to provide high-quality financial solutions, she
               founded Kares Consultancy, which has grown to become a trusted
