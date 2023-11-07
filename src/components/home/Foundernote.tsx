@@ -5,7 +5,7 @@ import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
 
 export default function FounderNote() {
   return (
-    <Container className="border-0 bg-[url('/images/bg/foundernote.svg')] bg-cover border-0 px-6 py-24 sm:py-32 lg:px-8 ">
+    <Container className="borde bg-[url('/images/bg/foundernote.svg')] bg-cover border-0 px-6 py-24 sm:py-32 lg:px-8 ">
       <div className="mx-auto max-w-4xl">
         <figure className="mt-10">
           <p className="text-left md:text-center max-w-4xl mx-auto text-4xl font-semibold my-4 font-dmserif text-gray-900 sm:text-4xl">
