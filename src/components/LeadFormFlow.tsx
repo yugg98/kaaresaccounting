@@ -57,7 +57,7 @@ export default function Leadform() {
     }
   };
   return (
-    <div className="bg-[#FAFBF8] fixed z-[9999] bottom-6 right-6 md:bottom-20  border border-gray-200 shadow-sm mx-4 my-8 md:m-8 rounded-2xl">
+    <div className="bg-[#FAFBF8] fixed z-[100000] bottom-6 right-6 md:bottom-20  border border-gray-200 shadow-sm mx-4 my-8 md:m-8 rounded-2xl">
       <p className="px-6 py-4 flex border-b flex-wrap text-black">
         <SparklesIcon className="w-6 h-6 mr-2 text-amber-600" />
         Stay 100% compliant with{" "}
