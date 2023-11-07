@@ -12,7 +12,7 @@ export default function Hero() {
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-xl">
                   <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                  Welcome to Kaares Consultancy!
+                  Welcome to Kaares Accounting!
                   </h1>
                   <p className="relative mt-6 text-md leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
                   We are a trusted provider of comprehensive accounting, auditing, taxation and Global Bookkeeping and reporting services for businesses of all sizes.
