@@ -47,7 +47,7 @@ export default function Hero() {
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                   </div>
-                  <div className="w-44 flex-none space-y-8 pt-32 sm:pt-10">
+                  {/* <div className="w-44 flex-none space-y-8 pt-32 sm:pt-10">
                     <div className="relative">
                       <img
                         src="https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=left&w=400&h=528&q=80"
@@ -64,7 +64,7 @@ export default function Hero() {
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
