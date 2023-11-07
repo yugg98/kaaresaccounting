@@ -15,7 +15,7 @@ const Page = () => {
   console.log(data);
   return (
     <div>
-      <Container className="border-x !px-0 sm:px-6">
+      <Container className="border-0 !px-0 sm:px-6">
         <div className="md:mx-auto max-w-5xl md:text-center py-12 px-4">
           <h2 className="text-3xl font-lg tracking-tight font-dmserif text-black sm:text-5xl">
             Compliance-driven strategies for sustainable growth

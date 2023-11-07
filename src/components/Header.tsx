@@ -50,7 +50,7 @@ export function Header() {
   return (
     <header className="border">
       <nav>
-        <Container className="relative z-50 flex justify-between py-6 border-x">
+        <Container className="relative z-50 flex justify-between py-6 ">
           <div className="relative z-10 flex items-center gap-16">
             <Link href="/" aria-label="Home">
               <Logo className="h-10 w-auto" />

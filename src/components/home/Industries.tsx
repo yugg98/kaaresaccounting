@@ -11,7 +11,7 @@ import Link from "next/link";
 const Industries = () => {
   return (
     <div id="industries">
-      <Container className="border-x !px-0">
+      <Container className="border-0 !px-0">
         <div className="grid lg:grid-cols-2 grid-row-reverse">
           <div>
             <div className="grid grid-cols-3 overflow-hidden">

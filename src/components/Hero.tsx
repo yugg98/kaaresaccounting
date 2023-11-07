@@ -6,9 +6,9 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="border-b">
-      <Container className="border-x !px-0">
-        <div className="grid md:grid-cols-2 px-4  md:px-8 border-b">
+    <div className="border-0">
+      <Container className="border-0 !px-0">
+        <div className="grid md:grid-cols-2 px-4  md:px-8 border-0">
           <div className="flex flex-col justify-center my-12 mx-4">
             <div>
             <p className="md:text-5xl text-4xl font-dmserif">

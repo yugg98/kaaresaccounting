@@ -4,7 +4,7 @@ import { Container } from "../Container";
 export default function Hero() {
 
   return (
-    <Container className="border-x py-8 !pr-0" >
+    <Container className="border-0 py-8 !pr-0" >
       <main className="isolate">
         <div className="relative isolate -z-10">
           <div className="overflow-hidden">

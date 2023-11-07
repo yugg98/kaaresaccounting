@@ -38,12 +38,12 @@ const Page = ({ params }) => {
           </p>
         </Container>
       </div>
-      <Container className="border-x py-10">
+      <Container className="border-0 py-10">
         <p className="text-md">{htmlReactParser(data.desc)}</p>
       </Container>
       <Stats data={data} />
       <div className="border-y">
-        <Container className="border-x bg-white py-10">
+        <Container className="border-0 bg-white py-10">
           <div className="text-left">
             <h2 className="text-lg  font-semibold tracking-tight text-black ">
               Our Services
@@ -77,7 +77,7 @@ const Page = ({ params }) => {
           ))}
         </Container>
       </div>
-      <Container className="border-x border-b ">
+      <Container className="border-0 border-b ">
         <div className="grid grid-cols-1 md:grid-cols-2 ">
           <div className="border-r py-12">
             {gdata.map((item,index) => (
