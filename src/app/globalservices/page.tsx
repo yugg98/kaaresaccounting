@@ -15,7 +15,7 @@ const Page = () => {
   console.log(data);
   return (
     <div>
-      <Container className="border-0 !px-0 sm:px-6">
+      <Container className="borde !px-0 sm:px-6">
         <div className="md:mx-auto max-w-5xl md:text-center py-12 px-4">
           <h2 className="text-3xl font-lg tracking-tight font-dmserif text-black sm:text-4xl">
             Navigating Growth and Ensuring Financial Resilience
@@ -35,12 +35,12 @@ const Page = () => {
             dynamic business landscape.
           </p>
         </div>
-        <div className="flex flex-wrap border-y">
+        <div className="flex flex-wrap bord-y">
           <div className="md:w-1/2">
             {data
               .filter((_, index) => index % 2 === 0)
               .map((e, index) => (
-                <div key={index} className="p-6 md:p-8 border-b border-r ">
+                <div key={index} className="p-6 md:p-8 bord-b bord-r ">
                   <p className="text-lg font-semibold mb-4">{e.name}</p>
                   {/* <p className="text-gray-600 mt-1">
                 Maintenance of the accounts and preparation of Financial
