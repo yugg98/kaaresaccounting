@@ -14,10 +14,10 @@ export default function FounderNote() {
           <blockquote className="text-justify md:text-center text-md mx-auto max-w-3xl text-gray-600 sm:text-md">
             <p>
               With a vision to provide high-quality financial solutions, she
-              founded Karres Accounting , which has grown to become a trusted
+              founded Kaares accounting , which has grown to become a trusted
               partner for businesses. Known for her meticulous approach,
               attention to detail, and commitment to continuous learning,
-              Khushboo continues to lead Karres Accounting with unwavering
+              Khushboo continues to lead Kaares accounting with unwavering
               dedication to client success
             </p>
           </blockquote>
