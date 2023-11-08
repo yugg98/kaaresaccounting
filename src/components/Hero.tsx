@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="flex flex-col justify-center my-12 mx-4">
             <div>
             <p className="md:text-5xl text-4xl font-dmserif">
-              Accountancy & Taxation, Auditing & Advisory.
+              Accountancy & Taxation, Auditing & Advisory
             </p>
             <p className="text-md mt-4 font-normal text-gray-600">
               We are a trusted provider of comprehensive accounting, auditing,
