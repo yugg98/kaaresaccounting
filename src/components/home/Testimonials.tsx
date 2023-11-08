@@ -14,9 +14,9 @@ export default function Testimonials() {
             excellence.
           </p>
         </div>
-        <div className=" gird  my-8">
+        <div className="gird  my-8">
           <Marquee className="h-full">
-            <div className="border h-full w-full bg-[url('/images/bg/testimonial2.svg')] px-12 py-12  md:border border-gray-700 md:py-16  md:pr-0  max-w-lg min-w-lg">
+            <div className="border h-[480px] w-full bg-[url('/images/bg/testimonial2.svg')] px-12 py-12  md:border border-gray-700 md:py-16  md:pr-0  max-w-lg min-w-lg">
               <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
                 <div className="relative text-md font-medium text-white md:flex-grow">
                   <p className="relative">
@@ -55,7 +55,7 @@ export default function Testimonials() {
                 </footer>
               </blockquote>
             </div>
-            <div className="border h-full w-full bg-[url('/images/bg/testimonial2.svg')] px-12 py-12  md:border border-gray-700 md:py-16  md:pr-0  max-w-lg min-w-lg">
+            <div className="border h-[480px] w-full bg-[url('/images/bg/testimonial2.svg')] px-12 py-12  md:border border-gray-700 md:py-16  md:pr-0  max-w-lg min-w-lg">
               <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
                 <div className="relative text-md font-medium text-white md:flex-grow">
                   <svg
@@ -92,7 +92,7 @@ export default function Testimonials() {
                 </footer>
               </blockquote>
             </div>
-            <div className="border h-full w-full bg-[url('/images/bg/testimonial2.svg')] px-12 py-12  md:border border-gray-700 md:py-16  md:pr-0  max-w-lg min-w-lg">
+            <div className="border h-[480px] w-full bg-[url('/images/bg/testimonial2.svg')] px-12 py-12  md:border border-gray-700 md:py-16  md:pr-0  max-w-lg min-w-lg">
               <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
                 <div className="relative text-md font-medium text-white md:flex-grow">
                   <svg

@@ -64,9 +64,7 @@ export default function Contactus() {
               Get in touch
             </h2>
             <p className="mt-4 text-lg leading-8 text-gray-600">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci
-              molestie a eu arcu. Sed ut tincidunt integer elementum id sem.
-              Arcu sed malesuada et magna.
+              Fill the form. We will get back to you in 24 hours.
             </p>
             <dl className="mt-8 space-y-4 text-base leading-7 text-gray-600">
               <div className="flex gap-x-4">

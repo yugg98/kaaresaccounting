@@ -7,8 +7,8 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div className="border-0">
-      <Container className="border-0 !px-0">
-        <div className="grid md:grid-cols-2 px-4  md:px-8 border-0">
+      <Container className="!px-0">
+        <div className="grid md:grid-cols-2 px-4">
           <div className="flex flex-col justify-center my-12 mx-4">
             <div>
             <p className="md:text-5xl text-4xl font-dmserif">
@@ -30,13 +30,13 @@ const Hero = () => {
             </div>
           </div>
           <div>
-            <img src="/images/hero.png" alt="Hero" />
+            <img className="h-[450px] w-auto" src="/images/hero.png" alt="Hero" />
           </div>
         </div>
         <div className=" ">
           <div className="mx-auto md:px-8 py-8">
             <div className="flex lg:flex-row items-center overflow-hidden flex-col">
-              <h2 className="!max-w-md text-center text-md tracking-tight text-gray-600 lg:max-w-[14rem] lg:text-left">
+              <h2 className="!max-w-md text-center text-md tracking-tight text-gray-600 lg:max-w-[18rem] lg:text-left">
                 Software and tools we use
               </h2>
               <div className="mt-8 flow-root self-center overflow-hidden lg:mt-0">

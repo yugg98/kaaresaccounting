@@ -86,7 +86,7 @@ const Page = () => {
             {data
               .filter((_, index) => index % 2 != 0)
               .map((e, index) => (
-                <div key={index} className="p-6 md:p-8  border-b border-r  ">
+                <div key={index} className="p-6 md:p-8  border-b">
                   <p className="text-lg font-semibold mb-4">
                     {/* <span className="mr-2 text-sm text-gray-500">
                       0{index + 1}
