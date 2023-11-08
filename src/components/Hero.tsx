@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="border-0 max-h-screen h-screen">
+    <div className="border-0">
       <Container className="border-0 !px-0">
         <div className="grid md:grid-cols-2 px-4  md:px-8 border-0">
           <div className="flex flex-col justify-center my-12 mx-4">
