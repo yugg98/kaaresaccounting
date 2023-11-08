@@ -10,7 +10,7 @@ export default function NavLinks() {
   const pathname = usePathname()
 
   useEffect(()=>{
-    if (pathname !== "/" && pathname !== "/indianservices" && pathname !== "/globalservices" && pathname !== "/#industries" && pathname !== "/aboutus") {
+    if (pathname !== "/indianservices" && pathname !== "/globalservices" && pathname !== "/#industries" && pathname !== "/aboutus") {
       setActive(null);
     }
   },[pathname])
