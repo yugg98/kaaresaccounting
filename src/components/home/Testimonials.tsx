@@ -20,11 +20,11 @@ export default function Testimonials() {
               <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
                 <div className="relative text-md font-medium text-white md:flex-grow">
                   <p className="relative">
-                    "I had the pleasure of working with CA Khushboo Aggarwal and
+                    I had the pleasure of working with CA Khushboo Aggarwal and
                     I am continually impressed by her exceptional skills and
                     dedication to work. She possesses a deep knowledge of
                     financial matters and a keen eye for detail. They
-                    consistently deliver results, whether it's in managing
+                    consistently deliver results, whether it&apos;s in managing
                     complex financial data or providing valuable insights for
                     strategic decisions.
                     <br />
