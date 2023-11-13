@@ -57,14 +57,15 @@ export default function Leadform() {
     }
   };
   return (
-    <div className="bg-[#FAFBF8] fixed z-[100000] bottom-6 right-6 md:bottom-20  border border-gray-200 shadow-sm mx-4 my-8 md:m-8 rounded-2xl">
-      <p className="px-6 py-4 flex border-b flex-wrap text-black">
+    <div className="bg-[#FAFBF8] max-w-sm fixed z-[100000] bottom-6 right-6 md:bottom-20  border border-gray-200 shadow-sm mx-4 my-8 md:m-8 rounded-2xl">
+      <p className="px-6 py-4 flex border-b flex-wrap text-black text-sm">
         <SparklesIcon className="w-6 h-6 mr-2 text-amber-600" />
         Stay 100% compliant with{" "}
         <span className="font-semibold ml-1"> Free Expert Advice</span>
       </p>
-      <form onSubmit={handleSubmit} className="md:py-4 md:px-10 px-4">
-        <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
+
+      <form onSubmit={handleSubmit} className="md:py-4 md:px-8 px-8">
+        <div className="mx-auto max-w-xl  lg:max-w-xs">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div>
               <div className="mt-2.5">
@@ -136,15 +137,16 @@ export default function Leadform() {
                 </div> */}
           </div>
         </div>
-      </form>
-      <div className="mt-8 flex justify-end">
+         <div className="mt-8 flex justify-end">
         <button
           type="submit"
-          className="rounded-full bg-[#FAFBF8] transition-all text-sm duration-150 ease-in-out hover:scale-95 absolute -mt-6 mr-8 cursor-pointer max-w-xs font-semibold py-3 px-8 hover:bg-black hover:text-white border-gray-200 border flex"
+          className="rounded-full bg-[#FAFBF8] transition-all text-sm duration-150 ease-in-out hover:scale-95 absolute  mr-8 cursor-pointer max-w-xs font-semibold py-3 px-8 hover:bg-black hover:text-white border-gray-200 border flex"
         >
           Request a callback
         </button>
       </div>
+      </form>
+     
     </div>
   );
 }
