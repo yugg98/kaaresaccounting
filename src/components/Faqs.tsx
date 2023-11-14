@@ -73,7 +73,7 @@ const faqs = [
             <p className="mt-4 text-base leading-7 text-gray-600">
               Can’t find the answer you’re looking for? Reach out to our{" "}
               <Link
-                href="#"
+                href="/contactus"
                 className="font-semibold text-black hover:text-gray-800"
               >
                 customer support

@@ -16,7 +16,7 @@ const Page = () => {
   return (
     <div>
       <Container className="bord-0 !px-0 sm:px-6">
-        <div className="md:mx-auto max-w-5xl md:text-center py-12 px-4">
+        <div className="md:mx-auto mt-8 max-w-5xl md:text-center py-12 px-4">
           <h2 className="text-3xl font-lg tracking-tight font-dmserif text-black sm:text-4xl">
             Compliance-driven strategies for sustainable growth
           </h2>
