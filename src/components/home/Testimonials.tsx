@@ -85,7 +85,7 @@ export default function Testimonials() {
                     <div className="inline-flex flex-shrink-0 rounded-full border-2 border-white">
                       <img
                         className="h-12 w-12 rounded-full"
-                        src="https://media.licdn.com/dms/image/D4E35AQG1v-WIk4TEZA/profile-framedphoto-shrink_400_400/0/1689129456654?e=1700038800&v=beta&t=zz2paX0cJZyup28qM7DjYJrwne90jiu90Usg7RcW4To"
+                        src="/logo.jpeg"
                         alt=""
                       />
                     </div>

@@ -11,7 +11,7 @@ import { useState } from "react";
 import { doc, setDoc } from "firebase/firestore";
 import { db } from "@/utils/firebase";
 import { useRouter } from "next/navigation";
-import { XMarkIcon } from "@heroicons/react/24/solid";
+import { InformationCircleIcon, XMarkIcon } from "@heroicons/react/24/solid";
 export default function Leadform() {
   const [success, setSuccess] = useState(false);
   const router = useRouter();
@@ -57,13 +57,36 @@ export default function Leadform() {
     }
   };
   return (
-    <div className="bg-[#FAFBF8] max-w-sm fixed z-[100000] bottom-6 right-6 md:bottom-20  border border-gray-200 shadow-sm mx-4 my-8 md:m-8 rounded-2xl">
-       <button
-          type="submit"
-          className="rounded-full   bg-[#FAFBF8] transition-all text-sm duration-150 ease-in-out hover:scale-95 absolute top-[-15%] right-[0]  mr-8 cursor-pointer max-w-xs font-semibold py-3 px-3 hover:bg-black hover:text-white  border-gray-200 border flex"
-        >
-          <XMarkIcon className=" w-6 h-6 "/>
-        </button>
+    <div className="bg-white max-w-sm fixed z-[100000] bottom-6 right-6 md:bottom-20  border border-gray-200 shadow-sm mx-4 my-8 md:m-8 rounded-2xl">
+        {error == "" ? null : (
+              <div
+                className="flex items-center max-w-xl p-4 my-4 text-sm font-semibold text-red-600 rounded bg-red-50"
+                role="alert"
+              >
+                <InformationCircleIcon
+                    className="flex-shrink-0 inline w-4 h-4 mr-3"
+                    aria-hidden="true"
+                  />
+                <span className="sr-only">Info</span>
+                <div>{error}</div>
+              </div>
+            )}
+             {success ? (
+              <div
+                className="flex items-center max-w-xl p-4 my-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"
+                role="alert"
+              >
+                <InformationCircleIcon
+                  className="flex-shrink-0 inline w-4 h-4 mr-3"
+                  aria-hidden="true"
+                />
+                <span className="sr-only">Info</span>
+                <div>
+                  <span className="font-medium">Thank You! </span> We will reach out
+                  to you soon
+                </div>
+              </div>
+            ) : null}
       <p className="px-6 py-4 flex border-b flex-wrap text-black text-sm">
         <SparklesIcon className="w-6 h-6 mr-2 text-amber-600" />
         Stay 100% compliant with{" "}

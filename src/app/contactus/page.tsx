@@ -118,6 +118,35 @@ export default function Contactus() {
             </dl>
           </div>
           <form onSubmit={handleSubmit} className="md:py-24 md:px-10 px-4">
+          {error == "" ? null : (
+              <div
+                className="flex items-center max-w-xl p-4 my-4 text-sm font-semibold text-red-600 rounded bg-red-50"
+                role="alert"
+              >
+                <InformationCircleIcon
+                    className="flex-shrink-0 inline w-4 h-4 mr-3"
+                    aria-hidden="true"
+                  />
+                <span className="sr-only">Info</span>
+                <div>{error}</div>
+              </div>
+            )}
+             {success ? (
+              <div
+                className="flex items-center max-w-xl p-4 my-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"
+                role="alert"
+              >
+                <InformationCircleIcon
+                  className="flex-shrink-0 inline w-4 h-4 mr-3"
+                  aria-hidden="true"
+                />
+                <span className="sr-only">Info</span>
+                <div>
+                  <span className="font-medium">Thank You! </span> We will reach out
+                  to you soon
+                </div>
+              </div>
+            ) : null}
             <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
               <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 <div>
