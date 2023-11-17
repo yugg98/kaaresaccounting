@@ -100,7 +100,7 @@ export default function Footer() {
                   {data.map((e, index) => (
                     <li  key={index}>
                       <a
-                        href={'/indianservices/'+e.slug}
+                        href={'/indianservices/services/'+e.slug}
                         className="text-sm leading-6 text-gray-300 hover:text-white"
                       >
                         {e.name}
@@ -120,7 +120,7 @@ export default function Footer() {
                   {gdata.map((e, index) => (
                     <li  key={index}>
                       <a
-                        href={'/indianservices/'+e.slug}
+                        href={'/globalservices/services/'+e.slug}
                         className="text-sm leading-6 text-gray-300 hover:text-white"
                       >
                         {e.name}
