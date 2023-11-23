@@ -112,7 +112,7 @@ export function Header() {
                           </div>
                           <div className="mt-8 flex flex-col gap-4">
                             <Button
-                              href="#"
+                              href="/contactus"
                               className="rounded-full text-sm hover:scale-95 transition-all duration-150 ease-in-out font-semibold bg-black text-white hover:bg-gray-900 lg:hidden block"
                             >
                               Contact us

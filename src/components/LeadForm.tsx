@@ -57,7 +57,7 @@ export default function Leadform() {
     }
   };
   return (
-    <div className="bg-white max-w-md    border border-gray-200 shadow-sm mx-4 my-8 md:m-8 rounded-2xl">
+    <div className="bg-white max-w-md    border border-gray-200 shadow-sm mx-4 md:m-10  rounded-2xl">
         {error == "" ? null : (
               <div
                 className="flex items-center max-w-xl p-4 my-4 text-sm font-semibold text-red-600 rounded bg-red-50"
