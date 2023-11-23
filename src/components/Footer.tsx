@@ -61,6 +61,7 @@ const navigation = {
 
 import data from "@/utils/indiandata.json";
 import gdata from "@/utils/data.json";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -82,29 +83,29 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
-                      <a
+                      <Link
                         href={item.href}
                         className="text-sm leading-6 text-gray-300 hover:text-white"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
               </div>
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">
+                <Link href="/indianservices" className="text-sm font-semibold leading-6 text-white">
                   Indian Services
-                </h3>
+                </Link>
                 <ul role="list" className="mt-6 space-y-4">
                   {data.map((e, index) => (
                     <li  key={index}>
-                      <a
+                      <Link
                         href={'/indianservices/services/'+e.slug}
                         className="text-sm leading-6 text-gray-300 hover:text-white"
                       >
                         {e.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -113,18 +114,18 @@ export default function Footer() {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
             <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">
+                <Link href="/globalservices" className="text-sm font-semibold leading-6 text-white">
                   Global Services
-                </h3>
+                </Link>
                 <ul role="list" className="mt-6 space-y-4">
                   {gdata.map((e, index) => (
                     <li  key={index}>
-                      <a
+                      <Link
                         href={'/globalservices/services/'+e.slug}
                         className="text-sm leading-6 text-gray-300 hover:text-white"
                       >
                         {e.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -148,14 +149,14 @@ export default function Footer() {
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 md:flex md:items-center md:justify-between lg:mt-24">
           <div className="flex space-x-6 md:order-2">
             {navigation.social.map((item) => (
-              <a
+              <Link
                 key={item.name}
                 href={item.href}
                 className="text-gray-500 hover:text-gray-400"
               >
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
-              </a>
+              </Link>
             ))}
           </div>
           <p className="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">

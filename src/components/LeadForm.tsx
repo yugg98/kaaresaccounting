@@ -6,12 +6,12 @@ import {
   EnvelopeIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
-import { Button, Input, Textarea } from "@nextui-org/react";
+import { Input } from "@nextui-org/react";
 import { useState } from "react";
 import { doc, setDoc } from "firebase/firestore";
-import { InformationCircleIcon } from "@heroicons/react/24/outline";
 import { db } from "@/utils/firebase";
 import { useRouter } from "next/navigation";
+import { InformationCircleIcon, XMarkIcon } from "@heroicons/react/24/solid";
 export default function Leadform() {
   const [success, setSuccess] = useState(false);
   const router = useRouter();
@@ -57,68 +57,102 @@ export default function Leadform() {
     }
   };
   return (
-        <div className="bg-[#FAFBF8]  border border-gray-200 shadow-sm mx-4 my-8 md:m-8 rounded-2xl">
-          <p className="px-6 py-4 flex border-b flex-wrap"><SparklesIcon className="w-6 h-6 mr-2 text-amber-600" />Stay 100% compliant with <span className="font-semibold ml-1">{" "} Free Expert Advice</span></p>
-          <form onSubmit={handleSubmit} className="md:py-4 md:px-10 px-4">
-            <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
-              <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+    <div className="bg-white max-w-md    border border-gray-200 shadow-sm mx-4 my-8 md:m-8 rounded-2xl">
+        {error == "" ? null : (
+              <div
+                className="flex items-center max-w-xl p-4 my-4 text-sm font-semibold text-red-600 rounded bg-red-50"
+                role="alert"
+              >
+                <InformationCircleIcon
+                    className="flex-shrink-0 inline w-4 h-4 mr-3"
+                    aria-hidden="true"
+                  />
+                <span className="sr-only">Info</span>
+                <div>{error}</div>
+              </div>
+            )}
+             {success ? (
+              <div
+                className="flex items-center max-w-xl p-4 my-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400"
+                role="alert"
+              >
+                <InformationCircleIcon
+                  className="flex-shrink-0 inline w-4 h-4 mr-3"
+                  aria-hidden="true"
+                />
+                <span className="sr-only">Info</span>
                 <div>
-                  <div className="mt-2.5">
-                    <Input
-                      type="text"
-                      variant={"underlined"}
-                      name="firstname"
-                      id="firstname"
-                      onChange={handleChange}
-                      value={data.firstname}
-                      label="First Name"
-                      autoComplete="given-name"
-                    />
-                  </div>
+                  <span className="font-medium">Thank You! </span> We will reach out
+                  to you soon
                 </div>
-                <div>
-                  <div className="mt-2.5">
-                    <Input
-                      variant={"underlined"}
-                      type="text"
-                      name="lastname"
-                      id="last-name"
-                      onChange={handleChange}
-                      value={data.lastname}
-                      label="Last Name"
-                      autoComplete="family-name"
-                    />
-                  </div>
-                </div>
-                <div className="sm:col-span-2">
-                  <div className="mt-2.5">
-                    <Input
-                      variant={"underlined"}
-                      type="email"
-                      name="email"
-                      id="email"
-                      onChange={handleChange}
-                      value={data.email}
-                      label="Email"
-                      autoComplete="email"
-                    />
-                  </div>
-                </div>
-                <div className="sm:col-span-2 pb-6">
-                  <div className="mt-2.5">
-                    <Input
-                      variant={"underlined"}
-                      type="tel"
-                      name="phonenumber"
-                      id="phone-number"
-                      onChange={handleChange}
-                      value={data.phonenumber}
-                      label="Phone Number"
-                      autoComplete="tel"
-                    />
-                  </div>
-                </div>
-                {/* <div className="sm:col-span-2">
+              </div>
+            ) : null}
+      <p className="px-6 py-4 flex border-b flex-wrap text-black text-sm">
+        <SparklesIcon className="w-6 h-6 mr-2 text-amber-600" />
+        Stay 100% compliant with{" "}
+        <span className="font-semibold ml-1"> Free Expert Advice</span>
+      </p>
+
+      <form onSubmit={handleSubmit} className="md:py-4 md:px-8 px-8">
+        <div className="mx-auto max-w-xl  lg:max-w-xs">
+          <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+            <div>
+              <div className="mt-2.5">
+                <Input
+                  type="text"
+                  variant={"underlined"}
+                  name="firstname"
+                  id="firstname"
+                  onChange={handleChange}
+                  value={data.firstname}
+                  label="First Name"
+                  autoComplete="given-name"
+                />
+              </div>
+            </div>
+            <div>
+              <div className="mt-2.5">
+                <Input
+                  variant={"underlined"}
+                  type="text"
+                  name="lastname"
+                  id="last-name"
+                  onChange={handleChange}
+                  value={data.lastname}
+                  label="Last Name"
+                  autoComplete="family-name"
+                />
+              </div>
+            </div>
+            <div className="sm:col-span-2">
+              <div className="mt-2.5">
+                <Input
+                  variant={"underlined"}
+                  type="email"
+                  name="email"
+                  id="email"
+                  onChange={handleChange}
+                  value={data.email}
+                  label="Email"
+                  autoComplete="email"
+                />
+              </div>
+            </div>
+            <div className="sm:col-span-2 pb-6">
+              <div className="mt-2.5">
+                <Input
+                  variant={"underlined"}
+                  type="tel"
+                  name="phonenumber"
+                  id="phone-number"
+                  onChange={handleChange}
+                  value={data.phonenumber}
+                  label="Phone Number"
+                  autoComplete="tel"
+                />
+              </div>
+            </div>
+            {/* <div className="sm:col-span-2">
                   <div className="mt-2.5">
                     <Textarea
                       name="message"
@@ -130,16 +164,19 @@ export default function Leadform() {
                     />
                   </div>
                 </div> */}
-              </div>
-              
-            </div>
-            
-          </form>
-          <div className="mt-8 flex justify-end">
-                <button type="submit" className="rounded-full bg-[#FAFBF8] transition-all text-sm duration-150 ease-in-out hover:scale-95 absolute -mt-6 mr-8 cursor-pointer max-w-xs font-semibold py-3 px-8 hover:bg-black hover:text-white border-gray-200 border flex">
-                  Request a callback
-                </button>
-              </div>
+          </div>
         </div>
+         <div className="mt-8 flex justify-end">
+        <button
+          type="submit"
+          className="rounded-full bg-[#FAFBF8] transition-all text-sm duration-150 ease-in-out hover:scale-95 absolute  mr-8 cursor-pointer max-w-xs font-semibold py-3 px-8 hover:bg-black hover:text-white border-gray-200 border flex"
+        >
+          Request a callback
+        </button>
+       
+      </div>
+      </form>
+     
+    </div>
   );
 }
