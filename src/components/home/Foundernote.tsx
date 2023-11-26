@@ -25,7 +25,7 @@ export default function FounderNote() {
           <div className="flex  gap-x-6  justify-center items-center my-9 ">
             <img
               className="h-16 w-16 rounded-full"
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              src="/pic.png"
               alt=""
             />
             <div>
