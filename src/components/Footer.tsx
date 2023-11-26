@@ -93,8 +93,8 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-              <div>
-                <Link href="/indianservices" className="text-sm font-semibold leading-6 text-white">
+              <div className="mt-6">
+                <Link href="/indianservices" className="text-sm font-semibold leading-6 text-white mt-4">
                   Indian Services
                 </Link>
                 <ul role="list" className="mt-6 space-y-4">

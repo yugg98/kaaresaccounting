@@ -110,13 +110,13 @@ export function Header() {
                             </MobileNavLink>
                             <MobileNavLink href="/aboutus">About us</MobileNavLink>
                           </div>
-                          <div className="mt-8 flex flex-col gap-4">
-                            <Button
+                          <div  className="mt-8 flex flex-col gap-4 ">
+                            <a
                               href="/contactus"
-                              className="rounded-full text-sm hover:scale-95 transition-all duration-150 ease-in-out font-semibold bg-black text-white hover:bg-gray-900 lg:hidden block"
+                              className="rounded-full px-6 py-2 text-center   hover:scale-95 transition-all duration-150 ease-in-out font-semibold bg-black text-white hover:bg-gray-900 lg:hidden block"
                             >
                               Contact us
-                            </Button>
+                            </a>
                           </div>
                         </Popover.Panel>
                       </>
