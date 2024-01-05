@@ -15,7 +15,7 @@ export default function Testimonials() {
           </p>
         </div>
         <div className="gird my-8">
-          <Marquee className="h-full">
+          <Marquee pauseOnHover={true} className="h-full">
             <div className="border h-[550px] w-full bg-[url('/images/bg/testimonial2.svg')] p-12 md:border border-gray-700 md:py-16   max-w-lg min-w-lg">
               <blockquote className="mt-6 md:flex md:flex-grow md:flex-col">
                 <div className="relative text-md font-medium text-white md:flex-grow">
