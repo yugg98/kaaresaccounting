@@ -11,7 +11,7 @@ import {
 import data from "@/utils/data.json";
 import Link from "next/link";
 import Faqs from "@/components/Faqs";
-const Page = () => {
+const Global = () => {
   console.log(data);
   return (
     <div>
@@ -140,4 +140,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Global;

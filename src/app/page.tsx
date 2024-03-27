@@ -7,12 +7,17 @@ import Testimonials from "@/components/home/Testimonials";
 import Whyus from "@/components/home/Whyus";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
 import Link from "next/link";
+import Global from "../components/Global";
+import Indians from "@/components/Indianservices";
 
 export default function Home() {
   return (
     <div>
       <Hero />
+      <Global/>
+    <Indians/>
       <Testimonials />
+
       <Industries />
       <div className="border-0">
         <Container className="border-0 ">
