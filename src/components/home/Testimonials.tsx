@@ -45,7 +45,7 @@ export default function Testimonials() {
                     <div className="inline-flex flex-shrink-0 rounded-full border-2 border-white">
                       <img
                         className="h-12 w-12 rounded-full"
-                        src="https://media.licdn.com/dms/image/D4D03AQEnzzITmi6kHg/profile-displayphoto-shrink_400_400/0/1690721725467?e=1704931200&v=beta&t=WlexfKav2--aw6OFyQCWYKTqJ39M5pHXnNXkpw8-B-s"
+                        src="https://media.licdn.com/dms/image/D4D03AQEnzzITmi6kHg/profile-displayphoto-shrink_400_400/0/1690721725467?e=1717027200&v=beta&t=WlNFhtyedv7K-COd_UfPGQdzDEYXb9X2lE90I3LmjdE"
                         alt=""
                       />
                     </div>
