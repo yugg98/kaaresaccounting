@@ -4,7 +4,6 @@ import Cta from "@/components/Cta";
 import Stats from "@/components/Stats";
 import { Disclosure } from "@headlessui/react";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
-import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import htmlReactParser from "html-react-parser";
