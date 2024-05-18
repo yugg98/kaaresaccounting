@@ -18,7 +18,7 @@ export function Logomark(props:any) {
 export function Logo(props:any) {
   return (
     <div className="flex justify-center items-center">
-      <img alt="logo" src="/logo.png"  className="w-14"/>
+      <img alt="logo" src="/logo.png"  className="w-20"/>
       
     </div>
   )

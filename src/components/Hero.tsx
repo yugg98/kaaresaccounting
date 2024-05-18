@@ -23,7 +23,13 @@ const Hero = () => {
             <div>
             <Link
               href="/globalservices"
-              className="rounded-full text-sm hover:scale-95 transition-all duration-150 ease-in-out font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 hidden lg:inline-block	my-8"
+              className="rounded-full mr-4 text-sm hover:scale-95 transition-all duration-150 ease-in-out font-semibold py-3 px-8 bg-black text-white hover:bg-gray-800 hidden lg:inline-block	my-8"
+            >
+              Contact Us
+            </Link>
+            <Link
+              href="/globalservices"
+              className="rounded-full text-sm hover:scale-95 transition-all duration-150 ease-in-out font-semibold py-3 px-2 text-black underline hidden lg:inline-block	my-8"
             >
               View Our Services
             </Link>

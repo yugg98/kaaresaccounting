@@ -15,7 +15,6 @@ export default function Home() {
     <div>
       <Hero />
       <Global/>
-    <Indians/>
       <Testimonials />
 
       <Industries />
@@ -35,13 +34,14 @@ export default function Home() {
                 href="/aboutus"
                 className="rounded-full hover:scale-95 duration-150 transition-all ease-in-out font-semibold cursor-pointer  py-3 px-8 bg-black text-white hover:bg-gray-800 flex md:my-6 my-2"
               >
-                Know more about us
+                 Get in touch{" "}
+                
               </Link>
               <Link
                 href="/contactus"
                 className="rounded-full  underline cursor-pointer underline-offset-4 justify-center items-center font-semibold  py-3 px-8   flex md:my-6 my-2"
               >
-                Get in touch{" "}
+               Know more about us
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={17}
